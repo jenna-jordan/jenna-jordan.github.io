@@ -2,96 +2,116 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Jenna Jordan
+    - name: Job Title 
+      value: Data Engineer
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science, Library and Information Science
+      institution: University of Illinois at Urbana-Champaign
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - 3.97 GPA
+    - title: Bachelor of Arts, Journalism, Political Science
+      institution: University of North Carolina at Chapel Hill
+      year: 2015
       description:
-        - Description 1.
-        - Description 2.
+        - Graduated with Honors
+        - 3.61 GPA
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Data Engineer
+      institution: Analytics Team, Department of Innovation & Technology, City of Boston
+      year: Jan 2022 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Manage the data warehouse and ETL pipelines for the Analytics Team (Department of Innovation & Technology).
+        - Write custom component scripts in python to ingest and export data.
+        - Transform data using SQL and write data unit tests using Great Expectations.
+        - Ensure the analysts have high quality, reliable data for analytics end products (e.g. dashboards) and the public has up to date access to open data published on Analyze Boston.
+    
+    - title: Data Engineer, Computational Methods Instructor (Contractor)
+      institution: Network Contagion Research Institute (NCRI)
+      year: Jan 2021 - Nov 2021
+      description:
+        - Built ingest pipelines (with Python) and designed relational databases for the data to add new social media communities (Telegram, 4-chan) to Pushshift in order to support NCRI's mission of identifying disinformation and extremism on social media.
+        - title: Ran the Computational Methods group for interns at NCRI Labs (Summer and Fall 2021 semesters)
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Designed a semester-long curriculum for computational skills.
+            - Taught weekly workshops on Bash, Git, Python, SQL, and regex (using the Software Carpentries lesson plans).
+            - Supervised independent projects.
+
+    - title: Marketing Data Analyst (Contractor)
+      institution: Bright Wolf
+      year: Sep 2020 - Apr 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Organized, managed, visualized, and analyzed marketing-related data; supported & audited email campaigns.
+        - Built a data pipeline that integrated data from Salesforce, EverString (now ZoomInfo), and other sources into one cohesive relational database, and then used that database to power a dashboard that visualized the available data for potential corporate clients. Utilized the Streamlit, Plotly, and SQLAlchemy Python libraries.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Graduate Research Assistant
+      institution: Cline Center for Advanced Social Research, University of Illinois at Urbana-Champaign
+      year: Aug 2019 - May 2020
       description:
+        - Supported the Cline Center with data releases by preparing/cleaning data, updating documentation, and coordinating with the data repository.
+        - Promoted the Global News Index by preparing and helping to present tutorials.
+        - Developed a user feedback process for Cline Center software applications and data releases.
+        - other support tasks as needed.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Data Science Intern
+      institution: The Program on Governance and Local Development (GLD), University of Gothenburg
+      year: May 2019 - Jul 2019
+      description: 
+        - Assisted the Data Scientist on data monitoring tasks for an ongoing survey (LGPI 2019) being conducted in Zambia and Kenya - for example, one data monitoring task was to make sure that enumerators completed the requisite number of surveys in each designated hectare, according to the sampling plan.
+        - Wrote Python scripts to organize and wrangle data downloaded from SurveyToGo, edited surveys in SurveyToGo, worked with geospatial data using Python and QGIS, and helped to develop the Local Governance Performance Index based on data collected from the survey.
+        - Worked extensively with large XML documents, and wrote custom scripts to extract data from KML files and reformat into WKT files.
+        - Attended the 2019 Annual GLD Conference, which focused on the theme "Routes to Accountability."
 
-- title: Open Source Projects
+    - title: Graduate Research Assistant
+      institution: Cline Center for Advanced Social Research, University of Illinois at Urbana-Champaign
+      year: Jan 2019 - May 2019
+      description:
+        - Created user-friendly documentation for the Cline Center’s Global News Index using Adobe InDesign.
+        - Wrote an in-depth codebook on the GNI’s variables and corpora, a detailed user guide and a quick-start guide on Archer (the in-house software developed to query the GNI) and a guide on using Solr to query the GNI. 
+        - Helped to test, document bugs, and suggest features for Archer (software application recently developed by the Cline Center), and assisted users in querying the GNI.
+
+    - title: Research Assistant (graduate hourly position)
+      institution: iSchool, University of Illinois at Urbana-Champaign
+      year: Sep 2018 - Dec 2018
+      description:
+        - Investigated and compiled a corpus on Data Management Plans (DMPs) for Prof. Peter Darch.
+        - Annotated datasets for use in human-in-the-loop machine learning analyses performed by Prof. Jana Diesner’s research group.
+
+    - title: English Teacher
+      institution: Corem Language Institue, South Korea
+      year: Jun 2016 - Aug 2017
+      description:
+        - Taught English as a Foreign Language to Kindergarten and Elementary students in Yangsan, South Korea, at a private academy (hagwon). I taught an average of 8 40-minute classes each day.
+        - My kindergarten students were 5-6 years old. In addition to teaching basic reading, writing, and conversational skills I taught fun math, science, and arts & crafts lessons. I also wrote bimonthly progress reports for each student, administered occasional tests, and helped to conduct monthly “phone interviews” with the students in the upper-level classes.
+        - My elementary students were 7-12 years old. In addition to teaching language lessons, I was in charge of making and grading their tests and writing bimonthly progress reports for each student.
+
+    - title: Intern
+      institution: U.S. Mission to the UN at Washington, DC (USUNW), U.S. Department of State
+      year: Jan 2014 - Apr 2014
+      description:
+        - Worked as part of a small team advising the U.S. Ambassador to the United Nations Samantha Power, serving as a bridge between the United Nations, the Executive Office, and the National Security Council.
+        - Supported the Senior Policy Advisors, Speechwriter, and Executive Assistant with research, copywriting, and administrative tasks.
+        - Wrote executive summaries and took notes on office, cross-bureau, and inter-departmental meetings for the USUNW team.
+
+- title: Certificates
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: Analytics Engineering with dbt
+      institution: CoRise
+      year: 2022
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Software Carpentries Certified Instructor
+      institution: The Carpentries
+      year: 2020
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: CELTA, Teaching English as a Foreign Language
+      institution: International House Budapest
+      year: 2016

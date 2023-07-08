@@ -7,9 +7,6 @@
             {%- if site.whatsapp_number -%}
             <a href="https://wa.me/{{ site.whatsapp_number }}" title="whatsapp"><i class="fab fa-whatsapp"></i></a>
             {% endif %}
-            {%- if site.orcid_id -%}
-            <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
-            {% endif %}
             {%- if site.scholar_userid -%}
             <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
             {% endif %}
@@ -40,6 +37,9 @@
             {%- if site.twitter_username -%}
             <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>
             {% endif %}
+            {%- if site.bluesky_id -%}
+            <a href="https://bsky.app/profile/{{ site.bluesky_id }}" title="Bluesky"><i class="fa-solid fa-cloud"></i></i></a>
+            {% endif %}
             {%- if site.mastodon_username -%}
             <a rel="me" href="https://{{ site.mastodon_username  }}" title="Mastodon"><i class="fab fa-mastodon"></i></a>
             {% endif %}
@@ -51,9 +51,6 @@
             {% endif %}
             {%- if site.blogger_url -%}
             <a href="{{ site.blogger_url }}" title="Blogger"><i class="fab fa-blogger-b"></i></a>
-            {% endif %}
-            {%- if site.work_url -%}
-            <a href="{{ site.work_url }}" title="Work"><i class="fas fa-briefcase"></i></a>
             {% endif %}
             {%- if site.wikidata_id -%}
             <a href="https://www.wikidata.org/wiki/{{ site.wikidata_id }}" title="Wikidata"><i class="fas fa-barcode"></i></a>
@@ -94,14 +91,29 @@
             {%- if site.instagram_id -%}
             <a href="https://instagram.com/{{ site.instagram_id }}" title="Instagram"><i class="fab fa-instagram"></i></a>
             {% endif %}
+            {%- if site.ravelry_id -%}
+            <a href="https://www.ravelry.com/people/{{ site.ravelry_id }}" title="Ravelry"><i class="fa-brands fa-ravelry"></i></a>
+            {% endif %}
             {%- if site.facebook_id -%}
             <a href="https://facebook.com/{{ site.facebook_id }}" title="Facebook"><i class="fab fa-facebook"></i></a>
             {% endif %}
             {%- if site.youtube_id -%}
             <a href="https://youtube.com/@{{ site.youtube_id }}" title="YouTube"><i class="fab fa-youtube"></i></a>
             {% endif %}
+            {%- if site.twitch_id -%}
+            <a href="https://www.twitch.tv/{{ site.twitch_id }}" title="Twitch"><i class="fa-brands fa-twitch"></i></a>
+            {% endif %}
             {%- if site.discord_id -%}
             <a href="https://discord.com/users/{{ site.discord_id }}" title="Discord"><i class="fab fa-discord"></i></a>
+            {% endif %}
+            {%- if site.orcid_id -%}
+            <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCiD"><i class="ai ai-orcid"></i></a>
+            {% endif %}
+            {%- if site.work_url -%}
+            <a href="{{ site.work_url }}" title="Work"><i class="fas fa-briefcase"></i></a>
+            {% endif %}
+            {%- if site.linktree_id -%}
+            <a href="https://linktr.ee/{{ site.linktree_id }}" title="Linktree"><i class="fa-solid fa-tree-deciduous"></i></i></a>
             {% endif %}
             {%- if site.rss_icon -%}
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>

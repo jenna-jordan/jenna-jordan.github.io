@@ -1,13 +1,19 @@
 ---
 layout: page
-title: submenus
+title: extras
 nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: books
+      permalink: /books/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: bella
+      permalink: /bella/
+    - title: divider
+    - title: board games
+      permalink: /board-games/
+    - title: divider
+    - title: knitting
+      permalink: /knitting/
 ---
