@@ -31,11 +31,11 @@ highlight_theme_light: murphy   # https://github.com/jwarby/jekyll-pygments-them
 highlight_theme_dark: monokai    # https://github.com/jwarby/jekyll-pygments-themes
 
 # repo color theme
-repo_theme_light: shadow_blue       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: default_repocard       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: nord           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
-  theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
+  theme_light: oldie    # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------

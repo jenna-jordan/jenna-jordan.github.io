@@ -1,25 +1,14 @@
-- title: General Information
+- title: About me
   type: map
   contents:
     - name: Full Name
       value: Jenna Jordan
     - name: Job Title 
       value: Data Engineer
-
-- title: Education
-  type: time_table
-  contents:
-    - title: Master of Science, Library and Information Science
-      institution: University of Illinois at Urbana-Champaign
-      year: 2020
-      description:
-        - 3.97 GPA
-    - title: Bachelor of Arts, Journalism, Political Science
-      institution: University of North Carolina at Chapel Hill
-      year: 2015
-      description:
-        - Graduated with Honors
-        - 3.61 GPA
+    - name: Citizenship
+      value: USA
+    - name: Top Skills 
+      value: python, SQL, creating/managing ETL pipelines, dbt, data wrangling/modeling/design
 
 - title: Experience
   type: time_table
@@ -28,7 +17,7 @@
       institution: Analytics Team, Department of Innovation & Technology, City of Boston
       year: Jan 2022 - present
       description:
-        - Manage the data warehouse and ETL pipelines for the Analytics Team (Department of Innovation & Technology).
+        - Manage the data warehouse and ETL pipelines for the City of Boston's Analytics Team.
         - Write custom component scripts in python to ingest and export data.
         - Transform data using SQL and write data unit tests using Great Expectations.
         - Ensure the analysts have high quality, reliable data for analytics end products (e.g. dashboards) and the public has up to date access to open data published on Analyze Boston.
@@ -99,6 +88,21 @@
         - Worked as part of a small team advising the U.S. Ambassador to the United Nations Samantha Power, serving as a bridge between the United Nations, the Executive Office, and the National Security Council.
         - Supported the Senior Policy Advisors, Speechwriter, and Executive Assistant with research, copywriting, and administrative tasks.
         - Wrote executive summaries and took notes on office, cross-bureau, and inter-departmental meetings for the USUNW team.
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Master of Science, Library and Information Science
+      institution: University of Illinois at Urbana-Champaign
+      year: 2020
+      description:
+        - 3.97 GPA
+    - title: Bachelor of Arts, Journalism, Political Science
+      institution: University of North Carolina at Chapel Hill
+      year: 2015
+      description:
+        - Graduated with Honors
+        - 3.61 GPA
 
 - title: Certificates
   type: time_table
