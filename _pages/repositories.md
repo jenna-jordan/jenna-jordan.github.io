@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: 
+description: a selection of my public repos
 nav: true
 nav_order: 4
 ---
@@ -19,6 +19,8 @@ nav_order: 4
 
 ---
 ## GitHub stats
+
+(note: most of my work is currently done in private repos)
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">

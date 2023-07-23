@@ -1,11 +1,12 @@
 ---
 layout: page
 category: Publications
-importance: 1
+importance: 3
 title: "Put Relational Databases in Your Data Curation Toolbox"
 permalink: /projects/asist2019-poster
 description: "Poster presented at the ASIS&T 2019 conference on how relational databases can be useful during the data curation process."
 img: /assets/img/project_irdbhome.jpg
+github: https://github.com/jenna-jordan/international-relations-database
 ---
 
 While I started the [IRDB project](/projects/irdb) with the goal of improving access to the Correlates of War datasets (as well as gaining practical experience in organizing data into a relational database and wrangling data in python via pandas), along the way I discovered just how much the data transformation process was also improving data quality. Relational databases are amazing for many reasons - one of which is that they can be really strict. A well-designed database will minimize invalid entries - something that is always a risk for human-generated data. I have to give credit for a lot of my enthusiasm towards relational databases to my IS490DB professor, Dr. Catherine Blake.
@@ -17,10 +18,14 @@ In July, ASIS&T notified me that my poster paper submission had been accepted. I
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="/assets/img/project_irdb_posterpaper.jpg" title="Paper" url="/assets/pdf/asist-poster-paper.pdf" class="img-fluid rounded z-depth-1" %}
+        <a href="/assets/pdf/asist-poster-paper.pdf">
+        {% include figure.html path="/assets/img/project_irdb_posterpaper.jpg" title="Paper" class="img-fluid rounded z-depth-1" %}
+        </a>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/project_irdb_poster.jpg" title="Poster" url="/assets/pdf/asist-poster.pdf" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-2 mt-md-0">
+        <a href="/assets/pdf/asist-poster.pdf">
+        {% include figure.html path="/assets/img/project_irdb_poster.jpg" title="Poster" class="img-fluid rounded z-depth-1" %}
+        </a>
     </div>
 </div>
 <div class="caption">

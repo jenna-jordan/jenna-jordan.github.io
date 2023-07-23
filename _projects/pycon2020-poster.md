@@ -1,11 +1,12 @@
 ---
 layout: page
 category: Publications
-importance: 1
+importance: 4
 title: "Python can be tidy too: pandas recipes for normalizing data"
 permalink: /projects/pycon2020-poster
 description: "I virtually presented my poster 'Python can be tidy too: pandas recipes for normalizing data' at PyCon2020, which is accompanied by the Tidy Pandas Cookbook."
 img: /assets/img/project_tidypandas.jpg
+github: https://github.com/jenna-jordan/tidy-pandas-cookbook
 ---
 
 I virtually presented my poster 'Python can be tidy too: pandas recipes for normalizing data' at PyCon2020, which is accompanied by the Tidy Pandas Cookbook. The [Tidy Pandas Cookbook](https://github.com/jenna-jordan/tidy-pandas-cookbook) contains recipes utilizing the pandas library for wrangling datasets into 3rd normal form. A selection of these recipes are demonstrated in the poster.
@@ -13,8 +14,10 @@ I virtually presented my poster 'Python can be tidy too: pandas recipes for norm
 Please take a look at my poster for PyCon 2020, entitled "Python can be tidy too: pandas recipes for normalizing data", here:
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/poster_snapshot_tidypanda.jpg" title="Poster" url="assets/pdf/tidy-pandas-cookbook-pycon2020.pdf" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm md-auto">
+        <a href="/assets/pdf/tidy-pandas-cookbook-pycon2020.pdf">
+        {% include figure.html path="/assets/img/poster_snapshot_tidypanda.jpg" title="Poster"  class="img-fluid rounded z-depth-1" %}
+        </a>
     </div>
 </div>
 <div class="caption">

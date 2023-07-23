@@ -1,11 +1,12 @@
 ---
 layout: page
 category: Publications
-importance: 1
+importance: 2
 title: "Beepocalypse"
 permalink: /projects/beepocalypse
 description: "Project completed for the Cline Center on media coverage of the beepocalypse, resulting in a PNAS Perspective article."
 img: /assets/img/project_beepocalypse.jpg
+github: https://github.com/jenna-jordan/beepocalypse
 ---
 
 "No buzz for bees: Media coverage of pollinator decline" was published on January 12, 2021, as a part of the Global Insect Decline special issue in PNAS (Proceedings of the National Academy of Sciences of the USA). You can access the article [here](https://doi.org/10.1073/pnas.2002552117).

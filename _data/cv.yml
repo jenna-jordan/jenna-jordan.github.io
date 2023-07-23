@@ -7,8 +7,16 @@
       value: Data Engineer
     - name: Citizenship
       value: USA
-    - name: Top Skills 
-      value: python, SQL, creating/managing ETL pipelines, dbt, data wrangling/modeling/design
+
+- title: Skills
+  type: list
+  contents:
+    - "Languages: python, SQL, YAML/YAQL, git, bash, Xpath, regex"
+    - "Tools: postgreSQL+postgis, pandas, dbt, plotly, GitHub, Civis Platform, Jira, SQLAlchemy"
+    - "data modeling & architecture/design - 3rd Normal Form, ER Diagrams, star schema, etc"
+    - "creating and managing ETL/ELT pipelines; data orchestration"
+    - "data wrangling, visualization, and exploratory data analysis"
+    - "teaching workshops; writing documentation; presenting projects"
 
 - title: Experience
   type: time_table

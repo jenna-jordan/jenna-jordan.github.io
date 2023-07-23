@@ -6,6 +6,7 @@ title: "International Relations Database"
 permalink: /projects/irdb
 description: "These inter-related projects were completed as final projects for coursework during my MSLIS degree, and were aimed at improving the data resources for political scientists working in Peace/Conflict research."
 img: /assets/img/project_irdbhome.jpg
+github: https://github.com/jenna-jordan/international-relations-database-extended
 ---
 
 Although I went to school for Library and Information Science, the specific domain that I am interested in applying my skills to is political science - in particular, the international relations and conflict resolution subfields. Many of the classes that I have taken during my MSLIS conclude with open-ended final projects, in which you can apply the skills you have learned to the domain of your choice. I used these final projects to improve the data resources available to political scientists and Peace/Conflict researchers.

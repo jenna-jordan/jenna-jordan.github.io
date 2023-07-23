@@ -44,7 +44,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: false
+rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -73,7 +73,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: jenna-jordan # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: JennaJrdn # your Twitter handle
-mastodon_username: # data-folks.masto.host/@jennajrdn # your mastodon instance+username in the format instance.tld/@username
+mastodon_username: data-folks.masto.host/@jennajrdn # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: jennajordan1 # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
@@ -103,7 +103,7 @@ instagram_id: jennajrdnknits # your instagram id
 facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
-linktree_id: # jennajordan
+linktree_id: jennajordan
 ravelry_id: JennaJrdn
 twitch_id: jennajrdn
 bluesky_id: jennajordan.me
@@ -125,7 +125,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: jenna-jordan # blog_name will be displayed in your blog page
+blog_name: jenna jordan # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: latest thoughts
 permalink: 

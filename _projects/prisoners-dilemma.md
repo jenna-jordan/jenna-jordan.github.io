@@ -6,6 +6,7 @@ title: "Prisoner's Dilemma"
 permalink: /projects/prisoners-dilemma
 description: "This was my final project for an Intermediate Python course, and is a Monte Carlo analysis of the Prisoner's Dilemma (with reactive noise)."
 img: /assets/img/project_prisoners-dilemma.jpg
+github: https://github.com/jenna-jordan/Prisoners-Dilemma
 ---
 
 The Prisoner's Dilemma has long been a favorite for political scientists - it is a game that has many applications in international relations (the iterated prisoner's dilemma game is also known as the "Peace-War game"), and simulations of the game can be easily conducted and analyzed with computers. Every year tournaments are held with slight tweaks to the rules, and submitted strategies compete to win the most points overall. Each rule adjustment is made to bring the game closer to reality, and find the best strategy that can be applied to the real world.

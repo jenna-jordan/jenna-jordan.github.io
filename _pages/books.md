@@ -3,7 +3,7 @@ layout: post
 permalink: /books/
 title: "The Codex Index"
 description: Here you can find a list of some of the (primarily) non-fiction books that I've read.
-date: 2021-10-04
+date: 2023-07-22
 toc:
   sidebar: left
 ---
