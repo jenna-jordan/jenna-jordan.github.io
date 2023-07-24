@@ -11,9 +11,6 @@ children:
     - title: bella
       permalink: /bella/
     - title: divider
-    - title: board games
-      permalink: /board-games/
-    - title: divider
     - title: knitting
       permalink: /knitting/
 ---
