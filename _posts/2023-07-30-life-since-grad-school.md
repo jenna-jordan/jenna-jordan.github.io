@@ -10,7 +10,7 @@ toc:
 thumbnail: assets/img/header_lifesincegradschool.jpg
 categories: life-updates
 ---
-{% include figure.html path="assets/img/header_lifesincegradschool.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/header_lifesincegradschool.jpg" class="img-fluid rounded z-depth-1" %} 
 
 This website, and therefore this blog, has fallen by the wayside since I graduated from library school with my MSLIS in the spring of 2020... in the midst of a global pandemic. I wasn't really sure what to do with the site, beyond letting it exist and adding some projects here and there, but I recently decided that it was time for a revamp (and rebrand/redesign). I wanted my personal website to say "working professional", not "overly enthusiastic grad student" - though I am keeping all the old posts so the "overly enthusiastic grad student" is not going away. But it has been 3 years (wow!) since I was in grad school, and I have managed to get some professional experience under my belt - though with the pandemic raging as I entered the work force I had a bit of a rocky start.
 
