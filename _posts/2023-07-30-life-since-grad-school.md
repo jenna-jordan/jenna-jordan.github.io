@@ -10,7 +10,7 @@ toc:
 thumbnail: assets/img/header_lifesincegradschool.jpg
 categories: life-updates
 ---
-{% include figure.html path="assets/img/header_lifesincegradschool.jpg" class="img-fluid rounded z-depth-1" %} 
+{% include figure.html path="assets/img/header_lifesincegradschool.jpg" class="img-fluid rounded z-depth-1" %}
 
 This website, and therefore this blog, has fallen by the wayside since I graduated from library school with my MSLIS in the spring of 2020... in the midst of a global pandemic. I wasn't really sure what to do with the site, beyond letting it exist and adding some projects here and there, but I recently decided that it was time for a revamp (and rebrand/redesign). I wanted my personal website to say "working professional", not "overly enthusiastic grad student" - though I am keeping all the old posts so the "overly enthusiastic grad student" is not going away. But it has been 3 years (wow!) since I was in grad school, and I have managed to get some professional experience under my belt - though with the pandemic raging as I entered the work force I had a bit of a rocky start.
 
@@ -28,7 +28,7 @@ I also took up knitting (I know, such a classic pandemic hobby). The very first 
 
 ## 2021
 
-A year came... and went. Still no word on the security clearance. I had done all of the steps - including going in person for the drug test, polygraph, etc - and I got no updates, no estimated timeline, nothing. I was becoming less happy with my contracting gig (even remote NCRI was a remarkably toxic org), and I knew I needed to have some other options. I had been applying for data librarian jobs and even got to the final round of interviews a couple times, but no dice (actually, [my Carpentries lesson](/projects/carpentries-dataviz-workshop) was a side product of one of those interviews!).
+A year came... and went. Still no word on the security clearance. I had done all of the steps - including going in person for the drug test, polygraph, etc - and I got no updates, no estimated timeline, nothing. I was becoming less happy with my contracting gig (feel free to DM me if you're considering working for NCRI), and I knew I needed to have some other options. I had been applying for data librarian jobs and even got to the final round of interviews a couple times, but no dice (actually, [my Carpentries lesson](/projects/carpentries-dataviz-workshop) was a side product of one of those interviews!).
 
 Finally, in late fall of 2021, I hit gold. A mutual on twitter pointed me towards a posting for a data engineer at the City of Boston's Analytics Team. It was perfect - data work, in public service, and a genuine way to really start my career. I applied, made a [streamlit app](/projects/streamlit-apps) for extra credit, and by the end of the year I had accepted a job offer.
 
