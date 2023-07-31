@@ -9,6 +9,7 @@ description: "An overview of the workshops I've taught, including a semester-lon
 thumbnail: assets/img/project_carpentries.jpg
 categories: software-carpentries
 ---
+{% include figure.html path="assets/img/header_carpentries.jpg" class="img-fluid rounded z-depth-1" %}
 
 My Carpentries teaching journey started out slow - I taught a couple of times that first year, and stuck to the lesson I was most comfortable with (SQL & Databases). However, at the start of the summer in 2021 my work put me in charge (or I volunteered to be in charge) of a group of undergraduate interns who wanted to learn how to use computational methods for open source intelligence analysis. So I put together a curriculum of Carpentries lessons to take my interns from zero-assumed knowledge to the ability to complete a computational analysis in Python. I'm teaching the same curriculum in the Fall (slightly expanded and refined) to another group of undergraduate interns. This allowed me to gain experience in teaching more of the core Carpentries lessons... and also inspired me to develop [my own lesson focused on interactive data visualizations](/projects/carpentries-dataviz-workshop)!
 

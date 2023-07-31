@@ -9,6 +9,7 @@ toc:
 thumbnail: assets/img/header_logicintro.jpg
 categories: MSLIS
 ---
+{% include figure.html path="assets/img/header_logicintro.jpg" class="img-fluid rounded z-depth-1" %}
 
 A big part of learning basic logic is learning the terminology - and more specifically, learning what these words mean within the logical language (vs their typical English meanings). So I'm going to start this with a basic introduction of terms.
 

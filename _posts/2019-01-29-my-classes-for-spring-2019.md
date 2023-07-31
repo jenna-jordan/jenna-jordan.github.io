@@ -9,6 +9,8 @@ toc:
 thumbnail: assets/img/header_fall2018classes.jpg
 categories: MSLIS 
 ---
+{% include figure.html path="assets/img/header_fall2018classes.jpg" class="img-fluid rounded z-depth-1" %}
+
 It's my second semester at UIUC! I learned a lot last semester, and I'm ready to learn even more. I also have to be prepared to be a whole lot busier... in addition to taking four courses this semester (4! 14 total credit hours! ...That's a lot in a master's program!) I'm also working 20 hours a week as a Graduate Research Assistant (GRA) at the Cline Center. I think it's a good problem to have that I want to be taking all of my classes and I got my dream assistantship, so there's absolutely nothing I want to drop to make my life a bit easier this semester, but... boy have I been busy. I'm only starting week three and I don't know how I'm going to get everything done.
 
 Speaking of classes, this semester the four courses I'm taking are:

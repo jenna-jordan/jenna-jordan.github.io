@@ -9,6 +9,7 @@ toc:
 thumbnail: assets/img/header_moreaboutme.jpg
 categories: life-updates
 ---
+{% include figure.html path="assets/img/header_moreaboutme.jpg" class="img-fluid rounded z-depth-1" %}
 
 In case anybody is curious to learn more about me, I've decided to preemptively interview myself to give some basic background on what I've studied, where I've worked, the places I've traveled to, and what I do for fun. Enjoy!
 
@@ -25,14 +26,14 @@ Actually, my experience working on my thesis is a big part of why I decided to g
 
 When I graduated, I wasn't really sure what I wanted to do. I had conveniently decided after graduating with a degree in Journalism that I did not want to be a journalist (for various reasons, including my fear of confrontational interactions with strangers). I also wasn't really interested in the types of jobs that poli sci undergrads tend to get straight out of college - I knew that to get a good job I would need a Master's degree. But what would I get my Master's in? I wasn't sure, and that was a decision that I needed to be sure about. So I did the very typical thing that many 20-somethings do when they don't know what to do with their lives... travel! And what's the best way to travel without going broke? Teach English!
 
-{% include figure.html path="assets/img/korea_kindies.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="assets/img/korea_kindies.jpg" class="img-fluid rounded z-depth-1" %}
 Some of my favorite kindergarteners being adorable.
 
 My first stop was in Budapest, Hungary, where I studied how to teach English as a foreign language for one month and earned my CELTA certification. I traveled around Europe for about a month after that (it was my first time!) before heading back to the states to job search. I found a job teaching at a hagwon in South Korea, and spent 15 months teaching English to kindergartners and elementary school students.
 
 While traveling, I considered a lot of different professional paths. I thought about teaching at international schools, going into publishing, even website development. But the path I finally fell in love with was to become a librarian. In Fall of 2017 I applied to my top 3 schools, and also planned for my next adventure. I had 8 months until school started - more time to travel!
 
-{% include figure.html path="assets/img/profilepic_rome.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.html path="assets/img/profilepic_rome.jpg" class="img-fluid rounded z-depth-1" %}
 I'm in Rome! First time seeing the Colosseum.
 
 So I went back to Europe, and lived as an Au Pair in Spain for 6 months. I also studied Spanish for the first time since elementary school, which was an oddly fascinating process for me from a linguistic perspective (I never had any hope of becoming fluent... but I loved comparing Spanish to English and observing English's romantic roots). I also had the opportunity to take a few trips around Europe - a two-week solo trip around Italy, a one-week solo trip to Porto, Portugal, and a one-week trip with my family to the Netherlands, Switzerland, and France. My favorite trip was definitely Italy... and I fully intend on going back someday. But for now, I'm back in the states, learning how to be a librarian.

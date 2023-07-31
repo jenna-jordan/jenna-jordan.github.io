@@ -9,6 +9,8 @@ toc:
 thumbnail: assets/img/header_fall2018classes.jpg
 categories: MSLIS
 ---
+{% include figure.html path="assets/img/header_fall2018classes.jpg" class="img-fluid rounded z-depth-1" %}
+
 It's my first semester at UIUC! So far it's going pretty well, and I'm excited about all the new things I'm going to learn. It's been three years since I've been in a university environment, and I really like that feeling of knowing that every day you are going to learn something new, and that there are people all around you who just want to help you learn and advance.
 
 Also, this city freaking loves board games. There's the iSchool board game group, the multiple board game Meetups, the board game design group/competition, board game conventions... just all the board games. I just hope I'll have enough time to indulge in all the board gaming while still committing enough time for my classes.

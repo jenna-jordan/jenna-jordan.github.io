@@ -9,6 +9,8 @@ toc:
 thumbnail: assets/img/header_reflection.jpg
 categories: MSLIS life-updates
 ---
+{% include figure.html path="assets/img/header_reflection.jpg" class="img-fluid rounded z-depth-1" %}
+
 It's summer, and I have officially completed half of my Master's in Library & Information Science degree. This past semester has been extremely busy for me - not only was I taking more classes, but I was working 20 hours/week as a Graduate Research Assistant at the Cline Center on campus. And while that meant that I had essentially no free time (hence the utter lack of blog posts), there was nothing that I wanted to drop... so I can only blame myself. And next year looks to be at least as busy! But before I look ahead, I want to take some time to reflect on what I have learned and accomplished during my first year of library school.
 
 ## Degree Requirements

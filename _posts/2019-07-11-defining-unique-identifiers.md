@@ -10,6 +10,7 @@ toc:
 thumbnail: assets/img/header_identifiers.jpg
 categories: MSLIS musings essays
 ---
+{% include figure.html path="assets/img/header_identifiers.jpg" class="img-fluid rounded z-depth-1" %}
 
 **Note**: This was originally written as a final paper for IS590TH: Theories of Information, in May 2019. I've edited it slightly for this blog post.
 

@@ -9,6 +9,7 @@ toc:
 thumbnail: assets/img/header_fall2018classes.jpg
 categories: MSLIS
 ---
+{% include figure.html path="assets/img/header_fall2018classes.jpg" class="img-fluid rounded z-depth-1" %}
 
 Today was the last day of both my class and my internship for the summer! I have been taking a class online, IS562: Metadata in Theory & Practice, as well as working as a Data Science Intern at the Program on Governance and Local Development in Gothenburg, Sweden. First I'll introduce the class, and then share a reflection on my internship experience.
 

@@ -9,6 +9,7 @@ toc:
 thumbnail: assets/img/header_fall2018classes.jpg
 categories: MSLIS
 ---
+{% include figure.html path="assets/img/header_fall2018classes.jpg" class="img-fluid rounded z-depth-1" %}
 
 One year down, one year to go! During the first year of my MSLIS degree, I focused on the fundamentals: how to organize and process data. This year, I am shifting my focus to analysis. This semester I am taking three classes focused on different ways to analyze data, as well as one project-oriented class that will allow me to collect together the data I want to analyze.
 

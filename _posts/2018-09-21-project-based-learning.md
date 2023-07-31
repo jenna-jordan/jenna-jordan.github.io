@@ -9,6 +9,8 @@ toc:
 thumbnail: assets/img/header_project.jpg
 categories: MSLIS musings
 ---
+{% include figure.html path="assets/img/header_project.jpg" class="img-fluid rounded z-depth-1" %}
+
 This semester I am taking the iSchool's Introduction to Databases class. This is one of those classes that I really want to take, and I really want to learn about databases because they are both interesting and useful... but I'm also a little bit intimidated by it, because I don't have a computer science background or a higher math background. Everything I know about computer science I learned from [this video series by CrashCourse](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo), and the highest level math class I've completed was Calculus 1, way back in high school (I took some statistics classes in college, but I don't know if I would classify them as a higher level of math than calculus). And database design involves set theory and learning a whole new language and specific diagram methods that all relate back to these higher level concepts of entities and relationships and attributes... and it could all very easily be overwhelming (despite a fantastic instructor and a comprehensive and informative - if dry - textbook).
 
 ## Learning about databases

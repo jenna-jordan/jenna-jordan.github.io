@@ -6,7 +6,7 @@ description: Congratulations, you found the puppy pictures!
 date: 2023-07-22
 ---
 
-Congratulations, you found the puppy pictures!
+Congratulations, you found the puppy pictures! Find more here: <a href="https://instagram.com/bella_dogna" title="Project on Ravelry"><i class="fab fa-instagram"></i></a>
 
 {% include figure.html path="assets/img/bella1.jpg" class="img-fluid rounded z-depth-1"%}
 {% include figure.html path="assets/img/bella2.jpg" class="img-fluid rounded z-depth-1"%}

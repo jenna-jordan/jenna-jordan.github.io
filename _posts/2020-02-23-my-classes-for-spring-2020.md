@@ -9,6 +9,7 @@ toc:
 thumbnail: assets/img/header_fall2018classes.jpg
 categories: MSLIS
 ---
+{% include figure.html path="assets/img/header_fall2018classes.jpg" class="img-fluid rounded z-depth-1" %}
 
 This is it - the last semester of my MS/LIS degree. As I am currently job searching, I decided to take a slightly lighter class load for this final semester: 2 regular classes, 1 short class, and an independent study. Here they are:
 

@@ -9,6 +9,7 @@ toc:
 thumbnail: assets/img/header_dataprivacy.jpg
 categories: MSLIS musings
 ---
+{% include figure.html path="assets/img/header_dataprivacy.jpg" class="img-fluid rounded z-depth-1" %}
 
 Near the beginning of the semester (Aug 31), I attended a talk at the iSchool by Dr. Jingrui He about a machine learning solution her team crafted to address the issue of data heterogeneity.
 

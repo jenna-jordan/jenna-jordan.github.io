@@ -7,6 +7,7 @@ description: "All about The Carpentries, how I got involved, and what I love abo
 thumbnail: assets/img/project_carpentries.jpg
 categories: software-carpentries
 ---
+{% include figure.html path="assets/img/header_carpentries.jpg" class="img-fluid rounded z-depth-1" %}
 
 If you've never heard of [The Carpentries](https://carpentries.org) before, you may be confused - have I gotten into woodworking?! (No... but I have gotten into knitting - the real kind, not the RMarkdown kind). 
 

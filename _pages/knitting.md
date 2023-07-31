@@ -8,7 +8,7 @@ toc:
   sidebar: left
 ---
 
-Pssst: Click on the ravelry icon to be taken to the project page on Ravelry - which has all of the details and more pictures!
+You can find more of my projects on <a href="https://instagram.com/jennajrdnknits" title="Project on Ravelry"><i class="fab fa-instagram"></i> Instagram</a> and <a href="https://www.ravelry.com/projects/JennaJrdn" title="Project on Ravelry"><i class="fa-brands fa-ravelry"></i> Ravelry</a>.
 
 ## Shawls
 ---
