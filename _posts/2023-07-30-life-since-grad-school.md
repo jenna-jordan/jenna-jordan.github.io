@@ -28,7 +28,7 @@ I also took up knitting (I know, such a classic pandemic hobby). The very first 
 
 ## 2021
 
-A year came... and went. Still no word on the security clearance. I had done all of the steps - including going in person for the drug test, polygraph, etc - and I got no updates, no estimated timeline, nothing. I was becoming less happy with my contracting gig at NCRI, and I knew I needed to have some other options. I had been applying for data librarian jobs and even got to the final round of interviews a couple times, but no dice (actually, [my Carpentries lesson](/projects/carpentries-dataviz-workshop) was a side product of one of those interviews!).
+A year came... and went. Still no word on the security clearance. I had done all of the steps (including going in person for the drug test, polygraph, etc) and I got no updates, no estimated timeline, nothing. I knew that I wanted to kick off my career properly - in a full-time position doing data work as a part of a larger team focused on public service - and the contracting gigs had only been meant as a temporary stopgap until I could join such a team. I had been applying for data librarian jobs and even got to the final round of interviews a couple times, but no dice (actually, [my Carpentries lesson](/projects/carpentries-dataviz-workshop) was a side product of one of those interviews!).
 
 Finally, in late fall of 2021, I hit gold. A mutual on twitter pointed me towards a posting for a data engineer at the City of Boston's Analytics Team. It was perfect - data work, in public service, and a genuine way to really start my career. I applied, made a [streamlit app](/projects/streamlit-apps) for extra credit, and by the end of the year I had accepted a job offer.
 
