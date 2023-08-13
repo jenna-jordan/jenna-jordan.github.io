@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Jenna Jordan
+      value: Jennifer (Jenna) Jordan
     - name: Job Title 
       value: Data Engineer
     - name: Citizenship
@@ -11,8 +11,9 @@
 - title: Skills
   type: list
   contents:
-    - "Languages: python, SQL, YAML/YAQL, git, bash, Xpath, regex"
-    - "Tools: postgreSQL+postgis, pandas, dbt, plotly, GitHub, Civis Platform, Jira, SQLAlchemy"
+    - "Languages: python, SQL, git, bash, YAML/YAQL, regex, Xpath"
+    - "Libraries/Packages: dbt, pandas, plotly, SQLAlchemy, Great Expectations"
+    - "Other Tools: postgreSQL+postgis, GitHub, Civis Platform, Jira"
     - "data modeling & architecture/design - 3rd Normal Form, ER Diagrams, star schema, etc"
     - "creating and managing ETL/ELT pipelines; data orchestration"
     - "data wrangling, visualization, and exploratory data analysis"
@@ -29,6 +30,7 @@
         - Write custom component scripts in python to ingest and export data.
         - Transform data using SQL and write data unit tests using Great Expectations.
         - Ensure the analysts have high quality, reliable data for analytics end products (e.g. dashboards) and the public has up to date access to open data published on Analyze Boston.
+        - Initiated, planned, and managed the execution of an ETL workflow redesign that centered on implementing dbt within a new set of schemas.
     
     - title: Data Engineer, Computational Methods Instructor (Contractor)
       institution: Network Contagion Research Institute (NCRI)
