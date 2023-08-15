@@ -7,7 +7,7 @@ permalink: /blog/year-1-reflection
 toc:
   sidebar: left
 thumbnail: assets/img/header_reflection.jpg
-categories: MSLIS life-updates
+categories: MSLIS life-updates musings
 ---
 {% include figure.html path="assets/img/header_reflection.jpg" class="img-fluid rounded z-depth-1" %}
 

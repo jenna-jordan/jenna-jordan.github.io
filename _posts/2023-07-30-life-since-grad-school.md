@@ -1,6 +1,6 @@
 ---
 layout: post
-featured: true
+featured: false
 title: Life Since Grad School
 date: 2023-07-30
 description: from grad student to working data professional
@@ -8,7 +8,7 @@ permalink: /blog/life-since-grad-school
 toc:
   sidebar: left
 thumbnail: assets/img/header_lifesincegradschool.jpg
-categories: life-updates
+categories: life-updates musings
 ---
 {% include figure.html path="assets/img/header_lifesincegradschool.jpg" class="img-fluid rounded z-depth-1" %}
 

@@ -8,7 +8,7 @@ permalink: /blog/defining-unique-identifiers
 toc:
   sidebar: left
 thumbnail: assets/img/header_identifiers.jpg
-categories: MSLIS musings essays
+categories: MSLIS musings essays data
 ---
 {% include figure.html path="assets/img/header_identifiers.jpg" class="img-fluid rounded z-depth-1" %}
 

@@ -5,7 +5,7 @@ date: 2018-11-14
 description: my data skills origin story
 permalink: /blog/final-project-fall18
 thumbnail: assets/img/header_finalprojectf18.jpg
-categories: MSLIS 
+categories: MSLIS
 ---
 {% include figure.html path="assets/img/header_finalprojectf18.jpg" class="img-fluid rounded z-depth-1" %}
 
