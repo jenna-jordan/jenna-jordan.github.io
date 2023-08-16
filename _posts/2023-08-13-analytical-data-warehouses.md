@@ -52,7 +52,7 @@ Sometimes, these raw sources may come from a relational database. In this case, 
 
 ### Replicable transformations
 
-The next step is to transform these source tables into "production" tables. There may be many transformations before producing the table that will be used for analysis, but there should always be at least one. In a data warehouse, a "transform" usually means a SQL select query that is used to create either a table or a view.
+The next step is to transform these source tables into "production" tables. There may be many transformations before producing the table that will be used for analysis, but there should always be at least one. In a data warehouse, a "transform" usually means a SQL select query that is used to create either a table or a view. For the purpose of this post, "production" refers to tables or views in the database that are ready to be used for any downstream analytical purposes (dashboards, analysis, further downstream views, etc), have been through a development and approval process, and have been designated as being "production" based on its name, schema, database, or some other indication.
 
 The first transform is the simplist - it should select from the source table and apply any basic cleanup that is needed. Let's call the result of this first transformation the "base production" table. It should correspond to the source table closely, and should have a 1:1 relationship to the source table (so, no joins). It should also always be materalized as a table (not as a view). The base production tables - and all downstream transforms - should live in a separate schema/database from the source tables, or otherwise be easily distinguished from the source tables. 
 
