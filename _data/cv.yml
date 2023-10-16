@@ -12,8 +12,9 @@
   type: list
   contents:
     - "Languages: python, SQL, git, bash, YAML/YAQL, regex, Xpath"
-    - "Libraries/Packages: dbt, pandas, plotly, SQLAlchemy, Great Expectations"
-    - "Other Tools: postgreSQL+postgis, GitHub, Civis Platform, Jira"
+    - "Featured Libraries: dbt, pandas, plotly, streamlit, SQLAlchemy, Great Expectations"
+    - "Databases: PostgreSQL (and PostGIS), SQLite, duckdb"
+    - "Other Tools: GitHub, Civis Platform, Jira"
     - "data modeling & architecture/design - 3rd Normal Form, ER Diagrams, star schema, etc"
     - "creating and managing ETL/ELT pipelines; data orchestration"
     - "data wrangling, visualization, and exploratory data analysis"
@@ -31,6 +32,7 @@
         - Transform data using SQL and write data unit tests using Great Expectations.
         - Ensure the analysts have high quality, reliable data for analytics end products (e.g. dashboards) and the public has up to date access to open data published on Analyze Boston.
         - Initiated, planned, and managed the execution of an ETL workflow redesign that centered on implementing dbt within a new set of schemas.
+        - Led the implementation of dbt for the Analytics team's data warehouse and the adoption of the dbt-generated Data Catalog.
     
     - title: Data Engineer, Computational Methods Instructor (Contractor)
       institution: Network Contagion Research Institute (NCRI)
@@ -98,6 +100,44 @@
         - Worked as part of a small team advising the U.S. Ambassador to the United Nations Samantha Power, serving as a bridge between the United Nations, the Executive Office, and the National Security Council.
         - Supported the Senior Policy Advisors, Speechwriter, and Executive Assistant with research, copywriting, and administrative tasks.
         - Wrote executive summaries and took notes on office, cross-bureau, and inter-departmental meetings for the USUNW team.
+
+- title: Publications & Presentations
+  type: time_table
+  contents:
+    - title: "From coast to coast: implementing dbt in the public sector"
+      institution: Coalesce 2023 (by dbt Labs), San Diego
+      year: presented Oct 2023
+      description:
+        - Presented about Boston's implementation of dbt in order to improve data services and data engineering practices, while my cospeakers presented about their projects for the State of California and Cal-ITP.
+        - This session discusses the similarities and differences between the implementations of dbt, and how some of the constraints and challenges of working in government shape both the technical and social design of data services. The speakers reflect on successes, challenges, and lessons learned about adopting modern data tooling in state and local governments.
+    
+    - title: "Interactive Data Visualizations in Python"
+      institution: The Carpentries, Lesson Incubator
+      year: published Aug 2021
+      description:
+        - Developed a Carpentries workshop lesson designed to be an introduction to making interactive visualizations in python.
+        - Learners create a new environment using conda, wrangle data into the proper format using pandas library, create visualizations using the Plotly Python library, and display these visualizations and create widgets using Streamlit.
+   
+    - title: "No buzz for bees: Media coverage of pollinator decline"
+      institution: Proceedings of the National Academy of Sciences (PNAS)
+      year: published Jan 2021
+      description:
+        - Co-author on Perspective paper submitted to PNAS in March 2020, published Jan 2021.
+        - Wrote the ETL scripts to collect data from the Global News Index and transform the data for analysis & visualization, created an interactive visualization tool to aid in exploratory data analysis, and wrote the documentation for the data & code deposited in the Illinois Data Bank.
+    
+    - title: "Python can be tidy too: pandas recipes for normalizing data"
+      institution: PyCon 2020 (virtual)
+      year: published May 2020
+      description:
+        - Published poster online for PyCon 2020 (conference moved online-only due to COVID-19)
+        - Demonstrates a collection of recipes from my Tidy Pandas Cookbook that draw on the “tidy data” and “3rd normal form” philosophies of data organization, using data from the Correlates of War and Uppsala Conflict Data Program.
+     
+    - title: "Put Relational Databases in Your Data Curation Toolbox"
+      institution: Proceedings of the Association for Information Science and Technology (ASIS&T 82nd Annual Meeting; in Melbourne, Australia)
+      year: presented Oct 2019
+      description:
+        - Presented my poster advocating the use of relational databases in the data curation process, especially for datasets that are published separately but can be used together due to a common identifier scheme and shared attributes. 
+        - The Correlates of War datasets are used as an illustrative example to show how the normalization process results in a design with greater data reusability, while check constraints and foreign key constraints can improve data quality.
 
 - title: Education
   type: time_table

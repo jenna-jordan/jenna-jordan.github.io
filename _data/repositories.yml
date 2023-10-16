@@ -2,6 +2,8 @@ github_users:
   - jenna-jordan
 
 github_repos:
+  - jenna-jordan/dbt-public-sector-resources
+  - CityOfBoston/cob_analytics_dbt_skeleton_project
   - jenna-jordan/Boston_CityScore_App
   - jenna-jordan/Advent_of_Code
   - carpentries-incubator/python-interactive-data-visualizations
