@@ -158,6 +158,10 @@
   type: time_table
   contents:
 
+    - title: dbt Developer
+      institution: dbt Labs
+      year: 2023
+
     - title: Analytics Engineering with dbt
       institution: CoRise
       year: 2022
