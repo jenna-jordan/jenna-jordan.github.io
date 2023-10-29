@@ -4,6 +4,6 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 1
-cv_pdf: JennaJordan_Resume_2021.pdf
+cv_pdf: JennaJordan_2023Resume.pdf
 selected_papers: true
 ---
