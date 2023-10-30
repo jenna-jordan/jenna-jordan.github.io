@@ -11,10 +11,10 @@
 - title: Skills
   type: list
   contents:
-    - "Languages: python, SQL, git, bash, YAML/YAQL, regex, Xpath"
+    - "Languages: python, SQL, git, bash, YAML/YAQL, jinja, regex, Xpath, R (tidyverse), SPARQL"
     - "Featured Libraries: dbt, pandas, plotly, streamlit, SQLAlchemy, Great Expectations"
-    - "Databases: PostgreSQL (and PostGIS), SQLite, duckdb"
-    - "Other Tools: GitHub, Civis Platform, Jira"
+    - "Data Stores: PostgreSQL (and PostGIS), SQLite, duckdb, JSON, XML, RDF (knowledge graphs)"
+    - "Other Tools: GitHub, Civis Platform, Jira, OpenRefine, ArcGIS Pro"
     - "data modeling & architecture/design - 3rd Normal Form, ER Diagrams, star schema, etc"
     - "creating and managing ETL/ELT pipelines; data orchestration"
     - "data wrangling, visualization, and exploratory data analysis"
