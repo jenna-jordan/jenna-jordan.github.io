@@ -11,14 +11,12 @@
 - title: Skills
   type: list
   contents:
-    - "Languages: python, SQL, git, bash, YAML/YAQL, jinja, regex, Xpath, R (tidyverse), SPARQL"
+    - "Languages: python, SQL, bash, YAML/YAQL, jinja, regex, Xpath, R (tidyverse), SPARQL"
     - "Featured Libraries: dbt, pandas, plotly, streamlit, SQLAlchemy, Great Expectations"
     - "Data Stores: PostgreSQL (and PostGIS), SQLite, duckdb, JSON, XML, RDF (knowledge graphs)"
-    - "Other Tools: GitHub, Civis Platform, Jira, OpenRefine, ArcGIS Pro"
-    - "data modeling & architecture/design - 3rd Normal Form, ER Diagrams, star schema, etc"
-    - "creating and managing ETL/ELT pipelines; data orchestration"
-    - "data wrangling, visualization, and exploratory data analysis"
-    - "teaching workshops; writing documentation; presenting projects"
+    - "Other Tools: git, GitHub, Civis Platform, Jira, OpenRefine, ArcGIS Pro"
+    - "Concepts: data modeling (3NF, star schema), relational and analytical database design, data orchestration (ETL pipelines), data management and governance, FAIR data principles"
+    - "As well as: data wrangling, visualization, and exploratory data analysis; teaching workshops; writing documentation; presenting projects"
 
 - title: Experience
   type: time_table
@@ -27,12 +25,16 @@
       institution: Analytics Team, Department of Innovation & Technology, City of Boston
       year: Jan 2022 - present
       description:
-        - Manage the data warehouse and ETL pipelines for the City of Boston's Analytics Team.
-        - Write custom component scripts in python to ingest and export data.
-        - Transform data using SQL and write data unit tests using Great Expectations.
+        - title: Initiated & led the engineering team’s migration of over 200 legacy ETL pipelines to dbt, with redesigned orchestration workflows & data warehouse schemas
+          contents:
+            - This resulted in the team’s first data catalog, jumpstarted data governance efforts, provided oversight over and analysis of both pipelines and data, and improved the use of both computational resources and engineers’ development time
+            - Presented and advocated for this work to the team, the CIO, the department, and at a conference
+        - title: Built out custom ETL pipelines to integrate data trapped across many different sources, enabling key metrics to be tracked (e.g. time for affordable housing projects to be approved) and complicated manual processes to be automated (e.g. joining together permitting, housing, and development data)
+          contents:
+          - Advised on structural & process changes to involved source systems across different departments
+        - Wrote custom component scripts in python to ingest and export data
         - Ensure the analysts have high quality, reliable data for analytics end products (e.g. dashboards) and the public has up to date access to open data published on Analyze Boston.
-        - Initiated, planned, and managed the execution of an ETL workflow redesign that centered on implementing dbt within a new set of schemas.
-        - Led the implementation of dbt for the Analytics team's data warehouse and the adoption of the dbt-generated Data Catalog.
+
     
     - title: Data Engineer, Computational Methods Instructor (Contractor)
       institution: Network Contagion Research Institute (NCRI)
@@ -49,8 +51,9 @@
       institution: Bright Wolf
       year: Sep 2020 - Apr 2021
       description:
-        - Organized, managed, visualized, and analyzed marketing-related data; supported & audited email campaigns.
-        - Built a data pipeline that integrated data from Salesforce, EverString (now ZoomInfo), and other sources into one cohesive relational database, and then used that database to power a dashboard that visualized the available data for potential corporate clients. Utilized the Streamlit, Plotly, and SQLAlchemy Python libraries.
+        - title: Built a streamlit web app to visually analyze Bright Wolf’s marketing data from Salesforce, email campaigns, and company data enrichment, enabling the sales team to see overarching trends
+          contents:
+            - Built the ETL pipelines to ingest data from these sources via APIs into a local database
 
     - title: Graduate Research Assistant
       institution: Cline Center for Advanced Social Research, University of Illinois at Urbana-Champaign
