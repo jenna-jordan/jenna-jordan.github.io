@@ -25,7 +25,7 @@
       institution: Analytics Team, Department of Innovation & Technology, City of Boston
       year: Jan 2022 - present
       description:
-        - title: Initiated & led the engineering team’s migration of over 200 legacy ETL pipelines to dbt, with redesigned orchestration workflows & data warehouse schemas
+        - title: Initiated & led the engineering team’s migration of ~200 legacy ETL pipelines to dbt, with redesigned orchestration workflows & data warehouse schemas
           contents:
             - This resulted in the team’s first data catalog, jumpstarted data governance efforts, provided oversight over and analysis of both pipelines and data, and improved the use of both computational resources and engineers’ development time
             - Presented and advocated for this work to the team, the CIO, the department, and at a conference

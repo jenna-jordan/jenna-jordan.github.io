@@ -12,6 +12,12 @@ Here you can find a list of some of the (primarily) non-fiction books that I've 
 
 ## Reading now
 
+"Fundamentals of Data Engineering" by Joe Reis & Matt Housley
+:    The data engineer's bible - this book is a comprehensive overview of everything the modern data engineer needs to know in today's technology landscape. It goes into each part of the data engineering lifecycle and provides a framework for selecting the technologies & tools you need for your stack, and how to solve data engineering problems and build a robust architecture using best practices. Essentially, this is required reading for today's data engineers.
+
+"Agile Data Warehouse Design" by Lawrence Corr & Jim Stagnitto
+:    This book takes the "agile" software development methodology and applies it to data modeling for data warehouses - specifically focusing on Kimball's "dimensional modeling". Since both agile and dimensional modeling are two concepts I would like to learn more about, and I am a firm believer that data modeling is a fundamentally social process, this book seems like a perfect fit.  
+
 "Data and Reality" by William Kent (2nd ed.)
 :    This book merges databases, philosophy, data modeling... it's a meditation on how we can capture an infinitely complex reality in finite data models that will themselves shape reality. As someone interested in the philosophy of information, this book is a must read. I learned about this book via [@hillelogram](https://twitter.com/hillelogram) on Twitter.
 
@@ -69,9 +75,6 @@ Here you can find a list of some of the (primarily) non-fiction books that I've 
 
 "21 Lessons for the 21st Century" by Yuval Noah Harari
 :    By the author of "Sapiens" and "Homo Deus," this book is a set of 21 essays about the most important issues facing humanity today. One of these essays is about how science fiction is today's most important artistic genre!
-
-"Thinking, Fast and Slow" by Daniel Kahneman
-:     This book focuses on how we think - and why that is important to everyday decision making. Kahneman explains that our brain has 2 systems for thinking: System 1 (fast, intuitive, emotional) and System 2 (slower, deliberative, logical), and each has their advantages and disadvantages. By learning when we use each system and what their faults and biases are, we can make better decisions and guard against bad judgements.
 
 ## Recommended Fiction
 
