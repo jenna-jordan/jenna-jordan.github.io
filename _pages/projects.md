@@ -5,7 +5,7 @@ permalink: /projects/
 description: a portfolio of my public work
 nav: true
 nav_order: 2
-display_categories: [Publications, Grad School, Visualizations]
+display_categories: [Data Engineering, Publications, Grad School, Visualizations]
 horizontal: false
 ---
 
