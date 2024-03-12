@@ -4,7 +4,7 @@ category: Publications
 importance: 4
 title: "Python can be tidy too: pandas recipes for normalizing data"
 permalink: /projects/pycon2020-poster
-description: "I virtually presented my poster 'Python can be tidy too: pandas recipes for normalizing data' at PyCon2020, which is accompanied by the Tidy Pandas Cookbook."
+description: "Poster virtually presented at PyCon2020, accompanied by the Tidy Pandas Cookbook repo."
 img: /assets/img/project_tidypandas.jpg
 github: https://github.com/jenna-jordan/tidy-pandas-cookbook
 ---

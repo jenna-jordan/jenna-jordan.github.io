@@ -5,7 +5,7 @@ importance: 3
 title: "Put Relational Databases in Your Data Curation Toolbox"
 permalink: /projects/asist2019-poster
 description: "Poster presented at the ASIS&T 2019 conference on how relational databases can be useful during the data curation process."
-img: /assets/img/project_irdbhome.jpg
+img: /assets/img/project_irdb_poster.jpg
 github: https://github.com/jenna-jordan/international-relations-database
 ---
 
