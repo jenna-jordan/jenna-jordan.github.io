@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Carpentries Workshops"
-permalink: /projects/carpentries-workshops
+permalink: /blog/carpentries-workshops
 date: 2021-09-28
 toc:
   sidebar: left
