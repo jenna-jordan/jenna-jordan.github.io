@@ -39,8 +39,8 @@ What I accomplished:
 1. Starting & growing the City Analytics Exchange, a casual network & meetup group of data analytics practitioners in local government
 2. Teaching workshops (from Software Carpentries) on core technical skills like git, SQL, and python to fellow City employees (part of a larger data culture initiative)
 3. Integrating dbt into the data engineering team's tech stack, and re-organizing the data warehouse along the way 
-4. Presented about the dbt migration project at Coalesce 2023
-5. Collaborated across many teams & individuals in the department to deliver the team's first data catalog as an official product supported by the department (SSO, boston.gov URL, data governance work initiated to support continued development)
+4. Presenting about the dbt migration project at Coalesce 2023
+5. Collaborating across many teams & individuals in the department to deliver the team's first data catalog as an official product supported by the department (SSO, boston.gov URL, data governance work initiated to support continued development)
 
 Links for diving deeper:
 1. Blog post: [Analytical Data Warehouses - an introduction](/blog/analytical-data-warehouses)
@@ -91,7 +91,7 @@ In the 2nd half of 2023 two dedicated process improvement coaches joined the Ana
 
 The primary reason I wanted to highlight this training and what I learned from it, though, is that you could argue that the dbt migration project I kicked off in year 2 was just one very long process improvement project. I was an individual contributor, not a manager, but I was still able to propose and implement an improvement that would substantially change how the team worked with the data warehouse. I had essentially spent a year constructing an internal process map of how the data warehouse functioned, and I could identify many instances of how implementing dbt would reduce waste in that process. I could use the tools and techniques I learned in the Innovation Training course to communicate the value of spending time implementing dbt to leadership and others who weren't familiar with the daily work and processes the data engineers and analysts followed. 
 
-What a perfect segway into...
+What a perfect segue into...
 
 ## The second year (aka the year of doing)
 
@@ -100,7 +100,7 @@ What a perfect segway into...
 My desk/cubicle at City Hall, with my knitted snowman next to our "data engineering library"
 </div>
 
-Starting around December 2022, I started to think more seriously about how the data engineering team could start to use dbt. There were three main obstacles I had to overcome: (1) I had to show that dbt would provide a real value-add and would be worth the investment of time and resources so that it could evolve beyond a personal pet project into something the entire team could work on, (2) I needed to get all of the setup figured out so it would be as easy as possible for the second (and third, etc) engineer to start contributing to the project, and (3) I had to decide whether to make dbt fit the team's currect data warehouse architecture, or whether and how to redesign the data warehouse.
+Starting around December 2022, I started to think more seriously about how the data engineering team could start to use dbt. There were three main obstacles I had to overcome: (1) I had to show that dbt would provide a real value-add and would be worth the investment of time and resources so that it could evolve beyond a personal pet project into something the entire team could work on, (2) I needed to get all of the setup figured out so it would be as easy as possible for the second (and third, etc) engineer to start contributing to the project, and (3) I had to decide whether to make dbt fit the team's current data warehouse architecture, or whether and how to redesign the data warehouse.
 
 I also had a couple of theories in how to overcome these obstacles: (1) the dbt-generated docs site with its clean documentation and pretty lineage graphs would be the biggest selling point of dbt, and (2) the easiest path in getting started would be to work outside of the existing data warehouse in a small seperate database using open data with a complex lineage graph. I also hadn't yet decided on the best path for obstacle #3, and pursuing a toy example that could demonstrate the power of the docs site would buy me some time to think through possible solutions.
 
@@ -118,6 +118,12 @@ Along the way I decided on how to solve obstacle #3: the best approach would be 
 <div class="caption">
     Slide 26 from the Coalesce talk illustrates the old and new sets of schemas
 </div>
+
+> Note:
+> If you just want to find the City of Boston dbt project details/links/resources (such as the above presentation), head on over to the [project page](/projects/dbt-migration-cob). 
+>
+> If you want to hear some of the back story on how it all happened, you can keep reading this post.
+{: .block-tip }
 
 Redesigning the data warehouse was not a decision I could make in isolation, of course - this was a decision that would effect the entire Analytics team, as well as anybody else who was using the data warehouse. It was also a change that had to stand on its own merits - while the new set of schemas were designed with dbt in mind, simply facilitating a migration to dbt would not be a good enough argument for making such a substantial change. Fortunately, others had been feeling the pain of our existing schema organization as well, and the new set of schemas solved many of these issues: (1) isolating the source/staging layer from "production" tables & views, (2) substantially fewer schemas, (3) eliminating the need to create new schemas every time a new dataset was added that didn't fit into any of the existing schemas.
 
@@ -164,7 +170,7 @@ Alejandro Jimenez Jaramillo, the department's inaugural Director of Tech Governa
 
 The first six months of the dbt project (March - September) were devoted to getting a minimum viable project up and running, with the first set of tables needed for high priority Power BI dashboards reliably updating in the new set of schemas. The next six months (October - March) were primarily about getting the rest of the workflows (imports, transformations, tests, exports) migrated, but it was also about iteratively improving our implementation of dbt. With all engineers now comfortable with the essential dbt skills, some were able to dive deeper into specific features in order to improve our usage of them and the overall dbt project. 
 
-When I presented about the City of Boston's dbt project at Coalesce, I also published a skeleton version of our dbt project repository in a [public repo](https://github.com/CityOfBoston/cob_analytics_dbt_skeleton_project). Before my last day, I updated this repo to be in line with our implementation as of March 2024. So, you can easily [compare](https://github.com/CityOfBoston/cob_analytics_dbt_skeleton_project/compare/6efa3219e3a509692481c95687014dc373e4fe34...a1e5c015ecf22819772ace4bd899780e5c0f621d) what changes were made over those 6 months. While this does not represent all of our improvements (so, anything that is impelemented only in individual model sql/yaml files is not captured), it does capture most of them. I may write another post in the future outlining all of the key features we added that I think should be part of any dbt project (let me know if there's any interest in that!).
+When I presented about the City of Boston's dbt project at Coalesce, I also published a skeleton version of our dbt project repository in a [public repo](https://github.com/CityOfBoston/cob_analytics_dbt_skeleton_project). Before my last day, I updated this repo to be in line with our implementation as of March 2024. So, you can easily [compare](https://github.com/CityOfBoston/cob_analytics_dbt_skeleton_project/compare/6efa3219e3a509692481c95687014dc373e4fe34...a1e5c015ecf22819772ace4bd899780e5c0f621d) what changes were made over those 6 months. While this does not represent all of our improvements (so, anything that is implemented only in individual model sql/yaml files is not captured), it does capture most of them. I may write another post in the future outlining all of the key features we added that I think should be part of any dbt project (let me know if there's any interest in that!).
 
 I'm so proud of the progress our team made, and by the time I left in March the migration was about 75% complete and I was fully confident that the team could continue the dbt project work and migration without me - as well as carrying forward the data catalog and data governance work. There were a few key things that I think contributed to the project's success as a team-wide initiative, rather than just being my personal project (which would not have had a lasting impact!):
 
@@ -200,11 +206,11 @@ One amazing outcome of these workshops? Another team at the city who used the An
 
 ## Wrapping up
 
-This post is already longer than it needs to be, so I'm not going to spend too much time wrapping up. I will just say this: during my 2+ years at the City of Boston I was able to learn a lot by doing, I accomplished a few key things that I hope will have a lasting impact, and I met some really amazing people whom I hope to stay connected with for the long haul. But I'm also really excited for what's next - and I'll be announcing that very soon.
+This post is already longer than it needs to be, so I'm not going to spend too much time wrapping up. I will just say this: during my 2+ years at the City of Boston I was able to learn a lot by doing, I accomplished a few key things that I hope will have a lasting impact, and I met some really amazing people whom I hope to stay connected with for the long haul. There are also a lot of projects I worked on that I did not talk about in this blog post - this was primarily about the internal data engineering work I did. However, the vast majority of my time was spent on projects completed for stakeholders, who came to the Analytics team for data project help. It is not really my place to talk in detail about those projects, but I will say that I had a fantastic time contributing my expertise to their work - especially those longer, more complex projects that had a direct impact on constituent lives. I look forward to seeing what all of my former colleagues accomplish in the years to come!
 
 ~
 
-Did you scroll right to the bottom to just get to the conclusion, and skip right over the TL;DR? Don't worry, here it is again:
+Did you scroll directly to the bottom just get to the conclusion, and skip right over the TL;DR? Don't worry, here it is again:
 
 ### tl;dr
 
@@ -221,8 +227,8 @@ What I accomplished:
 1. Starting & growing the City Analytics Exchange, a casual network & meetup group of data analytics practitioners in local government
 2. Teaching workshops (from Software Carpentries) on core technical skills like git, SQL, and python to fellow City employees (part of a larger data culture initiative)
 3. Integrating dbt into the data engineering team's tech stack, and re-organizing the data warehouse along the way 
-4. Presented about the dbt migration project at Coalesce 2023
-5. Collaborated across many teams & individuals in the department to deliver the team's first data catalog as an official product supported by the department (SSO, boston.gov URL, data governance work initiated to support continued development)
+4. Presenting about the dbt migration project at Coalesce 2023
+5. Collaborating across many teams & individuals in the department to deliver the team's first data catalog as an official product supported by the department (SSO, boston.gov URL, data governance work initiated to support continued development)
 
 Links for diving deeper:
 1. Blog post: [Analytical Data Warehouses - an introduction](/blog/analytical-data-warehouses)
