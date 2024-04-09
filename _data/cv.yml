@@ -21,9 +21,18 @@
 - title: Experience
   type: time_table
   contents:
+
+    - title: Staff Consultant, Data Management
+      institution: Analytics8
+      year: Mar 2024 - present
+      description:
+        - title: Cityblock Health
+          contents:
+            - Assist with the migration from a single monolith dbt project to a multi-project dbt mesh architecture
+
     - title: Data Engineer
       institution: Analytics Team, Department of Innovation & Technology, City of Boston
-      year: Jan 2022 - present
+      year: Jan 2022 - Mar 2024
       description:
         - title: Initiated & led the engineering team’s migration of ~200 legacy ETL pipelines to dbt, with redesigned orchestration workflows & data warehouse schemas
           contents:
