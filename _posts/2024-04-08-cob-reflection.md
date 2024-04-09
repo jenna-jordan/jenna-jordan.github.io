@@ -12,9 +12,9 @@ categories: life-updates
 ---
 {% include figure.html path="assets/img/header_bostoncityhall.jpg" class="img-fluid rounded z-depth-1" %}
 
-March 1st, 2024, was my last day working as a data engineer on the City of Boston Analytics Team. For the past month, I've been taking some time to reflect on these past 2+ years, and appreciate just how much I have learned and accomplished during my tenure at City Hall. This blog post is an attempt to document my growth - and also provide an outlet for the thoughts that have been bouncing around in my brain. So while I do want to let any curious readers know what my journey was like kicking off my career as a mission-driven data engineer, I also reserve the right to meander a bit. 
+March 1st, 2024, was my last day working as a data engineer on the City of Boston Analytics Team. For the past month or so, I've been taking some time to reflect, and appreciate just how much I have learned and accomplished during my 2-year tenure at City Hall. This blog post is an attempt to document my growth - and also provide an outlet for the thoughts that have been bouncing around in my brain. So while I do want to let any curious readers know what my journey was like kicking off my career as a mission-driven data engineer, I also reserve the right to meander a bit. 
 
-I may have done shorter-term independent contracting gigs between earning my degree and working for the City, but I consider my role as a data engineer on the City of Boston Analytics Team as my first "real" data job - first time working with a data warehouse, first time working collaboratively with other data engineers (and first time creating & reviewing Pull Requests), first time creating production ETL pipelines with an orchestration platform (and maintaining workflows & pipelines other people created)... all of the firsts that come with working as a part of larger data team rather than completing an entire data project by myself. And besides giving me the opportunity to kickstart my career as a data engineer, working for the City also solidified my passion for civic tech. Knowing that my daily work is directly tied to a mission of improving people's lives is a significant motivator for me - and that will continue to shape my career.
+While I did a couple shorter-term independent contracting gigs between earning my degree and working for the City, I consider my role as a data engineer on the City of Boston Analytics Team as my first "real" data job - first time working with a data warehouse, first time working collaboratively with other data engineers (and first time creating & reviewing Pull Requests), first time creating production ETL pipelines with an orchestration platform (and maintaining workflows & pipelines other people created)... all of the firsts that come with working as a part of larger data team rather than completing an entire data project by myself. And besides giving me the opportunity to kickstart my career as a data engineer, working for the City also solidified my passion for civic tech. Knowing that my daily work is directly tied to a mission of improving people's lives is a significant motivator for me - and that will continue to shape the choices I make in my career.
 
 Looking back, I can divide my tenure into 2 halves: 
 
@@ -22,7 +22,7 @@ Looking back, I can divide my tenure into 2 halves:
 
 (2) the second year, during which I was able to implement improvements to our tools, processes, and standard practices - and ended up re-architecting our data warehouse & ELT pipelines along the way.
 
-So let's meander in (mostly) chronological order.
+So, let's meander in (mostly) chronological order.
 
 ### tl;dr
 
@@ -42,7 +42,7 @@ What I accomplished:
 4. Presenting about the dbt migration project at Coalesce 2023
 5. Collaborating across many teams & individuals in the department to deliver the team's first data catalog as an official product supported by the department (SSO, boston.gov URL, data governance work initiated to support continued development)
 
-Links for diving deeper:
+Links to look at next:
 1. Blog post: [Analytical Data Warehouses - an introduction](/blog/analytical-data-warehouses)
 2. Project page: [dbt Migration at City of Boston](/projects/dbt-migration-cob)
 
@@ -230,7 +230,7 @@ What I accomplished:
 4. Presenting about the dbt migration project at Coalesce 2023
 5. Collaborating across many teams & individuals in the department to deliver the team's first data catalog as an official product supported by the department (SSO, boston.gov URL, data governance work initiated to support continued development)
 
-Links for diving deeper:
+Links to look at next:
 1. Blog post: [Analytical Data Warehouses - an introduction](/blog/analytical-data-warehouses)
 2. Project page: [dbt Migration at City of Boston](/projects/dbt-migration-cob)
 
