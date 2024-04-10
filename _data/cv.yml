@@ -26,9 +26,7 @@
       institution: Analytics8
       year: Mar 2024 - present
       description:
-        - title: Cityblock Health
-          contents:
-            - Assist with the migration from a single monolith dbt project to a multi-project dbt mesh architecture
+        - working with mission-driven organizations on their dbt projects
 
     - title: Data Engineer
       institution: Analytics Team, Department of Innovation & Technology, City of Boston
