@@ -65,7 +65,7 @@ For the City of Boston's public GitHub repo, I created a copy of our dbt project
 </div>
 <br>
 {% details March 2024 update %}
-I first published our dbt project skeleton in October 2023 (in time for Coalesce), but by March 2024 we had significantly evolved our dbt implementation - making full use of the elementary package, selectors, stateful dbt builds, and more. So the public skeleton repo is now up to date with the actual dbt project as of March 11, 2024.
+I first published our dbt project skeleton in October 2023 (in time for Coalesce), but by March 2024 we had significantly evolved our dbt implementation - making full use of the elementary package, selectors, stateful dbt builds, and more. So the public skeleton repo is now up to date with the actual dbt project as of March 11, 2024. You can also [compare how the project evolved from October 2023 to March 2024](https://github.com/CityOfBoston/cob_analytics_dbt_skeleton_project/compare/6efa3219e3a509692481c95687014dc373e4fe34...a1e5c015ecf22819772ace4bd899780e5c0f621d).
 {% enddetails %}
 <br>
 
