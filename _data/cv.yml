@@ -13,8 +13,8 @@
   contents:
     - "Languages: python, SQL, bash, YAML/YAQL, jinja, regex, Xpath, R (tidyverse), SPARQL"
     - "Featured Libraries: dbt, pandas, plotly, streamlit, SQLAlchemy, Great Expectations"
-    - "Data Stores: PostgreSQL (and PostGIS), SQLite, duckdb, JSON, XML, RDF (knowledge graphs)"
-    - "Other Tools: git, GitHub, Civis Platform, Jira, OpenRefine, ArcGIS Pro"
+    - "Data Stores: PostgreSQL (and PostGIS), BigQuery, SQLite, duckdb, JSON, XML, RDF (knowledge graphs)"
+    - "Other Tools: git, GitHub, dbt Cloud, Civis Platform, Jira, OpenRefine, ArcGIS Pro"
     - "Concepts: data modeling (3NF, star schema), relational and analytical database design, data orchestration (ETL pipelines), data management and governance, FAIR data principles"
     - "As well as: data wrangling, visualization, and exploratory data analysis; teaching workshops; writing documentation; presenting projects"
 
@@ -26,7 +26,7 @@
       institution: Analytics8
       year: Mar 2024 - present
       description:
-        - working with mission-driven organizations on their dbt projects
+        - Apr 2024 - present: working with a mission-driven healthcare organization as they migrate their legacy monolith dbt project to a dbt mesh architecture of multiple domain-driven projects
 
     - title: Data Engineer
       institution: Analytics Team, Department of Innovation & Technology, City of Boston
