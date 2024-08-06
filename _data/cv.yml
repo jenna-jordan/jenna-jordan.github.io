@@ -22,11 +22,17 @@
   type: time_table
   contents:
 
+    - title: Senior Consultant, Data Management & Strategy
+      institution: Analytics8
+      year: Aug 2024 - present
+      description:
+        - Working with a mission-driven healthcare organization to advise on dbt Mesh best practices, strategic processes to support data governance and its implementation within dbt, and provide support & training for the transition to a dbt Mesh of multiple projects.
+
     - title: Staff Consultant, Data Management
       institution: Analytics8
-      year: Mar 2024 - present
+      year: Mar 2024 - Aug 2024
       description:
-        - Apr 2024 - present: working with a mission-driven healthcare organization as they migrate their legacy monolith dbt project to a dbt mesh architecture of multiple domain-driven projects
+        - Working with a mission-driven healthcare organization as they migrate their legacy monolith dbt project to a dbt mesh architecture of multiple domain-driven projects
 
     - title: Data Engineer
       institution: Analytics Team, Department of Innovation & Technology, City of Boston
