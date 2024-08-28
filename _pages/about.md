@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Staff Consultant</p>
+    <p>Senior Consultant</p>
     <p>Data Management</p>
     <p>Analytics8</p>
 
