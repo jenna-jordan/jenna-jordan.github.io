@@ -12,6 +12,13 @@ categories: life-updates
 ---
 {% include figure.html path="assets/img/header_bostoncityhall.jpg" class="img-fluid rounded z-depth-1" %}
 
+> ##### Featured Content
+>
+> This post was featured in [The Analytics Engineering Roundup weekly newsletter](https://roundup.getdbt.com/p/dispatches-from-the-frontiers) on April 28, 2024. 
+>
+> Thank you Jason Ganz for the shoutout!
+{: .block-tip }
+
 March 1st, 2024, was my last day working as a data engineer on the City of Boston Analytics Team. For the past month or so, I've been taking some time to reflect, and appreciate just how much I have learned and accomplished during my 2-year tenure at City Hall. This blog post is an attempt to document my growth - and also provide an outlet for the thoughts that have been bouncing around in my brain. So while I do want to let any curious readers know what my journey was like kicking off my career as a mission-driven data engineer, I also reserve the right to meander a bit. 
 
 While I did a couple shorter-term independent contracting gigs between earning my degree and working for the City, I consider my role as a data engineer on the City of Boston Analytics Team as my first "real" data job - first time working with a data warehouse, first time working collaboratively with other data engineers (and first time creating & reviewing Pull Requests), first time creating production ETL pipelines with an orchestration platform (and maintaining workflows & pipelines other people created)... all of the firsts that come with working as a part of larger data team rather than completing an entire data project by myself. And besides giving me the opportunity to kickstart my career as a data engineer, working for the City also solidified my passion for civic tech. Knowing that my daily work is directly tied to a mission of improving people's lives is a significant motivator for me - and that will continue to shape the choices I make in my career.
@@ -119,7 +126,7 @@ Along the way I decided on how to solve obstacle #3: the best approach would be 
     Slide 26 from the Coalesce talk illustrates the old and new sets of schemas
 </div>
 
-> Note:
+> ##### FYI
 > If you just want to find the City of Boston dbt project details/links/resources (such as the above presentation), head on over to the [project page](/projects/dbt-migration-cob). 
 >
 > If you want to hear some of the back story on how it all happened, you can keep reading this post.

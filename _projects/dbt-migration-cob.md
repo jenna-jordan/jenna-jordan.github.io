@@ -1,6 +1,6 @@
 ---
 layout: page
-category: Data Engineering
+category: Data & Analytics Engineering
 importance: 1
 title: "dbt Migration at City of Boston"
 permalink: /projects/dbt-migration-cob

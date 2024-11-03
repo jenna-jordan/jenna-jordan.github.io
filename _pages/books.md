@@ -12,6 +12,9 @@ Here you can find a list of some of the (primarily) non-fiction books that I've 
 
 ## Reading now
 
+"Data Mesh: Delivering Data-Driven Value at Scale" by Zhamak Dehghani
+:    With all of the work I've been doing implementing dbt Mesh, I wanted to go back to the origins of the data mesh paradigm and learn from the creator herself. My hope is that this book can ground and guide the daily work I'm doing, as well as answering the fundamental question - what really is a data mesh?
+
 "Fundamentals of Data Engineering" by Joe Reis & Matt Housley
 :    The data engineer's bible - this book is a comprehensive overview of everything the modern data engineer needs to know in today's technology landscape. It goes into each part of the data engineering lifecycle and provides a framework for selecting the technologies & tools you need for your stack, and how to solve data engineering problems and build a robust architecture using best practices. Essentially, this is required reading for today's data engineers.
 
@@ -25,7 +28,6 @@ Here you can find a list of some of the (primarily) non-fiction books that I've 
 
 "SQL for Data Scientists: a beginner's guide for building datasets for analysis" by Renee M. P. Teate
 :   [I won a hard copy of this book in a promotional giveaway](https://twitter.com/JennaJrdn/status/1434213869640028161?s=20)! I've been following [@BecomingDataSci](https://twitter.com/BecomingDataSci) for a while, and was very excited when she first announced this book. I'm a huge database design nerd, but there were several SQL skills I needed to level up in (hello, CTEs!). Also... I [live-tweeted](https://twitter.com/JennaJrdn/status/1445082245379854336)  my way through this book!
-
 
 "The Moment of Lift: How Empowering Women Changes the World" by Melinda Gates
 :     The Bill and Melinda Gates Foundation is one of the best examples of how to use data in the realm of international development, and in this book Melinda Gates focuses on one key mission within international development: empowering women. I thoroughly enjoyed listening to Melinda Gates narrating her own book, which was half auto-biography and half advocating for the role of women in international development. Many of the topics in this book were already familiar to me - family planning, education for girls, maternal & newborn care, unequal division of housework - but other topics were new (and fascinating), such as the role of women in agriculture. Melinda Gates talks about each of these important topics through the lens of her own personal experience, and relates moving anecdotes that gives each broad mission an urgent and emotional tie. Having already read Factfulness, I also appreciated her many stories and praise of Hans Rosling and his work.
@@ -75,6 +77,9 @@ Here you can find a list of some of the (primarily) non-fiction books that I've 
 
 "21 Lessons for the 21st Century" by Yuval Noah Harari
 :    By the author of "Sapiens" and "Homo Deus," this book is a set of 21 essays about the most important issues facing humanity today. One of these essays is about how science fiction is today's most important artistic genre!
+
+"Nexus" by Yuval Noah Harari
+:    Harari's latest book is all about information - naturally, this book is a must read for me.
 
 ## Recommended Fiction
 
