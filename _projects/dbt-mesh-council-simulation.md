@@ -35,6 +35,24 @@ I decided to do something a bit different for my peer exchange session, inspired
 
 The peer exchange room was filled with round tables, each with 10 chairs. In my simulation game, each table became a "Mesh Council", composed of 10 representatives divided into 5 teams (so everyone had a partner). Each table got an "Architect's Handbook", which contained important background information and a starting proposal. Everyone also got their own "role sheet", which contained information about their individual role and shared information about their team. Most information was shareable, but each team and role also had "secret missions" that they should try to achieve by the end of the game. These secret missions enabled participants to achieve individual competitive wins, in addition to the collective win of coming up with a set of policies that passed a final vote. They also introduced conflict - a vital part of any realistic simulation. 
 
+{% details *Click here to learn about Rainbow Road, the fictional organization participants were working for* %} 
+
+Rainbow Road started as a local rescue, bringing pets from rural kill shelters into the city to ease the adoption process. They were successful at matching more pets with loving homes, and soon partnered with other nearby rescues to form a regional adoption network.
+
+Rainbow Road was able to better serve the many adoption centers by centralizing logistics for mass distribution of resources and coordinating across partners. This worked great for a time, and allowed the rescue centers to focus on what they did best: the operational side of rescuing pets.
+
+Rainbow Road started using a central data warehouse to consolidate information about the animals being rescued (including important information like their medical records and available history), the volunteers helping to take care of these animals, facilities where animals were temporarily housed, and more.
+
+Rainbow Road soon adopted dbt to organize all of the needed transformations in the data warehouse. This enabled them to more quickly and accurately report statistics about the pets rescued, which allowed them to get more funding, and then to expand into other states and help even more animals.
+
+This centralized model worked so well that within a few more years Rainbow Road grew to operate at the national level. Other parts of the organization started wanting to use dbt and the data warehouse too - for tracking donations, analyzing marketing efforts, reporting key performance metrics for each adoption center, and more.
+
+Now the organization has grown enough that data-oriented teams are more independent, different regions have different needs, and the dbt project’s DAG has started to resemble an unmanageable spaghetti monster.
+
+Data is an important part of keeping the pet rescue running & funded, so Rainbow Road hired a Data Architect consultant to evaluate the growing data infrastructure and advise the data teams. The data architect recommended migrating from the single monolithic dbt project to a dbt mesh of projects, and sketches out an overall design for the diZerent projects. Rainbow Road has outgrown the centralized model, and now it’s time to decentralize (a little? A lot? Only time will tell!)
+
+{% enddetails %}
+<br>
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="/assets/img/coalesce2024_table5_1.jpg" class="img-fluid rounded z-depth-1" %}
@@ -90,3 +108,22 @@ This was such a fun experience - both designing the simulation and getting to wa
 If anyone else does end up running this simulation game, I would really love to hear how it goes! Please, please reach out and let me know.
 
 While this session was in-person and designed to be specific to dbt, I'm also planning on adapting the exercise to be playable online (e.g. over Zoom) and more general (for any data mesh, independent of any tech vendor's implementation). So stay tuned for future data strategy simulation games!
+
+## dbt Mesh Working Session at the Chicago dbt Meetup (September 2024)
+
+The simulation game at Coalesce was amazing - it was big, complex, required a lot of setup, and took time to play through. While we only had an hour, ideally this simulation game should have taken 2-4 hours. But you can learn through role-playing and simulation in shorter exercises as well, and this is what I did at the [Chicago dbt Meetup](https://www.meetup.com/chicago-dbt-meetup/events/302721675/) a month prior.
+
+Analytics8 hosts the dbt Meetup in Chicago, and with my upcoming peer exchange session at Coalesce I was offered the opportunity to "preview" the session at the meetup. I wanted to keep the theme of role-playing to solve the people & process problems that come with governing a dbt Mesh, but reduce the setup and complexity. So I adapted the "emergency scenario" part of the larger simulation exercise and created 3 "problem scenarios" that involved 3 different roles. For light background context, I used the dbt Lab's Jaffle Shop mesh project, which was helpfully composed of 3 different projects. I've always found 3 to be the magic number for small group discussions. Finally, before actually diving into the problem scenarios, I reviewed the core dbt features that were important to dbt Mesh governance, to ensure that everyone would have a familiar floor of understanding.
+
+For each problem scenario I gave the groups about 10 minutes to discuss and come up with a final solution. I then facilitated the feedback, so that groups could compare their solutions to others. I started by asking one group to present their solution, and then asked the other groups if anyone came up with a similar solution, to build on that first approach. After one approach was fully fleshed out, I then asked if any groups came up with a completely different solution, and repeated the process. This resulted in some great discussions and back-and-forth between the groups, and overall everyone seemed really engaged and interested. I would highly encourage other meetups to try out a similar approach - after all, people usually go to meetup to meet other people, network, and have good conversations... and this "working session" was a great middle ground between a straight presentation and just generic casual conversations.
+
+<div class="row">
+    <div class="col-sm md-auto">
+        <a href="/assets/pdf/dbt_Mesh_Working Session.pdf">
+        {% include figure.html path="/assets/img/dbt_Mesh_Working Session.jpg" title="Slides"  class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+</div>
+<div class="caption">
+    Slides from the "working session" half of the Chicago dbt Meetup
+</div>
