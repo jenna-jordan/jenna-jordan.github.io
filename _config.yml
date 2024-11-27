@@ -72,8 +72,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: jenna-jordan # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: JennaJrdn # your Twitter handle
-mastodon_username: data-folks.masto.host/@jennajrdn # your mastodon instance+username in the format instance.tld/@username
+bluesky_url: https://bsky.app/profile/jennajordan.me # your bluesky URL
+twitter_username: # your Twitter handle
+mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: jennajordan1 # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
@@ -106,7 +107,6 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 linktree_id: jennajordan
 ravelry_id: JennaJrdn
 twitch_id: jennajrdn
-bluesky_id: jennajordan.me
 
 contact_note: >
   <a href="https://linktr.ee/jennajordan">Where I live on the internet</a>
@@ -383,8 +383,7 @@ bootstrap:
 bootstrap-table:
   version: "1.21.4"
 fontawesome:
-  version: "6.4.0"
-  integrity: "sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8="
+  version: "6.7.1"
 jquery:
   version: "3.6.0"
   integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
