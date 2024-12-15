@@ -5,6 +5,9 @@ nav: true
 nav_order: 6
 dropdown: true
 children: 
+    - title: book club
+      permalink: /book-club/
+    - title: divider
     - title: backlog
       permalink: /backlog/
     - title: divider
