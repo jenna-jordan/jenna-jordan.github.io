@@ -22,11 +22,17 @@
   type: time_table
   contents:
 
+    - title: Expert in Residence (part-time)
+      institution: BU Spark!
+      year: Jan 2025 - present
+      description:
+        - Mentor and provide support to student teams at BU Spark! working on public interest projects. Specifically focused on data engineering skill building and domain knowledge of City of Boston public data.
+
     - title: Senior Consultant, Data Management & Strategy
       institution: Analytics8
       year: Aug 2024 - present
       description:
-        - Working with a mission-driven healthcare organization to advise on dbt Mesh best practices, strategic processes to support data governance and its implementation within dbt, and provide support & training for the transition to a dbt Mesh of multiple projects.
+        - Build and support data mesh implementations with dbt; advise on dbt Mesh best practices, strategic processes to support data governance and its implementation within dbt, and provide training for key skills in implementing dbt Mesh.
 
     - title: Staff Consultant, Data Management
       institution: Analytics8
