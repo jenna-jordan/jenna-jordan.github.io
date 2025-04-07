@@ -2,6 +2,8 @@ github_users:
   - jenna-jordan
 
 github_repos:
+  - jenna-jordan/git-novice-speedrun
+  - jenna-jordan/data-project-template
   - jenna-jordan/dbt-public-sector-resources
   - CityOfBoston/cob_analytics_dbt_skeleton_project
   - jenna-jordan/Boston_CityScore_App
