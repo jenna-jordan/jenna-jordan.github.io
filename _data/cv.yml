@@ -13,14 +13,20 @@
   contents:
     - "Languages: python, SQL, bash, YAML/YAQL, jinja, regex, Xpath, R (tidyverse), SPARQL"
     - "Featured Libraries: dbt, pandas, plotly, streamlit, SQLAlchemy, Great Expectations"
-    - "Data Stores: PostgreSQL (and PostGIS), BigQuery, SQLite, duckdb, JSON, XML, RDF (knowledge graphs)"
-    - "Other Tools: git, GitHub, dbt Cloud, Civis Platform, Jira, OpenRefine, ArcGIS Pro"
+    - "Data Stores: PostgreSQL (and PostGIS), BigQuery, Snowflake, duckdb, SQLite, JSON, XML, RDF (knowledge graphs)"
+    - "Other Tools: git, GitHub, dbt Cloud, Civis Platform, Jira, OpenRefine"
     - "Concepts: data modeling (3NF, star schema), relational and analytical database design, data orchestration (ETL pipelines), data management and governance, FAIR data principles"
     - "As well as: data wrangling, visualization, and exploratory data analysis; teaching workshops; writing documentation; presenting projects"
 
 - title: Experience
   type: time_table
   contents:
+
+    - title: Senior Analytics Engineer
+      institution: Ratio PBC
+      year: May 2025 - present
+      description:
+        - Build dbt projects for public health initiatives and Health & Human Services organizations 
 
     - title: Expert in Residence (part-time)
       institution: BU Spark!
@@ -30,7 +36,7 @@
 
     - title: Senior Consultant, Data Management & Strategy
       institution: Analytics8
-      year: Aug 2024 - present
+      year: Aug 2024 - May 2025
       description:
         - Build and support data mesh implementations with dbt; advise on dbt Mesh best practices, strategic processes to support data governance and its implementation within dbt, and provide training for key skills in implementing dbt Mesh.
 
@@ -179,6 +185,9 @@
 - title: Certificates
   type: time_table
   contents:
+    - title: dbt Cloud Administrator
+      institution: dbt Labs
+      year: 2025
 
     - title: dbt Developer
       institution: dbt Labs

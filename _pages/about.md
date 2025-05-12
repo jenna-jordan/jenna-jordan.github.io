@@ -9,9 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Senior Consultant</p>
-    <p>Data Management</p>
-    <p>Analytics8</p>
+    <p>Sr Analytics Engineer</p>
+    <p>Ratio PBC</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,10 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-As a data engineer, I use SQL and python to wrangle data into shape. I create and maintain the pipelines that keep high-quality data flowing to vital dashboards, reports, and published data. I design data systems that house and integrate data from a multitude of sources - cleaning, munging, and reshaping along the way.
 
-As a mission-driven data engineer from the civic tech space, I choose to work on projects that will have a positive impact on society. The data and systems that I work with have the potential to improve people's daily lives when handled with care and integrity.
+As a mission-driven data engineer in civic tech, I advise public sector clients on data & analytics engineering best practices. I ground my data engineering work in information science principles, and bring a data librarian's perspective to modern data teams. Now a Senior Analytics Engineer with Ratio PBC, I build data systems that support public health initiatives and Health & Human Services organizations. 
 
-While I am continually learning new tools in the data engineering space, my data work will always be grounded in information science. I'm proud to say that I learned how to code at library school - and I will forever be grateful to my MSLIS degree for providing the foundation of all the technical work that I do.
+During my time as a Senior Consultant with Analytics8, I developed particular expertise in dbt Mesh architecture and the governance strategies that should accompany it. My experiences working with dbt Mesh projects inspired my peer exchange session at Coalesce 2024, which allowed particpants to expore mesh governance challenges through a role-playing simulation game. 
 
-I am also a knitter, a dog mom to my adorable rescue Bella, a board gamer, and a voracious reader of all things sci-fi & fantasy.
+During my first foray into the civic tech space, I spearheaded the adoption of dbt core at the City of Boston Analytics team. As a Data Engineer on the Analytics team, I built the project & architecture from scratch, reorganized the team's data warehouse & ETL pipelines, and presented on this migration at Coalesce 2023. I also started the City Analytics Exchange, a community for data analytics practitioners in local government.
+
+I earned my MSLIS (Masters in Library & Information Science) in May 2020, and I'm proud to say that I learned to code at library school. I created this website & started writing blog posts during my graduate degree, and I now write posts on topics like analytical data warehouses and data engineering best practices.
+
+When not transforming data (and the organizations data flows through), I'm a knitter, board gamer, dog mom, and voracious consumer of all things sci-fi & fantasy.
