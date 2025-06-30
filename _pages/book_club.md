@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 permalink: /book-club/
 title: "Book Club"
 description: The first rule of Book Club is we have fun talking about data/information & philosophy

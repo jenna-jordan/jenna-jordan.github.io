@@ -109,7 +109,7 @@ If anyone else does end up running this simulation game, I would really love to 
 
 While this session was in-person and designed to be specific to dbt, I'm also planning on adapting the exercise to be playable online (e.g. over Zoom) and more general (for any data mesh, independent of any tech vendor's implementation). So stay tuned for future data strategy simulation games!
 
-## dbt Mesh Working Session at the Chicago dbt Meetup (September 2024)
+# Working Session on dbt Mesh at the Chicago dbt Meetup
 
 The simulation game at Coalesce was amazing - it was big, complex, required a lot of setup, and took time to play through. While we only had an hour, ideally this simulation game should have taken 2-4 hours. But you can learn through role-playing and simulation in shorter exercises as well, and this is what I did at the [Chicago dbt Meetup](https://www.meetup.com/chicago-dbt-meetup/events/302721675/) a month prior.
 
