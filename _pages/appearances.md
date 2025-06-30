@@ -9,6 +9,11 @@ date: 2025-06-29
 ## Upcoming
 ---
 
+#### [Attendee] Out-of-Pocket Data Camp
+2025 September 19
+
+- I will be participating in [Out-of-Pocket's Data Camp](https://www.outofpocket.health/datacamp) in Boston, along with colleagues from Ratio PBC
+
 #### [Speaker] Data Day Texas
 2026 January 24-25
 
