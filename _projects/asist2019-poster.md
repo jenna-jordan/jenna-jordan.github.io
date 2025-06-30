@@ -1,7 +1,7 @@
 ---
 layout: page
 category: Publications
-importance: 3
+importance: 4
 title: "Put Relational Databases in Your Data Curation Toolbox"
 permalink: /projects/asist2019-poster
 description: "Poster presented at the ASIS&T 2019 conference on how relational databases can be useful during the data curation process."

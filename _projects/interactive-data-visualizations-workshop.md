@@ -1,7 +1,7 @@
 ---
 layout: page
 category: Publications
-importance: 1
+importance: 2
 title: "Interactive Data Visualizations in Python"
 permalink: /projects/carpentries-dataviz-workshop
 description: "Carpentries Incubator lesson plan I developed for teaching learners how to create interactive data visualizations in Python."

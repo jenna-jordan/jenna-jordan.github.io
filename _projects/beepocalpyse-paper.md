@@ -1,7 +1,7 @@
 ---
 layout: page
 category: Publications
-importance: 2
+importance: 3
 title: "Beepocalypse"
 permalink: /projects/beepocalypse
 description: "Project completed for the Cline Center on media coverage of the beepocalypse, resulting in a PNAS Perspective article."

@@ -1,7 +1,7 @@
 ---
 layout: page
 category: Publications
-importance: 4
+importance: 5
 title: "Python can be tidy too: pandas recipes for normalizing data"
 permalink: /projects/pycon2020-poster
 description: "Poster virtually presented at PyCon2020, accompanied by the Tidy Pandas Cookbook repo."
