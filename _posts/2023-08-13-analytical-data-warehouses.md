@@ -1,6 +1,6 @@
 ---
 layout: post
-featured: true
+featured: false
 title: Analytical Data Warehouses - an introduction
 date: 2023-08-13
 description: what? how? why? data warehousing for analytics, explained (mostly)
