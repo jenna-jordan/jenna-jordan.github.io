@@ -8,9 +8,6 @@ children:
     - title: appearances
       permalink: /appearances/
     - title: divider
-    - title: book club
-      permalink: /book-club/
-    - title: divider
     - title: backlog
       permalink: /backlog/
     - title: divider

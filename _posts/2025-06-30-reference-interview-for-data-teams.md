@@ -287,7 +287,7 @@ There are 2 key things you should remember about the purpose of the reference in
 
 The idea that stakeholders rarely ask you for what they actually want is hardly a new one or unique to the reference interview. Just ask your product managers, or anyone with a few years of experience interfacing between the people who *want* things and the people who have to *deliver* those things. Hopefully this is not a revelation for you either - though if it is, it’s a valuable [lesson to learn](https://youtu.be/g0_P55Y4H_c?si=ef4zQGJl48trsU5x)<d-footnote>Shachar Meir has given talks and put out content that is very aligned with the ideas in this post, just from his own experience/perspective - I would highly encourage anyone to follow his work!</d-footnote>. 
 
-Far more important than realizing that stakeholders rarely state outright what information they actually need, is the perspective switch that it is *your* role to uncover their true information need. You will always be handicapped if you blame your stakeholders for not accurately translating their information/business request into the data team’s language.
+**Far more important than realizing that stakeholders rarely state outright what information they actually need, is the perspective switch that it is *your* role to uncover their true information need.** You will always be handicapped if you blame your stakeholders for not accurately translating their information/business request into the data team’s language.
 
 The reference interview provides a structured way to accomplish this vital discovery process, and it really doesn’t take too much translation to go from a librarian-performed reference interview to a data analyst-performed reference interview.
 

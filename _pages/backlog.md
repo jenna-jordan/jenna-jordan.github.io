@@ -8,9 +8,6 @@ date: 2024-07-26
 
 I'm an inconsistent writer. I don't put out a new post every week, I don't steadily chip away at new content, but rather I tend to write in sudden, intense bursts when inspiration strikes and I have the free time (and then I sit on it for a while until I'm happy with it). I also have a lot of ideas, and the ideas that I am definitely going to write about at some point get added to the backlog. These blog posts may not exist yet, but they will at some point, so stay tuned.
 
-The reference interview... for data teams
-:    Everyone with an MSLIS degree knows about the reference interview. It's a core part of being a librarian, and it is a conversation/process that has been refined for the specific purpose of connecting a patron to the information they actually need. I also know that data teams can really struggle with identifying/delivering what stakeholders actually need (vs what they think they need and therefore ask for). So I want to introduce the idea of the reference interview to data teams as a framework for communicating with stakeholders and scoping projects.
-
 The transformation flow, part 2: data modeling design paradigms
 :    Part 2 of this series will be an overview of different data modeling techniques - 3rd normal form, dimensional models, data vault, one big table, etc. The goal is to introduce these different ways to model data and provide lots of links/references for folks to dig deeper if they wish, while also comparing/contrasting the methods.
 

@@ -12,8 +12,8 @@ Here you can find a list of some of the (primarily) non-fiction books that I've 
 
 ## Reading now
 
-"Data and Reality" by William Kent (2nd ed.)
-:    This book merges databases, philosophy, data modeling... it's a meditation on how we can capture an infinitely complex reality in finite data models that will themselves shape reality. As someone interested in the philosophy of information, this book is a must read. You should read it with me... and join my [book club](/book-club/)!
+"Kill it with Fire: Manage Aging Computer Systems (and Future Proof Modern Ones)" by Marianne Bellotti
+:    This book is a must-read for anyone who has to work with legacy technology systems - which is why it is especially popular among civic technologists. I'm reading this as part of [Joe Reis' book club](https://www.linkedin.com/posts/josephreis_join-the-practicaldata-discord-server-activity-7351779275605225472-LCxo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAiK2FABKHqWAaEnq7CdATQwY_GSauRe0Xg).
 
 "Data Mesh: Delivering Data-Driven Value at Scale" by Zhamak Dehghani
 :    With all of the work I've been doing implementing dbt Mesh, I wanted to go back to the origins of the data mesh paradigm and learn from the creator herself. My hope is that this book can ground and guide the daily work I'm doing, as well as answering the fundamental question - what really is a data mesh?
@@ -25,6 +25,9 @@ Here you can find a list of some of the (primarily) non-fiction books that I've 
 :    This book takes the "agile" software development methodology and applies it to data modeling for data warehouses - specifically focusing on Kimball's "dimensional modeling". Since both agile and dimensional modeling are two concepts I would like to learn more about, and I am a firm believer that data modeling is a fundamentally social process, this book seems like a perfect fit.  
 
 ## Finished
+
+"Data and Reality" by William Kent (2nd ed.)
+:    This book merges databases, philosophy, data modeling... it's a meditation on how we can capture an infinitely complex reality in finite data models that will themselves shape reality. As someone interested in the philosophy of information, this book is a must read. I hosted a [book club](/book-club/) for this book in the first half of 2025.
 
 "How Big Things Get Done" by Bent Flyvbjerg and Dan Gardner
 :    Megaproject expert Bent Flyvbjerg distills a lifetime of learning why the biggest projects in the world usually go terribly wrong - while some megaprojects succeed (on budget, on time) - into a few key principles, and with co-author Dan Gardner proceeds to illustrate these principles of project management success with some fascinating stories. Key takeaways: "Think slow, Act fast" ... but also, thinking/planning is a form of acting, and it is the least costly part of a project during which to experiment and iterate. Value "experiri" - experience & experimenting. Find your "lego" - don't build one big thing, build many small things, and perfect that small thing through experimentation & iteration. Never discount the human element - the tacit knowledge of a master builder, the collective power and wisdom of an empowered team, or the outsized influence politics can play on incentives. Identify and remember the true end goal - and then develop your plan by thinking from right to left.
