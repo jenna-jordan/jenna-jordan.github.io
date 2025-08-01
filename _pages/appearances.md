@@ -12,12 +12,12 @@ date: 2025-06-29
 #### [Attendee] Out-of-Pocket Data Camp
 2025 September 19
 
-- I will be participating in [Out-of-Pocket's Data Camp](https://www.outofpocket.health/datacamp) in Boston, along with colleagues from Ratio PBC
+- I will be participating in [Out-of-Pocket's Data Camp](https://www.outofpocket.health/datacamp), a 1-day summit in Boston on healthcare analytics
 
 #### [Speaker] Coalesce by dbt Labs
 2025 October 13-16
 
-- I will be presenting my talk: "So you want to build a data mesh"
+- I will be presenting my talk: ["So you want to build a data mesh"](https://coalesce.getdbt.com/event/21662b38-2c17-4c10-9dd7-964fd652ab44/agenda?session=5a12cce0-7f5c-4ac2-a55d-0217e16636c8&shareLink=true)
 
 #### [Speaker] Data Day Texas
 2026 January 24-25
