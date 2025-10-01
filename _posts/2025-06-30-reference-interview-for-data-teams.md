@@ -36,6 +36,13 @@ toc:
 ---
 {% include figure.html path="assets/img/header_reference-interview.jpg" class="img-fluid rounded z-depth-1" %}
 
+> ##### Abridged Version Available
+>
+> An abridged version of this article was published Oct 1, 2025, on [The Data Intelligence Platform](https://dataintelligenceplatform.substack.com/p/the-librarians-reference-interview)
+>
+> Thank you Ole Olesen-Bagneux for featuring my writing as a Guest Expert!
+{: .block-tip }
+
 If you’re an analyst on a data team, the following scenarios are probably very familiar to you:
 
 1. A stakeholder you’ve worked with before comes to you with a new request. They saw what kinds of questions could be answered with a dashboard in the last project, and now they have some new questions to try and find answers for  

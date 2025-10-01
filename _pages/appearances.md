@@ -9,11 +9,6 @@ date: 2025-06-29
 ## Upcoming
 ---
 
-#### [Attendee] Out-of-Pocket Data Camp
-2025 September 19
-
-- I will be participating in [Out-of-Pocket's Data Camp](https://www.outofpocket.health/datacamp), a 1-day summit in Boston on healthcare analytics
-
 #### [Speaker] Coalesce by dbt Labs
 2025 October 13-16
 
@@ -37,10 +32,10 @@ date: 2025-06-29
 
 ## 2025
 
-#### [Instructor] git & GitHub workshop
-2025 May 19
+#### [Attendee] Out-of-Pocket Data Camp
+2025 September 19
 
-- I virtually taught my [git & GitHub workshop](http://jennajordan.me/git-novice-speedrun/) to the students in the [BU Spark!](https://www.bu.edu/spark/about/eirs/) summer program [PIT-NE](https://pitne.org/)
+- I participated in [Out-of-Pocket's Data Camp](https://www.outofpocket.health/datacamp), a 1-day summit in Boston on healthcare analytics
 
 #### [Speaker] State of Analytics Engineering Webinar
 2025 April 30
