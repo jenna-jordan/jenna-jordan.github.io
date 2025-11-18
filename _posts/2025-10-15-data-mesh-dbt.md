@@ -121,7 +121,7 @@ But - and this is a very big but - there was still no elegant way to orchestrate
 
 We finally got resolution for this story in May at dbt’s Launch Showcase with “[State Aware Orchestration](https://docs.getdbt.com/docs/deploy/state-aware-about)”, a feature of the new dbt Fusion engine… which as of this week at Coalesce 2025 is now in public preview! This means that there is now a way to orchestrate for dbt Meshes with bidirectional project dependencies, but only if you are also able to transition over to the dbt Fusion engine. dbt Fusion and state-aware orchestration are also not yet generally available, so implement with caution (and report bugs).  
 
-Now that we’ve covered some of the major dbt Mesh product developments that have resulted in the fact that I can finally now recommend organizing your dbt projects according the first data mesh principle of domain ownership, let’s talk about the other complicating factor: your organization. There are two different organizational profiles that are likely to implement dbt mesh:
+Now that we’ve covered some of the major dbt Mesh product developments that have resulted in the fact that I can finally now recommend organizing your dbt projects according to the first data mesh principle of domain ownership, let’s talk about the other complicating factor: your organization. There are two different organizational profiles that are likely to implement dbt mesh:
 
 1. The organization that has been using dbt for years, with model counts ballooning into the thousands and DAG that looks like the Cthulu version of a spaghetti monster, finally needing to split their single project up into many for the sake of everyone’s sanity  
 2. The organization that is new to adopting dbt but knows they either want a data mesh or are already operating with a data mesh strategy, and therefore want many domain-aligned dbt projects
@@ -199,7 +199,7 @@ Beyond the basic dbt tests you get out of the box, dbt packages like [dbt-utils]
 
 ##### Natively accessible
 
-For a data product to be natively accessible, it should be available in wherever and in whatever format the user needs it. Since dbt has traditionally operated within a single platform, your data product would only be available as a table/view within a database. However, there are two features that address this limitation: [cross-platform Mesh](https://www.getdbt.com/blog/introducing-cross-platform-dbt-mesh) via [Iceberg support](https://docs.getdbt.com/docs/mesh/iceberg/apache-iceberg-support) and the dbt [Semantic Layer](https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl).    
+For a data product to be natively accessible, it should be available wherever and in whatever format the user needs it. Since dbt has traditionally operated within a single platform, your data product would only be available as a table/view within a database. However, there are two features that address this limitation: [cross-platform Mesh](https://www.getdbt.com/blog/introducing-cross-platform-dbt-mesh) via [Iceberg support](https://docs.getdbt.com/docs/mesh/iceberg/apache-iceberg-support) and the dbt [Semantic Layer](https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl).    
 
 If you materialize your data product model using an Iceberg materialization - and assuming you are on a platform that supports Iceberg - users can now access that data from their own data platform (assuming their platform also supports Iceberg). Open table formats are changing the game around accessibility and interoperability - at least that is the vision that we seem to be on our way to realizing. Until support is more widespread and reliable, additional infrastructure may still be needed to move data between platforms.  
 
@@ -250,7 +250,7 @@ Supporting all of this is a platform team. If you do not already have a platform
 
 #### Applied to dbt
 
-Before describing how you should apply this principle to dbt, I must first acknowledge something: I think it is highly unlikely that Zhamak would agree that is even possible to create a self-serve data platform in accordance with her vision using dbt. Zhamak has spent a considerable amount of time and effort creating her vision of a true self-serve data platform with her company’s product, [Nextdata OS](https://www.nextdata.com/product).   
+Before describing how you should apply this principle to dbt, I must first acknowledge something: I think it is highly unlikely that Zhamak would agree that it is even possible to create a self-serve data platform in accordance with her vision using dbt. Zhamak has spent a considerable amount of time and effort creating her vision of a true self-serve data platform with her company’s product, [Nextdata OS](https://www.nextdata.com/product).   
 
 So, I am not going to even try to recommend you implement this principle with dbt, especially with respect to the decentralization component. Instead, I am going to focus on a sub-principle: that it should be as easy as possible for new domain teams to get started producing their first data products.   
 
