@@ -3,16 +3,11 @@ layout: post
 permalink: /appearances/
 title: "Appearances"
 description: Conferences, webinars, meetups, workshops
-date: 2025-06-29
+date: 2025-11-18
 ---
 
 ## Upcoming
 ---
-
-#### [Speaker] Coalesce by dbt Labs
-2025 October 13-16
-
-- I will be presenting my talk: ["So you want to build a data mesh"](https://coalesce.getdbt.com/event/21662b38-2c17-4c10-9dd7-964fd652ab44/agenda?session=5a12cce0-7f5c-4ac2-a55d-0217e16636c8&shareLink=true)
 
 #### [Speaker] Data Day Texas
 2026 January 24-25
@@ -32,20 +27,25 @@ date: 2025-06-29
 
 ## 2025
 
+#### [Speaker] Coalesce by dbt Labs
+2025 October 13-16
+
+- I presented my talk: ["So you want to build a data mesh"](https://youtu.be/yKScVw4gVfo?si=AMJ6OSA1smmfzg3M). I also wrote a [blog post](/blog/data-mesh-dbt) to accompany it.
+
 #### [Attendee] Out-of-Pocket Data Camp
 2025 September 19
 
-- I participated in [Out-of-Pocket's Data Camp](https://www.outofpocket.health/datacamp), a 1-day summit in Boston on healthcare analytics
+- I participated in [Out-of-Pocket's Data Camp](https://www.outofpocket.health/datacamp), a 1-day summit in Boston on healthcare analytics.
 
 #### [Speaker] State of Analytics Engineering Webinar
 2025 April 30
 
-- I co-hosted the annual [State of Analytics Engineering webinar](https://www.getdbt.com/2025-state-of-analytics-engineering-virtual-event-recording) by dbt Labs
+- I co-hosted the annual [State of Analytics Engineering webinar](https://www.getdbt.com/2025-state-of-analytics-engineering-virtual-event-recording) by dbt Labs.
 
 #### [Attendee] Data Day Texas
 2025 January 25-26
 
-- I attended [Data Day Texas 2025](https://datadaytexas.com/2025/speakers), and wrote up some of my reflections & observations [here](/blog/ddtx25-recap)
+- I attended [Data Day Texas 2025](https://datadaytexas.com/2025/speakers), and wrote up some of my reflections & observations [here](/blog/ddtx25-recap).
 
 ## 2024
 
@@ -59,7 +59,7 @@ date: 2025-06-29
 #### [Speaker] Chicago dbt Meetup
 2024 September 12
 
-- I [presented on dbt Mesh](/projects/dbt-mesh-council-simulation#dbt-mesh-working-session-at-the-chicago-dbt-meetup) and facilitated a "working session" with some meshy problem-solving scenarios
+- I [presented on dbt Mesh](/projects/dbt-mesh-council-simulation#dbt-mesh-working-session-at-the-chicago-dbt-meetup) and facilitated a "working session" with some meshy problem-solving scenarios.
 
 
 ## 2023
@@ -67,12 +67,12 @@ date: 2025-06-29
 #### [Speaker] Coalesce by dbt Labs
 2023 October 16-19
 
-- I [delivered a talk](https://youtu.be/6aX7tAfMmIM?si=65eBOp2V66v4tS0E) called "From coast to coast: Implementing dbt in the public sector", along with my two co-speakers, about [my work at the City of Boston](/projects/dbt-migration-cob)
+- I [delivered a talk](https://youtu.be/6aX7tAfMmIM?si=65eBOp2V66v4tS0E) called "From coast to coast: Implementing dbt in the public sector", along with my two co-speakers, about [my work at the City of Boston](/projects/dbt-migration-cob).
 
 #### [Attendee] BARI Conference
 2023 April 28
 
-- I attended the [2023 Boston Area Research Initiative (BARI) Conference](https://cssh.northeastern.edu/bari/past-conferences/bari-conference-2023-greater-bostons-annual-insight-to-impact-summit/) along with colleagues from the City of Boston Analytics Team
+- I attended the [2023 Boston Area Research Initiative (BARI) Conference](https://cssh.northeastern.edu/bari/past-conferences/bari-conference-2023-greater-bostons-annual-insight-to-impact-summit/) along with colleagues from the City of Boston Analytics Team.
 
 ## 2019
 
