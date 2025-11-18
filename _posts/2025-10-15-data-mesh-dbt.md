@@ -16,7 +16,7 @@ authors:
 bibliography: 2025-10-15-data-mesh-dbt.bib
 toc:
   - name: A brief history of data mesh (and further resources)
-  - name: Why data mesh + dbt?
+  - name: Why data mesh and dbt
   - name: The 4 principles of data mesh
     subsections:
       - name: Domain Ownership
@@ -31,9 +31,9 @@ toc:
       - name: Federated Computational Governance
         subsections:
           - name: Applied to dbt
-  - name: People & Process
+  - name: People and Process
     subsections:
-      - name: It’s decision time
+      - name: Decision time
         subsections:
           - name: Domain Ownership
           - name: Data as a Product
@@ -41,10 +41,16 @@ toc:
           - name: Federated Computational Governance
       - name: Map out your process
   - name: Wrapping Up
+  - name: Appendix
 ---
+
+{% include figure.html path="assets/img/header_data-mesh.png" class="img-fluid rounded z-depth-1" %}
+
+> The Coalesce session recording is now available! See the [Appendix](#appendix)
+
 During my time as a consultant with Analytics8, I worked with two different companies who were both implementing dbt Mesh. I learned so much from both of those engagements, both from my very smart colleagues at both Analytics8 and the clients, and from the problems I had to solve while implementing dbt Mesh. I also started learning more about data mesh, and added the Data Mesh bible to my bookshelf. I saw the chaos that could result from implementing dbt Mesh simply as a convenient higher level of organization, and I became convinced that one of the best ways to implement dbt Mesh was with data mesh as a grounding, opinionated philosophy.  
 
-Data Mesh exploded into the data scene in 2022 with Zhamak Dehghani’s book “Data Mesh: Delivering Data-Driven Value at Scale”. Zhamak characterized data mesh as a “decentralized sociotechnical approach to share, access, and manage analytical data in complex and large-scale environments -- within or across organizations.”<d-cite key="Dehghani_2022"></d-cite>
+Data Mesh exploded into the data scene in 2022 with Zhamak Dehghani’s book “Data Mesh: Delivering Data-Driven Value at Scale”.<d-footnote>Every quote throughout this blog post, unless otherwise noted, is from this book.</d-footnote> Zhamak characterized data mesh as a “decentralized sociotechnical approach to share, access, and manage analytical data in complex and large-scale environments -- within or across organizations.”<d-cite key="Dehghani_2022"></d-cite>
 
 She clarifies that data mesh is about analytical data, not operational data, and that it is an approach to data management, not an architecture. It belongs properly as part of an organization’s data strategy, and provides a target state to iterate towards for both the organizational operating model (socio) and enterprise architecture (technical).   
 
@@ -68,7 +74,7 @@ After Zhamak’s book was released in 2022, she quit her role at ThoughtWorks to
 
 Data mesh as a concept has also evolved as the thought leadership on data mesh has expanded beyond Zhamak to include others like Jean-Georges Perrin (JGP), who co-authored “[Implementing Data Mesh](https://www.oreilly.com/library/view/implementing-data-mesh/9781098156213/)” with Eric Broda in 2024 and authored the soon-to-be-published “[Building Data Products](https://www.oreilly.com/library/view/building-data-products/9798341629394/)”. JGP’s focus is primarily on the principle of data as a product, and you can read more about his approach in the blog post “[The Next Generation of Data Platforms is Data Mesh](https://dataintelligenceplatform.substack.com/p/the-next-generation-of-data-platforms)”. JGP is also the chair of the Linux Foundation’s [Bitol](https://bitol.io/) project, which has published the [Open Data Product Standard (ODPS)](https://bitol-io.github.io/open-data-product-standard/latest/) and [Open Data Contract Standard (ODCS)](https://bitol-io.github.io/open-data-contract-standard/latest/).
 
-### Why data mesh + dbt?
+### Why data mesh and dbt
 
 Data mesh and dbt both share a single fundamental mission: bringing software engineering best practices to data engineering. With [dbt](https://www.getdbt.com/blog/data-engineering), analytics engineers got version control, CI/CD, isolated development and production environments, testing, and documentation out of the box. Similarly, Zhamak positions data mesh as bringing the decentralization revolution in software engineering (microservices architecture) to the data world. Notably, both data mesh & microservices architecture were deeply influenced by Eric Evans' book [Domain-Driven Design](https://domainlanguage.com/ddd/).   
 
@@ -305,13 +311,13 @@ Once your dbt project - the code itself - is data that can be queried and tested
 
 Here comes another request for the dbt Labs team: it would be amazing if default project configurations (think: the configs that you set in your dbt_project.yml file) could be inherited from that internal dbt package (which evolves into a central project that underlies the entire mesh). While code can be imported from packages (models, macros), configurations cannot - but it would make setting up and governing the mesh easier if they could be!
 
-## People & Process
+## People and Process
 
 As I’m sure you’ve noticed while reading this blog post, there are a lot of decisions to be made about how, exactly, your organization will decide to implement dbt Mesh. And when you are operating at the scale of a mesh, with governance and ownership distributed across the domains, it is no longer feasible for a single leader or centralized governance team to make these decisions for everyone. While it may be tempting to put the responsibility of crafting data mesh governance policies on the existing (likely highly centralized) governance team (or, conversely, to leave them out completely!), please resist the temptation. Instead, you need a “federated team of domain product owners, subject matter experts, and central facilitators.” Identify a core group of decision makers that allows for every domain to be represented, and charge this group collectively with crafting the policies, making decisions, and steering the development of the mesh. Start to transition data stewards from the centralized governance team into the domains, and pull domain data product owners into the new (federated!) mesh governance team. (Note: this federated mesh governance team is an important component of the fourth principle).  
 
 In short - you need to convene your mesh! Let’s review some of the decisions this Mesh Governance Council will need to make, one principle at a time.
 
-### It’s decision time
+### Decision time
 
 #### Domain Ownership
 
@@ -376,4 +382,11 @@ I hope that you walk away from this blog post (and accompanying talk) also convi
 </div>
 <div class="caption">
     PDF of the slides presented during the talk
+</div>
+
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yKScVw4gVfo?si=e0el1KQG8u0Xaol2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="caption">
+    Official recording of "So you want to build a data mesh" on YouTube
 </div>
