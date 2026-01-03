@@ -12,7 +12,7 @@ date: 2025-11-18
 #### [Speaker] Data Day Texas
 2026 January 24-25
 
-- I will be speaking at [Data Day Texas 2026](https://datadaytexas.com/2026/speakers#jordan). Stay tuned to learn more about what the talk will be about!
+- I will be speaking at [Data Day Texas 2026](https://datadaytexas.com/2026/speakers#jordan) with Amalia Child on: "[Think Like a Librarian: Fresh Perspectives for Data Teams from a Time-Honored Tradition](https://datadaytexas.com/2026/sessions#jordan-child)"
 
 > ##### TIP
 >
