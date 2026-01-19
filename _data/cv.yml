@@ -27,10 +27,11 @@
       year: May 2025 - present
       description:
         - Build dbt projects for public health initiatives and Health & Human Services organizations 
+        - Monitor data quality for the NYHER program at New York State Department of Health
 
     - title: Expert in Residence (part-time)
       institution: BU Spark!
-      year: Jan 2025 - present
+      year: Jan 2025 - Dec 2025
       description:
         - Mentor and provide support to student teams at BU Spark! working on public interest projects. Specifically focused on data engineering skill building and domain knowledge of City of Boston public data.
 
