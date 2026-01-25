@@ -33,6 +33,7 @@ toc:
   - name: Wrapping Up
     subsections:
       - name: Special thanks
+  - name: Appendix
 ---
 {% include figure.html path="assets/img/header_reference-interview.jpg" class="img-fluid rounded z-depth-1" %}
 
@@ -315,3 +316,16 @@ If after reading this post you are intrigued enough to try any of these strategi
 Most students in an MSLIS program take a class called “Reference & Information Services”. It’s a core part of the curriculum, if not required. Many MSLIS graduates go on to work in a library and gain experience in conducting the reference interview. Unfortunately, neither applies to me - I veered hard into the “information management” side of my program, and then kept on veering straight into the data field. However, I do have the great fortune of having a group of friends from my cohort who did take Reference, and who did go on to be librarians who conduct reference interviews. When the idea for this blog post was first taking shape, they were the first people I went to for help and resources. They sent me their class syllabus and readings, and patiently answered all of my questions about the reference interview based on their knowledge and experiences. Thank you for the references and the conversations - I wouldn’t have been able to write this without you. To Yvonne Freebourn, Taylor VanTryon, Adam McConville, and Christine Willson, UIUC iSchool Class of 2020.
 
 Also<d-footnote>Thank you to the family, friends, and colleagues who read a draft of this (absurdly long) post in advance and offered feedback/edits/thoughts. I appreciate y'all <3</d-footnote>, special shoutout to Amalia Child for [citing this post](https://locallyoptimistic.com/post/the-five-laws-of-data-enablement-how-the-father-of-library-science-would-make-his-data-team-indispensable/#a70ebd47-9401-411b-878d-923fe05d6606)<d-footnote>at long last, your footnote can have a link :D</d-footnote> long before it even existed, and fighting the good fight with me to spread the wisdom of Library & Information Science to the data world.
+
+## Appendix
+
+<div class="row">
+    <div class="col-sm md-auto">
+        <a href="/assets/pdf/Data-Day-2026.pdf">
+        {% include figure.html path="/assets/img/ddtx26-titleslide.png" title="Data Day Texas 2026 Talk Slides"  class="img-fluid rounded z-depth-1" %}
+        </a>
+    </div>
+</div>
+<div class="caption">
+    PDF of the slides presented during my Data Day Texas 2026 talk
+</div>

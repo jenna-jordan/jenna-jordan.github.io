@@ -3,34 +3,23 @@ layout: post
 permalink: /appearances/
 title: "Appearances"
 description: Conferences, webinars, meetups, workshops
-date: 2025-11-18
+date: 2026-01-25
 ---
 
-## Upcoming
----
+## 2026
 
 #### [Speaker] Data Day Texas
 2026 January 24-25
 
-- I will be speaking at [Data Day Texas 2026](https://datadaytexas.com/2026/speakers#jordan) with Amalia Child on: "[Think Like a Librarian: Fresh Perspectives for Data Teams from a Time-Honored Tradition](https://datadaytexas.com/2026/sessions#jordan-child)"
+- I presented at [Data Day Texas 2026](https://datadaytexas.com/2026/speakers#jordan) on: "[Think Like a Librarian: Fresh Perspectives for Data Teams from a Time-Honored Tradition](https://datadaytexas.com/2026/sessions#jordan-child)". The original plan was to speak with Amalia Child, but unfortunately due to the weather she wasn't able to make it. The talk draws heavily from [this blog post](/blog/reference-interview-for-data-teams), and you can find the slides (no recording) in the [Appendix](/blog/reference-interview-for-data-teams#appendix)
 
-> ##### TIP
->
-> Use the code JENNA-JORDAN for 20% off when buying [tickets for DDTX26](https://www.eventbrite.com/e/data-day-texas-ai-2026-tickets-1232401368669?aff=oddtdtcreator).
->
-> Don't forget to buy tickets for the Sunday Data Discussions as well!
-{: .block-tip }
----
-
-## Past
----
 
 ## 2025
 
 #### [Speaker] Coalesce by dbt Labs
 2025 October 13-16
 
-- I presented my talk: ["So you want to build a data mesh"](https://youtu.be/yKScVw4gVfo?si=AMJ6OSA1smmfzg3M). I also wrote a [blog post](/blog/data-mesh-dbt) to accompany it.
+- I presented my talk: ["So you want to build a data mesh"](https://youtu.be/yKScVw4gVfo?si=AMJ6OSA1smmfzg3M). I also wrote a [blog post](/blog/data-mesh-dbt) to accompany it. You can find both the slides and the recording of the talk in the [Appendix](/blog/data-mesh-dbt#appendix).
 
 #### [Attendee] Out-of-Pocket Data Camp
 2025 September 19
