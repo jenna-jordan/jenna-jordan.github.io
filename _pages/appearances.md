@@ -41,7 +41,7 @@ date: 2026-01-25
 #### [Speaker] Coalesce by dbt Labs
 2024 October 7-10
 
-- I facilitated a peer exchange session at Coalesce 2024 called "Governance co-lab: We the people, in order to govern data, do establish processes". This session was not recorded, but I do have a [detailed write-up]((/projects/dbt-mesh-council-simulation)) including all relevant resources.
+- I facilitated a peer exchange session at Coalesce 2024 called "Governance co-lab: We the people, in order to govern data, do establish processes". This session was not recorded, but I do have a [detailed write-up](/projects/dbt-mesh-council-simulation) including all relevant resources.
 
 - I spoke on a panel discussion during the [closing keynote](https://youtu.be/I72yUtrmhbY?si=JGW7SgWOGAPxVzWi&t=1606) with two other dbt Community awardees.
 
