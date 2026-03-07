@@ -29,11 +29,11 @@
         - Build dbt projects for public health initiatives and Health & Human Services organizations 
         - Monitor data quality for the NYHER program at New York State Department of Health
 
-    - title: Expert in Residence (part-time)
+    - title: Expert in Residence
       institution: BU Spark!
-      year: Jan 2025 - Dec 2025
+      year: Jan 2025 - present
       description:
-        - Mentor and provide support to student teams at BU Spark! working on public interest projects. Specifically focused on data engineering skill building and domain knowledge of City of Boston public data.
+        - Mentor and provide support to student teams at BU Spark! working on public interest projects. I also teach a git/Github workshop each semester as the students kick off their projects.
 
     - title: Senior Consultant, Data Management & Strategy
       institution: Analytics8
