@@ -8,9 +8,9 @@ date: 2026-01-25
 
 ## Upcoming
 
-- Guest on [It's About Data](https://www.dbinsight.io/its-about-data) with Thais Cooke. "It's About Data" is a podcast hosted by Matt Housley and Tony Baer.
+- Guest on [It's About Data](https://www.dbinsight.io/its-about-data) with Thais Cooke. "It's About Data" is a podcast hosted by Matt Housley and Tony Baer. This is a follow up to my talk at Data Day Texas.
 
-- Guest on [Catalog & Cocktails](https://omny.fm/shows/catalog-and-cocktails-the-honest-no-bs-data-podcast) with Amalia Child. "Catalog & Cocktails" is a podcast hosted by Juan Sequeda and Tim Gasper.
+- Guest on [Catalog & Cocktails](https://omny.fm/shows/catalog-and-cocktails-the-honest-no-bs-data-podcast) with Amalia Child. "Catalog & Cocktails" is a podcast hosted by Juan Sequeda and Tim Gasper. This is a follow up to my talk at Data Day Texas.
 
 ---
 
