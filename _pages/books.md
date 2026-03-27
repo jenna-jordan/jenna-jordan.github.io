@@ -10,20 +10,6 @@ toc:
 
 Here you can find a list of some of the (primarily) non-fiction books that I've read. If you're interested in the fiction books I've read, that is a much, much longer list and you should probably friend me on Goodreads. There are a few select fiction books I've included in the list, simply because I think they are very intelligent reads that are relevant to the content on this blog. I have been making an effort recently to read more non-fiction books, and I especially like listening to non-fiction audiobooks. So some of the books on this list I haven't actually "read"... I've listened to them!
 
-## Reading now
-
-"Kill it with Fire: Manage Aging Computer Systems (and Future Proof Modern Ones)" by Marianne Bellotti
-:    This book is a must-read for anyone who has to work with legacy technology systems - which is why it is especially popular among civic technologists. I'm reading this as part of [Joe Reis' book club](https://www.linkedin.com/posts/josephreis_join-the-practicaldata-discord-server-activity-7351779275605225472-LCxo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAiK2FABKHqWAaEnq7CdATQwY_GSauRe0Xg).
-
-"Data Mesh: Delivering Data-Driven Value at Scale" by Zhamak Dehghani
-:    With all of the work I've been doing implementing dbt Mesh, I wanted to go back to the origins of the data mesh paradigm and learn from the creator herself. My hope is that this book can ground and guide the daily work I'm doing, as well as answering the fundamental question - what really is a data mesh?
-
-"Fundamentals of Data Engineering" by Joe Reis & Matt Housley
-:    The data engineer's bible - this book is a comprehensive overview of everything the modern data engineer needs to know in today's technology landscape. It goes into each part of the data engineering lifecycle and provides a framework for selecting the technologies & tools you need for your stack, and how to solve data engineering problems and build a robust architecture using best practices. Essentially, this is required reading for today's data engineers.
-
-"Agile Data Warehouse Design" by Lawrence Corr & Jim Stagnitto
-:    This book takes the "agile" software development methodology and applies it to data modeling for data warehouses - specifically focusing on Kimball's "dimensional modeling". Since both agile and dimensional modeling are two concepts I would like to learn more about, and I am a firm believer that data modeling is a fundamentally social process, this book seems like a perfect fit.  
-
 ## Finished
 
 "Data and Reality" by William Kent (2nd ed.)
@@ -59,7 +45,19 @@ Here you can find a list of some of the (primarily) non-fiction books that I've 
 "Outliers: The Story of Success" by Malcolm Gladwell
 :    This was a very interesting book that was essentially divided into two parts - the first part was about very successful individuals and their shared techniques for achieving that success (Gladwell's famous 10,000 hour rule). But the second part was even more interesting for me, and it was about how the social, economic, and political situations that individuals were in had a far greater influence on those individuals being successful than any actions that individual person took.
 
-## On Pause
+## Paused somewhere in the middle (and will finish someday)
+
+"Kill it with Fire: Manage Aging Computer Systems (and Future Proof Modern Ones)" by Marianne Bellotti
+:    This book is a must-read for anyone who has to work with legacy technology systems - which is why it is especially popular among civic technologists. I'm reading this as part of [Joe Reis' book club](https://www.linkedin.com/posts/josephreis_join-the-practicaldata-discord-server-activity-7351779275605225472-LCxo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAiK2FABKHqWAaEnq7CdATQwY_GSauRe0Xg).
+
+"Data Mesh: Delivering Data-Driven Value at Scale" by Zhamak Dehghani
+:    With all of the work I've been doing implementing dbt Mesh, I wanted to go back to the origins of the data mesh paradigm and learn from the creator herself. My hope is that this book can ground and guide the daily work I'm doing, as well as answering the fundamental question - what really is a data mesh?
+
+"Fundamentals of Data Engineering" by Joe Reis & Matt Housley
+:    The data engineer's bible - this book is a comprehensive overview of everything the modern data engineer needs to know in today's technology landscape. It goes into each part of the data engineering lifecycle and provides a framework for selecting the technologies & tools you need for your stack, and how to solve data engineering problems and build a robust architecture using best practices. Essentially, this is required reading for today's data engineers.
+
+"Agile Data Warehouse Design" by Lawrence Corr & Jim Stagnitto
+:    This book takes the "agile" software development methodology and applies it to data modeling for data warehouses - specifically focusing on Kimball's "dimensional modeling". Since both agile and dimensional modeling are two concepts I would like to learn more about, and I am a firm believer that data modeling is a fundamentally social process, this book seems like a perfect fit.  
 
 "The Information: A History, a Theory, a Flood" by James Gleick
 :     The concept of "information" has a fascinating history - and this book is a deep dive into everything information, and all of the ways humans have devised to communicate information from pre-literate societies to the computers of the modern era. As an aspiring information scientist, I feel like this book contextualizes everything I am learning, providing a solid foundation for understanding the tools I use for working with data.
@@ -72,8 +70,14 @@ Here you can find a list of some of the (primarily) non-fiction books that I've 
 
 ## Next up
 
+"How to take smart notes" by Sönke Ahrens
+:   One of my goals is to write more things down, and improve my personal knowledge management. This book comes [highly recommended by Simon Späti](https://www.ssp.sh/brain/smart-note-taking), and I'd also like to do the [accompanying course](https://smartnotes.teachable.com/p/how-to-take-smart-notes-in-obsidian), which uses Obsidian and Zotero to implement the methods described in the book.
+
+"Software Wasteland: How the Application-Centric Mindset is Hobbling our Enterprises" and "The Data-Centric Revolution: Restoring Sanity to Enterprise Information Systems" by Dave McComb
+:   This duology comes highly recommended by Juan Sequeda, and lays out the paradigm shift needed to make analytics and applications go hand in hand (vs head to head).
+
 "Recoding America" by Jennifer Pahlka
-:   Just released in June 2023, this has quickly become the book at the intersection of tech and policy. As a tech/data person and a city government employee, this is a must read for me!
+:   Released in June 2023, this has quickly become the book at the intersection of tech and policy. As a tech/data person and a city government employee, this is a must read for me!
 
 "The Programmer's Brain: What every programmer needs to know about cognition" by Felienne Hermans
 :   This book has been all over my twitter timeline since it came out - and is especially highly recommended from folks with The Carpentries. My goal for reading this book is not only to become a better programmer myself, but also to become a better teacher for all things programming.
