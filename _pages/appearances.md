@@ -12,6 +12,21 @@ date: 2026-01-25
 
 - Guest on [Catalog & Cocktails](https://omny.fm/shows/catalog-and-cocktails-the-honest-no-bs-data-podcast) with Amalia Child. "Catalog & Cocktails" is a podcast hosted by Juan Sequeda and Tim Gasper. This is a follow up to my talk at Data Day Texas.
 
+#### [Attendee] Out-of-Pocket Data Camp
+2026 June 25-26
+
+- I'm headed back to [Out-of-Pocket's Data Camp](https://www.outofpocket.health/datacamp), an invite-only healthcare analytics summit in Boston/Cambridge.
+
+#### [TBD] dbt Summit
+2026 September 15-18
+
+- Whether as a speaker or an attendee (submitted a peer exchange proposal, and waiting to hear whether it is accepted), I'll be attending dbt Summit this year!
+
+#### [Attendee] Helsinki Data Week
+2026 October 27-30
+
+- I'm very excited to be traveling to Finland to attend Helsinki Data Week for the first time ever!
+
 ---
 
 ## 2026
