@@ -8,10 +8,6 @@ date: 2026-01-25
 
 ## Upcoming
 
-- Guest on [It's About Data](https://www.dbinsight.io/its-about-data) with Thais Cooke. "It's About Data" is a podcast hosted by Matt Housley and Tony Baer. This is a follow up to my talk at Data Day Texas.
-
-- Guest on [Catalog & Cocktails](https://omny.fm/shows/catalog-and-cocktails-the-honest-no-bs-data-podcast) with Amalia Child. "Catalog & Cocktails" is a podcast hosted by Juan Sequeda and Tim Gasper. This is a follow up to my talk at Data Day Texas.
-
 #### [Attendee] Out-of-Pocket Data Camp
 2026 June 25-26
 
@@ -30,6 +26,16 @@ date: 2026-01-25
 ---
 
 ## 2026
+
+#### [Guest] It's About Data Podcast
+2026 April 21
+
+- I was a [guest on It's About Data](https://youtu.be/Mkf9W8-kMUE?si=GatCPxsww8xGWByG) with Thais Cooke. ["It's About Data"]((https://www.dbinsight.io/its-about-data)) is a podcast hosted by Matt Housley and Tony Baer. This was also a follow up to my talk at Data Day Texas 2026 about the reference interview ([read more](/blog/reference-interview-for-data-teams)).
+
+#### [Guest] Catalog & Cocktails Podcast
+2026 April 15
+
+- I was a [guest on Catalog & Cocktails](https://youtu.be/ovVdbyE07xk?si=1pBACm-Kfq_H7rA5) with Amalia Child. ["Catalog & Cocktails"](https://omny.fm/shows/catalog-and-cocktails-the-honest-no-bs-data-podcast) is a podcast hosted by Juan Sequeda and Tim Gasper. This was a follow up to my talk at Data Day Texas 2026 about the reference interview ([read more](/blog/reference-interview-for-data-teams)). The podcast was also [streamed on LinkedIn](https://www.linkedin.com/events/datateams-thinklikealibrarian-w7449219437489991680/theater/).
 
 #### [Speaker] Data Day Texas
 2026 January 24-25
