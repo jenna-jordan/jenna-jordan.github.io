@@ -13100,7 +13100,6 @@ distill-header .nav a {
     ['Mathematics', Mathematics],
     ['Meta', Meta],
     ['Typeset', Typeset],
-    ['Polyfills', render],
     ['CitationList', CitationList],
     ['Reorder', render$1] // keep last
   ]);
