@@ -7,7 +7,7 @@ first_name: Jenna
 middle_name:
 last_name: Jordan
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  <a href="https://linktr.ee/jennajordan">Where I live on the internet</a>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I do data stuff with python + SQL. Learned to code at library school. Knitter. Dog mom. Nerdy for sci-fi/fantasy, board games, and well-wrangled data.
 footer_text: >
