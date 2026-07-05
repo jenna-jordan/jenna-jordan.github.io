@@ -1,14 +1,20 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jenna-jordan
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - jenna-jordan/git-novice-speedrun
+  - jenna-jordan/data-project-template
+  - jenna-jordan/dbt-public-sector-resources
+  - CityOfBoston/cob_analytics_dbt_skeleton_project
+  - jenna-jordan/Boston_CityScore_App
+  - jenna-jordan/Advent_of_Code
+  - carpentries-incubator/python-interactive-data-visualizations
+  - jenna-jordan/interact-with-gapminder-data-app
+  - jenna-jordan/beepocalypse_streamlit
+  - jenna-jordan/beepocalypse
+  - jenna-jordan/tidy-pandas-cookbook
+  - jenna-jordan/international-relations-database-extended
+  - jenna-jordan/international-relations-database
+  - jenna-jordan/Prisoners-Dilemma
