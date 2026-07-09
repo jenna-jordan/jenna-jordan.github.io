@@ -1,50 +1,44 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Jenna Jordan
+  label: Data & Analytics Engineer
+  email: jenna.jrdn@gmail.com
+  #location: Princeton, NJ
+  #image: ""
+  summary: Data & Analytics Engineer working in civic tech.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: jenna-jordan
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
-
+      username: jennajordan1
+  
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+    Interests:
+      - bullet: "Data Engineering"
+      - bullet: "Analytics Engineering"
+      - bullet: "Data Modeling"
+      - bullet: "dbt"
+
+    Education:
+      - institution: University of Illinois at Urbana-Champaign
+        location: Champaign, IL, USA
+        url: https://ischool.illinois.edu/
+        area: Library & Information Science
+        studyType: Master of Science
+        start_date: 2018
+        end_date: 2010
+        score: "3.97 GPA"
+
+      - institution: University of North Carolina at Chapel Hill
+        location: Chapel Hill, NC, USA
+        area: Journalism, Political Science
+        studyType: Bachelor of Arts
+        start_date: 2011
+        end_date: 2015
+        score: "3.61 GPA"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Graduated with Honors
 
     Experience:
       - company: Institute for Advanced Study, Princeton University
@@ -149,10 +143,10 @@ cv:
       - name: English
         summary: "Fluent"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    # Interests:
+    #   - name: Physics
+    #     icon: fa-solid fa-tag
+    #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Certificates:
       - name: Machine Learning
@@ -187,3 +181,4 @@ cv:
       - name: Professor Jane Smith
         icon: fa-solid fa-thumbtack
         reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+

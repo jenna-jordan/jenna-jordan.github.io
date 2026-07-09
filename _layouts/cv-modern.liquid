@@ -31,16 +31,19 @@ layout: default
     <!-- ===== BIO / PROFILE CARD ===== -->
     <div class="cv-profile-card">
       <div class="cv-profile-body">
+        {% if cv.name %}
+          <h2 class="cv-section-title"></i>{{ cv.name }}</h2>
+        {% endif %}
         {% if cv.summary %}
           <p class="cv-bio">{{ cv.summary }}</p>
         {% endif %}
 
         <!-- Research interests as tags -->
-        {% if cv.sections.Research %}
+        {% if cv.sections.Interests %}
           <div class="cv-tags-row">
-            {% for item in cv.sections.Research %}
+            {% for item in cv.sections.Interests %}
               {% if item.bullet %}
-                <span class="cv-tag"><i class="fa-solid fa-microscope"></i> {{ item.bullet }}</span>
+                <span class="cv-tag"><i class="fa-solid fa-tag"></i> {{ item.bullet }}</span>
               {% endif %}
             {% endfor %}
           </div>
