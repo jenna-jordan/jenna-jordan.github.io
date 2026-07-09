@@ -88,13 +88,15 @@ layout: default
                 <div class="cv-timeline-header">
                   <div>
                     <span class="cv-timeline-title">
-                      {% if entry.url %}
-                        <a href="{{ entry.url }}" target="_blank" rel="noopener">{{ entry.position }}</a>
-                      {% else %}
                         {{ entry.position }}
-                      {% endif %}
                     </span>
-                    <span class="cv-timeline-org">{{ entry.company | default: entry.name }}</span>
+                    <span class="cv-timeline-org">
+                    {% if entry.url %}
+                        <a href="{{ entry.url }}" target="_blank" rel="noopener">{{ entry.company }}</a>
+                    {% else %}
+                        {{ entry.company | default: entry.name }}
+                    {% endif %}
+                    </span>
                   </div>
                   <div class="cv-timeline-dates">
                     {% assign s = entry.start_date | split: '-' | first %}
@@ -106,8 +108,18 @@ layout: default
                     {% endif %}
                   </div>
                 </div>
+                {% if entry.location %}
+                  <p class="cv-timeline-location"><i class="fa-solid fa-location-dot"></i> {{ entry.location }}</p>
+                {% endif %}
                 {% if entry.summary %}
                   <p class="cv-timeline-desc">{{ entry.summary }}</p>
+                {% endif %}
+                {% if entry.highlights %}
+                  <ul>
+                    {% for item in entry.highlights %}
+                      <li class="cv-timeline-desc">{{ item }}</li>
+                    {% endfor %}
+                  </ul>
                 {% endif %}
               </div>
             </div>
@@ -183,12 +195,16 @@ layout: default
                   </div>
                   <div class="cv-timeline-dates">{{ entry.start_date }}&thinsp;–&thinsp;{{ entry.end_date }}</div>
                 </div>
-                {% if entry.area %}
-                  <p class="cv-timeline-desc">{{ entry.area }}</p>
-                {% endif %}
                 {% if entry.location %}
                   <p class="cv-timeline-location"><i class="fa-solid fa-location-dot"></i> {{ entry.location }}</p>
                 {% endif %}
+                {% if entry.area %}
+                  <p class="cv-timeline-desc">{{ entry.area }}</p>
+                {% endif %}
+                {% if entry.highlights %}
+                  <p class="cv-timeline-desc"><i>{{ entry.highlights }}</i></p>
+                {% endif %}
+
               </div>
             </div>
           {% endfor %}
