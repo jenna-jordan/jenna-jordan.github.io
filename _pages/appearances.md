@@ -30,7 +30,7 @@ date: 2026-01-25
 #### [Guest] It's About Data Podcast
 2026 April 21
 
-- I was a [guest on It's About Data](https://youtu.be/Mkf9W8-kMUE?si=GatCPxsww8xGWByG) with Thais Cooke. ["It's About Data"]((https://www.dbinsight.io/its-about-data)) is a podcast hosted by Matt Housley and Tony Baer. This was also a follow up to my talk at Data Day Texas 2026 about the reference interview ([read more](/blog/reference-interview-for-data-teams)).
+- I was a [guest on It's About Data](https://youtu.be/Mkf9W8-kMUE?si=GatCPxsww8xGWByG) with Thais Cooke. ["It's About Data"](https://www.dbinsight.io/its-about-data) is a podcast hosted by Matt Housley and Tony Baer. This was also a follow up to my talk at Data Day Texas 2026 about the reference interview ([read more](/blog/reference-interview-for-data-teams)).
 
 #### [Guest] Catalog & Cocktails Podcast
 2026 April 15
