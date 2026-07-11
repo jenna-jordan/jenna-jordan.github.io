@@ -14,11 +14,19 @@ cv:
   
   sections:
 
-    Interests:
-      - bullet: "Data Engineering"
-      - bullet: "Analytics Engineering"
-      - bullet: "Data Modeling"
-      - bullet: "dbt"
+    Skills:
+      - name: Data Engineering
+        icon: fa-solid fa-database
+      - name: Analytics Engineering
+        icon: fa-solid fa-fan
+      - name: Data Modeling
+        icon: fa-solid fa-database
+      - name: dbt
+        icon: fa-solid fa-fan
+      - name: SQL
+        icon: fa-solid fa-database
+      - name: git
+        icon: fa-solid fa-code-branch
 
     Education:
       - institution: University of Illinois at Urbana-Champaign
@@ -173,15 +181,12 @@ cv:
           - Supported the Senior Policy Advisors, Speechwriter, and Executive Assistant with research, copywriting, and administrative tasks.
           - Wrote executive summaries and took notes on office, cross-bureau, and inter-departmental meetings for the USUNW team.
 
-
     Awards:
-      # - title: Nobel Prize in Physics
-      #   authors:
-      #     - "Royal Swedish Academy of Sciences"
-      #   date: 1921-11-01
-      #   awarder: Royal Swedish Academy of Sciences
-      #   url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-      #   summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: dbt Community Award for Data Governance Excellence
+        date: 2024-10-10
+        awarder: dbt Labs
+        url: https://youtu.be/I72yUtrmhbY?si=JGW7SgWOGAPxVzWi&t=1606
+        summary: 'This award acknowledges outstanding contributions in the public sector and data governance. The recipient creates and shares valuable content, drives important conversations about using dbt for public sector projects and champions data governance best practices.'
 
     Publications:
       - title: "From coast to coast: implementing dbt in the public sector"
@@ -219,31 +224,29 @@ cv:
           - Presented my poster advocating the use of relational databases in the data curation process, especially for datasets that are published separately but can be used together due to a common identifier scheme and shared attributes. 
           - The Correlates of War datasets are used as an illustrative example to show how the normalization process results in a design with greater data reusability, while check constraints and foreign key constraints can improve data quality.
 
-    Skills:
-      # - name: Physics
-      #   level: Master
-      #   icon: fa-solid fa-hashtag
-      #   keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
     Certificates:
       - name: dbt Cloud Administrator
         date: 2025
         issuer: dbt Labs
+        url: https://credentials.getdbt.com/90b1ee86-ae62-4235-834d-f61d8e9c43ac#acc.zfaPEc9k
         icon: fa-solid fa-fan
 
       - name: dbt Developer
         date: 2023
         issuer: dbt Labs
+        url: https://credentials.getdbt.com/7c67f8f7-834f-4806-9d34-048323d1804c#acc.lpOERzho
         icon: fa-solid fa-fan
 
       - name: Analytics Engineering with dbt
         date: 2022
         issuer: CoRise
+        url: https://www.credential.net/c5e7c9e4-9648-4ea3-a5d3-ce436bd0d85e#acc.XaPrh1Kn
         icon: fa-solid fa-fan
 
       - name: Software Carpentries Certified Instructor
         date: 2020
         issuer: The Carpentries
+        url: https://carpentries.org/community/instructors/
         icon: fa-solid fa-hammer
 
       - name: CELTA, Teaching English as a Foreign Language

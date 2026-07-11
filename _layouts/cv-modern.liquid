@@ -38,12 +38,15 @@ layout: default
           <p class="cv-bio">{{ cv.summary }}</p>
         {% endif %}
 
-        <!-- Research interests as tags -->
-        {% if cv.sections.Interests %}
+        <!-- Skills -->
+        {% if cv.sections.Skills %}
           <div class="cv-tags-row">
-            {% for item in cv.sections.Interests %}
-              {% if item.bullet %}
-                <span class="cv-tag"><i class="fa-solid fa-tag"></i> {{ item.bullet }}</span>
+            {% for skill in cv.sections.Skills %}
+              {% if skill.name %}
+                <span class="cv-tag">
+                <i class="{{ skill.icon }}"></i> 
+                {{ skill.name }}
+                </span>
               {% endif %}
             {% endfor %}
           </div>
