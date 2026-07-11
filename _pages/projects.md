@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: a portfolio of my public work
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Data & Analytics Engineering, Publications, Grad School, Visualizations]
 horizontal: false
 ---
 

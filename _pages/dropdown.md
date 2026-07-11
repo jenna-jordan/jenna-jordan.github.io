@@ -1,13 +1,22 @@
 ---
 layout: page
-title: submenus
+title: extras
 nav: true
-nav_order: 8
+nav_order: 6
 dropdown: true
-children:
-  - title: bookshelf
-    permalink: /books/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+children: 
+    - title: appearances
+      permalink: /appearances/
+    - title: divider
+    - title: backlog
+      permalink: /backlog/
+    - title: divider
+    - title: bookshelf
+      permalink: /books/
+    - title: divider
+    - title: bella
+      permalink: /bella/
+    - title: divider
+    - title: knitting
+      permalink: /knitting/
 ---
