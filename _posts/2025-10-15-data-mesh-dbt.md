@@ -44,7 +44,7 @@ toc:
   - name: Appendix
 ---
 
-{% include figure.html path="assets/img/header_data-mesh.png" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/header_data-mesh.png" class="img-fluid rounded z-depth-1" %}
 
 > The Coalesce session recording is now available! See the [Appendix](#appendix)
 
@@ -376,7 +376,7 @@ I hope that you walk away from this blog post (and accompanying talk) also convi
 <div class="row">
     <div class="col-sm md-auto">
         <a href="/assets/pdf/so-you-want-to-build-a-data-mesh.pdf">
-        {% include figure.html path="/assets/img/header_data-mesh.png" title="Coalesce Talk Slides"  class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/header_data-mesh.png" title="Coalesce Talk Slides"  class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
 </div>

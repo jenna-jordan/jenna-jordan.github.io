@@ -9,7 +9,7 @@ toc:
 thumbnail: assets/img/header_fall2018classes.jpg
 categories: MSLIS
 ---
-{% include figure.html path="assets/img/header_fall2018classes.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/header_fall2018classes.jpg" class="img-fluid rounded z-depth-1" %}
 
 It's my first semester at UIUC! So far it's going pretty well, and I'm excited about all the new things I'm going to learn. It's been three years since I've been in a university environment, and I really like that feeling of knowing that every day you are going to learn something new, and that there are people all around you who just want to help you learn and advance.
 

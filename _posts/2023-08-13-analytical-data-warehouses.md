@@ -10,7 +10,7 @@ toc:
 thumbnail: assets/img/header_data_warehouses.jpg
 categories: data essays
 ---
-{% include figure.html path="assets/img/header_data_warehouses.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/header_data_warehouses.jpg" class="img-fluid rounded z-depth-1" %}
 
 When I first started working on the City of Boston Analytics Team, I had never really worked with an analytical data warehouse before. I had experience with databases, and with the data flow in analytics projects (mostly using pandas, in jupyter notebooks), and I had used databases as a starting point for analytics projects, but I had not yet put all of those pieces together. Then I started working as a data engineer whose primary role was to operate within an analytical data warehouse, and I took a 4-week crash course in dbt... and my brain went into overdrive trying to sythesize everything I already knew and was learning in order to come up with a mental model of what an analytical data warehouse was, how it should operate, and why. Now, almost two years later, I'm pretty sure I get it - and I want to share how I conceptualize a data warehouse in hopes that it makes the journey easier for anyone else who may be in the same position I was. 
 

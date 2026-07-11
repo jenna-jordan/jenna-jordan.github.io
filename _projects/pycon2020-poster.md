@@ -16,7 +16,7 @@ Please take a look at my poster for PyCon 2020, entitled "Python can be tidy too
 <div class="row">
     <div class="col-sm md-auto">
         <a href="/assets/pdf/tidy-pandas-cookbook-pycon2020.pdf">
-        {% include figure.html path="/assets/img/poster_snapshot_tidypanda.jpg" title="Poster"  class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/poster_snapshot_tidypanda.jpg" title="Poster"  class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
 </div>

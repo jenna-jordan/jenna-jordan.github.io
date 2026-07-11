@@ -16,7 +16,7 @@ During the last year I worked on the Analytics Team at the City of Boston, I pro
 <div class="row">
     <div class="col-sm md-auto">
         <a href="https://coalesce.getdbt.com/agenda/from-coast-to-coast-implementing-dbt-in-the-public-sector">
-        {% include figure.html path="/assets/img/c23-session-promo.png" title="Session Promo Card"  class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/c23-session-promo.png" title="Session Promo Card"  class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
 </div>
@@ -38,7 +38,7 @@ Our goal with this talk was to help other public sector data teams who might be 
 <div class="row">
     <div class="col-sm md-auto">
         <a href="/assets/pdf/coalesce2023_from-coast-to-coast_slides.pdf">
-        {% include figure.html path="/assets/img/coalesce2023_from-coast-to-coast_frontpage.jpg" title="Slides"  class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/coalesce2023_from-coast-to-coast_frontpage.jpg" title="Slides"  class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
 </div>
@@ -47,23 +47,13 @@ Our goal with this talk was to help other public sector data teams who might be 
 </div>
 
 I collated all of the resources associated with this talk in a GitHub repo ([dbt-public-sector-resources](https://github.com/jenna-jordan/dbt-public-sector-resources)), which has links to the talk, the slides, and the public GitHub repos for each case study.
-<br>
-<div class="repo p-2 text-center">
-  <a href="https://github.com/jenna-jordan/dbt-public-sector-resources">
-    <img class="repo-img-light w-600" alt="jenna-jordan/dbt-public-sector-resources}" src="https://github-readme-stats.vercel.app/api/pin/?username=jenna-jordan&repo=dbt-public-sector-resources&theme={{ site.repo_theme_light }}&show_owner=true">
-    <img class="repo-img-dark w-600" alt="jenna-jordan/dbt-public-sector-resources" src="https://github-readme-stats.vercel.app/api/pin/?username=jenna-jordan&repo=dbt-public-sector-resources&theme={{ site.repo_theme_dark }}&show_owner=true">
-  </a>
-</div>
-<br>
+
+{% include repository/repo.liquid repository="jenna-jordan/dbt-public-sector-resources" %}
+
 For the City of Boston's public GitHub repo, I created a copy of our dbt project minus any of the models - so, just the skeleton - along with supporting resources like Civis workflow YAML files and bash & python scripts ([cob_analytics_dbt_skeleton_project](https://github.com/CityOfBoston/cob_analytics_dbt_skeleton_project)). Hopefully, any other teams who use Civis Platform and want to see how to run a dbt build can use this repo as an example.
-<br>
-<div class="repo p-2 text-center">
-  <a href="https://github.com/CityOfBoston/cob_analytics_dbt_skeleton_project">
-    <img class="repo-img-light w-600" alt="CityOfBoston/cob_analytics_dbt_skeleton_project" src="https://github-readme-stats.vercel.app/api/pin/?username=CityOfBoston&repo=cob_analytics_dbt_skeleton_project&theme={{ site.repo_theme_light }}&show_owner=true">
-    <img class="repo-img-dark w-600" alt="CityOfBoston/cob_analytics_dbt_skeleton_project" src="https://github-readme-stats.vercel.app/api/pin/?username=CityOfBoston&repo=cob_analytics_dbt_skeleton_project&theme={{ site.repo_theme_dark }}&show_owner=true">
-  </a>
-</div>
-<br>
+
+{% include repository/repo.liquid repository="CityOfBoston/cob_analytics_dbt_skeleton_project" %}
+
 {% details March 2024 update %}
 I first published our dbt project skeleton in October 2023 (in time for Coalesce), but by March 2024 we had significantly evolved our dbt implementation - making full use of the elementary package, selectors, stateful dbt builds, and more. So the public skeleton repo is now up to date with the actual dbt project as of March 11, 2024. You can also [compare how the project evolved from October 2023 to March 2024](https://github.com/CityOfBoston/cob_analytics_dbt_skeleton_project/compare/6efa3219e3a509692481c95687014dc373e4fe34...a1e5c015ecf22819772ace4bd899780e5c0f621d).
 {% enddetails %}
@@ -76,7 +66,7 @@ While implementing dbt was a significant improvement for the Data Engineering te
 <div class="row">
     <div class="col-sm md-auto">
         <a href="/assets/pdf/dbt-lunch-learn.pdf">
-        {% include figure.html path="/assets/img/dbt-lunch-learn.jpg" title="Slides"  class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/dbt-lunch-learn.jpg" title="Slides"  class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
 </div>
@@ -88,7 +78,7 @@ By March 2024, after a significant collaborative effort across many teams in the
 
 <div class="row">
     <div class="col-sm md-auto">
-        {% include figure.html path="/assets/img/data-catalog-mar11.png" title="Data Catalog"  class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/data-catalog-mar11.png" title="Data Catalog"  class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

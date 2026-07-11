@@ -8,7 +8,7 @@ description: "A role-playing game to simulate a migration to dbt Mesh, created f
 img: /assets/img/coalesce2024_governance-co-lab_frontpage.jpg
 ---
 
-{% include figure.html path="assets/img/coalesce2024_session_stage.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/coalesce2024_session_stage.jpg" class="img-fluid rounded z-depth-1" %}
 
 On Tuesday, October 8, 2024, I facilitated a [peer exchange session at Coalesce 2024](https://coalesce-widgets.getdbt.com/agenda/session/1383564):
 
@@ -26,10 +26,10 @@ I decided to do something a bit different for my peer exchange session, inspired
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="/assets/img/coalesce2024_table3_1.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/coalesce2024_table3_1.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="/assets/img/coalesce2024_table3_2.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/coalesce2024_table3_2.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -55,10 +55,10 @@ Data is an important part of keeping the pet rescue running & funded, so Rainbow
 <br>
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="/assets/img/coalesce2024_table5_1.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/coalesce2024_table5_1.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="/assets/img/coalesce2024_table5_2.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/coalesce2024_table5_2.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -66,21 +66,21 @@ The session was guided by a slide deck - I started by laying out the rules and g
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="/assets/img/coalesce2024_result1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/img/coalesce2024_result1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="/assets/img/coalesce2024_result2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/img/coalesce2024_result2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="/assets/img/coalesce2024_result3.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/img/coalesce2024_result3.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="/assets/img/coalesce2024_result4.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/img/coalesce2024_result4.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="/assets/img/coalesce2024_result5.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/img/coalesce2024_result5.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -92,12 +92,12 @@ This was such a fun experience - both designing the simulation and getting to wa
 <div class="row">
     <div class="col-8 mt-2 mt-md-0">
         <a href="/assets/pdf/C24_TUE_1115_PEEREXCHANGE_GOVERNANCE_CO-LAB.pdf">
-        {% include figure.html path="/assets/img/coalesce2024_governance-co-lab_frontpage.jpg" title="Slidedeck" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/coalesce2024_governance-co-lab_frontpage.jpg" title="Slidedeck" class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
     <div class="col-4 mt-2 mt-md-0">
         <a href="/assets/pdf/Governance co-lab printed materials.pdf">
-        {% include figure.html path="/assets/img/coalesce2024_rolesheet.jpg" title="Printed materials" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/coalesce2024_rolesheet.jpg" title="Printed materials" class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
 </div>
@@ -120,7 +120,7 @@ For each problem scenario I gave the groups about 10 minutes to discuss and come
 <div class="row">
     <div class="col-sm md-auto">
         <a href="/assets/pdf/dbt_Mesh_Working Session.pdf">
-        {% include figure.html path="/assets/img/dbt_Mesh_Working Session.jpg" title="Slides"  class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/dbt_Mesh_Working Session.jpg" title="Slides"  class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
 </div>

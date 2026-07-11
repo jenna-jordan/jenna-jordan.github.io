@@ -19,12 +19,12 @@ In July, ASIS&T notified me that my poster paper submission had been accepted. I
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
         <a href="/assets/pdf/asist-poster-paper.pdf">
-        {% include figure.html path="/assets/img/project_irdb_posterpaper.jpg" title="Paper" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/project_irdb_posterpaper.jpg" title="Paper" class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
     <div class="col-sm mt-2 mt-md-0">
         <a href="/assets/pdf/asist-poster.pdf">
-        {% include figure.html path="/assets/img/project_irdb_poster.jpg" title="Poster" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/project_irdb_poster.jpg" title="Poster" class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
 </div>

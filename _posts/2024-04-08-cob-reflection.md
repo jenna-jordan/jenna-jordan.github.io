@@ -10,7 +10,7 @@ toc:
 thumbnail: assets/img/header_bostoncityhall.jpg
 categories: life-updates
 ---
-{% include figure.html path="assets/img/header_bostoncityhall.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/header_bostoncityhall.jpg" class="img-fluid rounded z-depth-1" %}
 
 > ##### Featured Content
 >
@@ -55,7 +55,7 @@ Links to look at next:
 
 ## The first year (aka the year of learning)
 
-{% include figure.html path="assets/img/boston_first_day.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/boston_first_day.jpg" class="img-fluid rounded z-depth-1" %}
 <div class="caption">
 Selfie from my very first day at City Hall (Jan 24, 2022)
 </div>
@@ -102,7 +102,7 @@ What a perfect segue into...
 
 ## The second year (aka the year of doing)
 
-{% include figure.html path="assets/img/boston_my_desk.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/boston_my_desk.jpg" class="img-fluid rounded z-depth-1" %}
 <div class="caption">
 My desk/cubicle at City Hall, with my knitted snowman next to our "data engineering library"
 </div>
@@ -118,7 +118,7 @@ Along the way I decided on how to solve obstacle #3: the best approach would be 
 <div class="row">
     <div class="col-sm md-auto">
         <a href="/assets/pdf/coalesce2023_from-coast-to-coast_slides.pdf">
-        {% include figure.html path="/assets/img/cob_new_schemas.png" title="Slide 26"  class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/cob_new_schemas.png" title="Slide 26"  class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
 </div>
@@ -157,7 +157,7 @@ Attending Coalesce was one of my favorite experiences of 2023. The community of 
 <div class="row">
     <div class="col-sm md-auto d-flex justify-content-center">
         <a href="https://credentials.getdbt.com/7c67f8f7-834f-4806-9d34-048323d1804c">
-        {% include figure.html path="assets/img/dbt-certified-developer.png" title="Slide 26"  class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/dbt-certified-developer.png" title="Slide 26"  class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
 </div>
@@ -203,7 +203,7 @@ In December, I also decided to host a SQL workshop and opened it up to any city 
 
 <div class="row">
     <div class="col-sm md-auto d-flex justify-content-center">
-        {% include figure.html path="assets/img/sql_workshop_feedback.jpg" title="Slack message"  class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/sql_workshop_feedback.jpg" title="Slack message"  class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">

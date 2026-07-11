@@ -10,7 +10,7 @@ toc:
 thumbnail: assets/img/header_lifesincegradschool.jpg
 categories: life-updates musings
 ---
-{% include figure.html path="assets/img/header_lifesincegradschool.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/header_lifesincegradschool.jpg" class="img-fluid rounded z-depth-1" %}
 
 This website, and therefore this blog, has fallen by the wayside since I graduated from library school with my MSLIS in the spring of 2020... in the midst of a global pandemic. I wasn't really sure what to do with the site, beyond letting it exist and adding some projects here and there, but I recently decided that it was time for a revamp (and rebrand/redesign). I wanted my personal website to say "working professional", not "overly enthusiastic grad student" - though I am keeping all the old posts so the "overly enthusiastic grad student" is not going away. But it has been 3 years (wow!) since I was in grad school, and I have managed to get some professional experience under my belt - though with the pandemic raging as I entered the work force I had a bit of a rocky start.
 
@@ -22,7 +22,7 @@ After graduating into a pandemic with no job offer yet in hand, I did what every
 
 Pretty much as soon as I had some income coming in, I kept a promise that I had made to myself years ago at the end of undergrad (when I knew I was going to be doing a lot of traveling). I finally adopted a puppy. I adopted my sweet girl from Saving Grace, a rescue in Raleigh. At the rescue, the name on her tag was "Genuine Risk". I named her [Bella](/bella/), after the loyal pony Bela in Wheel of Time. She was about 14 weeks old, the last of her litter, and shy as could be, but after 5 minutes of me sitting cross legged in her pen she crawled into my lap and fell asleep. That's when I knew - and my mom really knew - that she would be coming home with us.
 
-{% include figure.html path="assets/img/bella_blanket.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/bella_blanket.jpg" class="img-fluid rounded z-depth-1" %}
 
 I also took up knitting (I know, such a classic pandemic hobby). The very first thing I knit was a blanket for Bella. My reasoning was: (1) she won't care what it looks like, so it's fine if it turns out awful and ugly, and (2) it's getting cold, she'd probably appreciate a blanket that smells like me. (Actually I lie, the first 4 blanket squares got combined into a blanket for Molly, our much smaller and much older family dog). Sadly, that blanket no longer exists - it got slowly torn apart and consumed because... I gave it to a puppy. C'est la vie. But while the blanket slowly got smaller, I kept on [knitting](/knitting/), and eventually started knitting shawls as wedding presents. (6 shawls and 5 weddings later, I'm finally now starting on a shawl for myself)
 

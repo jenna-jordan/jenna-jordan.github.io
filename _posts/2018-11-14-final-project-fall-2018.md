@@ -7,7 +7,7 @@ permalink: /blog/final-project-fall18
 thumbnail: assets/img/header_finalprojectf18.jpg
 categories: MSLIS
 ---
-{% include figure.html path="assets/img/header_finalprojectf18.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/header_finalprojectf18.jpg" class="img-fluid rounded z-depth-1" %}
 
 It's that time of the semester - final project time. Actually, final project time started a few weeks ago, but I'm only just now really diving into it. I haven't written a blog post in a long while because I've been very busy, but I wanted to document this process. I have a little bit more free time (not really - just more time to focus on my Python & Database classes) since [IS501](/blog/my-classes-for-fall-2018#is501-information-organization--access) concluded last week, and I've been using that time to start diving into my project.
 

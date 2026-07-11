@@ -10,7 +10,7 @@ toc:
 thumbnail: assets/img/header_transformation_flow_1.jpg
 categories: data essays
 ---
-{% include figure.html path="assets/img/header_transformation_flow_1.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/header_transformation_flow_1.jpg" class="img-fluid rounded z-depth-1" %}
 
 Many months ago I posted an [introductory primer to analytical data warehouses](/blog/analytical-data-warehouses), specifically targeted to folks who were familiar with data work but did not have a lot of experience working with data warehouses. In that post I made reference to a follow-up blog post that would focus more on the transformation flow within a data warehouse:
 

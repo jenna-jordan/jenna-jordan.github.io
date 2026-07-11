@@ -35,7 +35,7 @@ toc:
       - name: Special thanks
   - name: Appendix
 ---
-{% include figure.html path="assets/img/header_reference-interview.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/header_reference-interview.jpg" class="img-fluid rounded z-depth-1" %}
 
 > Note: An abridged version of this article was published Oct 1, 2025, on [The Data Intelligence Platform](https://dataintelligenceplatform.substack.com/p/the-librarians-reference-interview)
 >
@@ -322,7 +322,7 @@ Also<d-footnote>Thank you to the family, friends, and colleagues who read a draf
 <div class="row">
     <div class="col-sm md-auto">
         <a href="/assets/pdf/Data-Day-2026.pdf">
-        {% include figure.html path="/assets/img/ddtx26-titleslide.png" title="Data Day Texas 2026 Talk Slides"  class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/img/ddtx26-titleslide.png" title="Data Day Texas 2026 Talk Slides"  class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
 </div>
