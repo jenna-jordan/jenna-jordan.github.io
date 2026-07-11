@@ -2,21 +2,16 @@
 layout: page
 permalink: /appearances/
 title: "Appearances"
-description: Conferences, webinars, meetups, workshops
+description: Conferences, webinars, meetups, workshops, podcasts
 date: 2026-01-25
 ---
 
 ## Upcoming
 
-#### [Attendee] Out-of-Pocket Data Camp
-2026 June 25-26
-
-- I'm headed back to [Out-of-Pocket's Data Camp](https://www.outofpocket.health/datacamp), an invite-only healthcare analytics summit in Boston/Cambridge.
-
-#### [TBD] dbt Summit
+#### [Speaker] dbt Summit
 2026 September 15-18
 
-- Whether as a speaker or an attendee (submitted a peer exchange proposal, and waiting to hear whether it is accepted), I'll be attending dbt Summit this year!
+- I will be facilitating a peer exchange called "Building dbt projects in rough terrain: creating a trailguide for dbt pioneers", along with my Ratio PBC colleague Eric Guroff. Learn more about the session [here](https://www.getdbt.com/dbt-summit/sessions/building-dbt-projects-in-rough-terrain-creating-a-trailguide-for-dbt-pioneers) and don't forget to register for dbt Summit! Use code `speaker-friends` for a 20% discount on your ticket.
 
 #### [Attendee] Helsinki Data Week
 2026 October 27-30
@@ -26,6 +21,11 @@ date: 2026-01-25
 ---
 
 ## 2026
+
+#### [Attendee] Out-of-Pocket Data Camp
+2026 June 25-26
+
+- I attend the 2nd [Out-of-Pocket's Data Camp](https://www.outofpocket.health/datacamp), an invite-only healthcare analytics summit in Boston/Cambridge.
 
 #### [Guest] It's About Data Podcast
 2026 April 21
