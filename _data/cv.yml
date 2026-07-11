@@ -2,16 +2,12 @@ cv:
   name: Jenna Jordan
   label: Data & Analytics Engineer
   email: jenna.jrdn@gmail.com
+  linkedin: jennajordan1
+  github: jenna-jordan
   #location: Princeton, NJ
   #image: ""
-  summary: Data & Analytics Engineer working in civic tech.
+  summary: Data & Analytics Engineer working in civic tech. Bringing Library & Information Science practices to the modern data world. Improving data processes in the public sector through dbt and data engineering best practices, while always putting people before process & technology.
 
-  social_networks:
-    - network: GitHub
-      username: jenna-jordan
-    - network: LinkedIn
-      username: jennajordan1
-  
   sections:
 
     Skills:
@@ -19,14 +15,40 @@ cv:
         icon: fa-solid fa-database
       - name: Analytics Engineering
         icon: fa-solid fa-fan
-      - name: Data Modeling
+      - name: Data Modeling (3NF, star schema)
         icon: fa-solid fa-database
-      - name: dbt
+      - name: Data Management & Governance
+        icon: fa-solid fa-database
+      - name: teaching computational skills
+        icon: fa-solid fa-person-chalkboard
+      - name: dbt core
         icon: fa-solid fa-fan
+      - name: dbt Platform
+        icon: fa-solid fa-fan
+      - name: Civis Platform
+        icon: fa-solid fa-chart-diagram
       - name: SQL
         icon: fa-solid fa-database
+      - name: python 
+        icon: fa-brands fa-python
       - name: git
         icon: fa-solid fa-code-branch
+      - name: bash
+        icon: fa-solid fa-terminal
+      - name: regex
+        icon: fa-solid fa-asterisk
+      - name: PostgreSQL (+PostGIS)
+        icon: fa-solid fa-database
+      - name: BigQuery
+        icon: fa-solid fa-database
+      - name: Snowflake
+        icon: fa-solid fa-database
+      - name: duckdb
+        icon: fa-solid fa-database
+      - name: SQLite
+        icon: fa-solid fa-database
+      - name: Vertica
+        icon: fa-solid fa-database
 
     Education:
       - institution: University of Illinois at Urbana-Champaign
@@ -56,9 +78,9 @@ cv:
         location: remote
         start_date: May 2025
         end_date: present
-        summary: Build dbt projects for public health initiatives and Health & Human Services organizations
+        summary: Building dbt projects for public health initiatives and Health & Human Services organizations
         highlights:
-          - Monitor data quality for the NYHER program at New York State Department of Health
+          - Monitoring data quality for the NYHER program at New York State Department of Health
 
       - company: BU Spark!
         url: https://www.bu.edu/spark/
@@ -66,7 +88,7 @@ cv:
         location: remote
         start_date: Jan 2025
         end_date: present
-        summary: Mentor and provide support to student teams at BU Spark! working on public interest projects. I also teach a git/Github workshop each semester as the students kick off their projects.
+        summary: Mentoring and providing support to student teams at BU Spark! working on public interest projects. I also teach a git/Github workshop each semester as the students kick off their projects.
 
       - company: Analytics8
         url: https://www.analytics8.com/
@@ -74,7 +96,7 @@ cv:
         location: remote
         start_date: Aug 2024
         end_date: May 2025
-        summary: Build and support data mesh implementations with dbt; advise on dbt Mesh best practices, strategic processes to support data governance and its implementation within dbt, and provide training for key skills in implementing dbt Mesh.
+        summary: Built and supported data mesh implementations with dbt; advised on dbt Mesh best practices, strategic processes to support data governance and its implementation within dbt, and provided training for key skills in implementing dbt Mesh.
 
       - company: Analytics8
         url: https://www.analytics8.com/
@@ -82,7 +104,7 @@ cv:
         location: remote
         start_date: Mar 2024
         end_date: Aug 2024
-        summary: Working with a mission-driven healthcare organization as they migrate their legacy monolith dbt project to a dbt mesh architecture of multiple domain-driven projects
+        summary: Worked with a mission-driven healthcare organization as they migrated their legacy monolith dbt project to a dbt mesh architecture of multiple domain-driven projects
 
       - company: City of Boston Analytics Team
         url: https://www.boston.gov/departments/analytics-team

@@ -62,6 +62,16 @@ layout: default
               <i class="fa-solid fa-comment"></i> {{ cv.matrix }}
             </a>
           {% endif %}
+          {% if cv.linkedin %}
+            <a href="https://www.linkedin.com/in/{{ cv.linkedin }}" target="_blank" rel="noopener" class="cv-contact-item">
+              <i class="fa-brands fa-square-linkedin"></i> {{ cv.linkedin }}
+            </a>
+          {% endif %}
+          {% if cv.github %}
+            <a href="https://github.com/{{ cv.github }}" target="_blank" rel="noopener" class="cv-contact-item">
+              <i class="fa-brands fa-square-github"></i> {{ cv.github }}
+            </a>
+          {% endif %}
         </div>
       </div>
     </div>
