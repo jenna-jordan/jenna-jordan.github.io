@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 permalink: /bella/
 title: "Bella"
 description: Congratulations, you found the puppy pictures!

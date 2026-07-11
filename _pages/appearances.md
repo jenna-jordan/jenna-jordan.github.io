@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 permalink: /appearances/
 title: "Appearances"
 description: Conferences, webinars, meetups, workshops
