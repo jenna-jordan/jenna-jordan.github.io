@@ -1,0 +1,529 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Librarians, Privacy, &amp; Data Ownership | Jenna Jordan </title> <meta name="author" content="Jenna Jordan"> <meta name="description" content="musings on ethics in ML"> <meta name="keywords" content="jenna-jordan, data, data-engineer, portfolio-website"> <meta property="og:site_name" content="Jenna Jordan"> <meta property="og:type" content="article"> <meta property="og:title" content="Jenna Jordan | Librarians, Privacy, &amp; Data Ownership"> <meta property="og:url" content="https://jennajordan.me/blog/librarians-privacy-data-ownership"> <meta property="og:description" content="musings on ethics in ML"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="Librarians, Privacy, &amp; Data Ownership"> <meta name="twitter:description" content="musings on ethics in ML"> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Jenna Jordan"
+        },
+        "url": "https://jennajordan.me/blog/librarians-privacy-data-ownership",
+        "@type": "BlogPosting",
+        "description": "musings on ethics in ML",
+        "headline": "Librarians, Privacy, & Data Ownership",
+        
+        "sameAs": ["https://www.linkedin.com/in/jennajordan1","https://github.com/jenna-jordan","https://orcid.org/0000-0001-9246-5355","https://bsky.app/profile/jennajordan.me","https://instagram.com/jennajrdnknits","https://www.ravelry.com/people/JennaJrdn"],
+        
+        "name": "Jenna Jordan",
+        "@context": "https://schema.org"
+    }
+  </script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.36.4/dist/tocbot.css" integrity="sha256-zTN0r+0OKaIv2xqeNNIYxNk0pWJ6+IqPGc1iDgVzWF0=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%CA%9D%CA%9D&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=ca1423ef833664ac5730fcae7e676775"> <link rel="canonical" href="https://jennajordan.me/blog/librarians-privacy-data-ownership"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Jenna Jordan </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item active"> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repositories </a> </li> <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-nav-dropdown-toggle="true" aria-haspopup="true" aria-expanded="false">extras </a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item " href="/appearances/">appearances</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/backlog/">backlog</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/books/">bookshelf</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/bella/">bella</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/knitting/">knitting</a> </div> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="row"> <div class="col-sm-3"> <nav id="toc-sidebar" class="sticky-top toc toc-sidebar" aria-label="Table of contents" data-toc-collapse="expanded" data-toc-collapse-depth=""></nav> </div> <div class="col-sm-9"> <div class="post"> <header class="post-header"> <h1 class="post-title">Librarians, Privacy, &amp; Data Ownership</h1> <p class="post-meta"> Created on September 21, 2018 </p> <p class="post-tags"> <a href="/blog/2018"> <i class="fa-solid fa-calendar fa-sm"></i> 2018 </a>   ·   <a href="/blog/category/mslis"> <i class="fa-solid fa-tag fa-sm"></i> MSLIS</a>   <a href="/blog/category/musings"> <i class="fa-solid fa-tag fa-sm"></i> musings</a> </p> </header> <article class="post-content"> <div id="markdown-content"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/header_dataprivacy-480.webp 480w,/assets/img/header_dataprivacy-800.webp 800w,/assets/img/header_dataprivacy-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/header_dataprivacy.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> <p>Near the beginning of the semester (Aug 31), I attended a talk at the iSchool by Dr. Jingrui He about a machine learning solution her team crafted to address the issue of data heterogeneity.</p> <p><a href="http://faculty.engineering.asu.edu/jingruihe/" class="btn btn--inverse" rel="external nofollow noopener" target="_blank">Dr. Jingrui He’s faculty homepage</a></p> <p>As I have only the basic understanding of machine learning, many of the technical ideas flew right over my head (although I do have to admit that she did an excellent job of explaining the basic concept of how her algorithm worked in a way that I could understand). However, during her talk my brain wandered in a different direction. I may be trying my best to learn as many technical skills as I can during my master’s, but at my core I am a humanist. And so as she was talking about the good her algorithm could do across various industries with heterogeneous data, I was thinking about the ethics behind acquiring that data.</p> <h3 id="what-is-data-heterogeneity">What is data heterogeneity?</h3> <p>Think about the difference between the biological/chemical terms “homogeneous” and “heterogeneous.” “Homo” means the same, and “homogeneous” means having the same (or uniform) makeup (or composition). “Hetero” is the opposite, and means different - so “heterogeneous” means having a non-uniform composition. Heterogeneity is simply referring to something having the quality or characteristic of being diverse. So data heterogeneity, also known as data variety, refers to data that come from many different sources and exists in many different forms. Data Variety is one of the three core “V”s of Big Data.</p> <p><a href="https://datasciencedegree.wisconsin.edu/data-science/what-is-big-data/" class="btn btn--inverse" rel="external nofollow noopener" target="_blank">What is big data?</a></p> <p>Let’s look at an example: When analyzing someone’s health, their medical record is probably a good place to start. But you may also want to look at their activity on health-centered social networking sites, their search history on health-centered websites, and their purchase history at pharmacies. This would give you a much fuller picture of their health. But it also raises an important question - one that was not discussed during her talk.</p> <p>How do you acquire all of this data from disparate and (supposedly) protected sources in order to analyze it?</p> <h3 id="the-issue-of-data-privacy">The Issue of Data Privacy</h3> <p>Right now, there are a number of major news stories in the public consciousness that concern data privacy. Most notably at the moment, the scandal involving Facebook and Cambridge Analytica… but this issue has been discussed ever since Edward Snowden leaked classified information about the NSA’s surveillance policies in 2013.</p> <p><a href="https://www.techrepublic.com/article/facebook-data-privacy-scandal-a-cheat-sheet/" class="btn btn--inverse" rel="external nofollow noopener" target="_blank">Facebook data privacy scandal: A cheat sheet</a></p> <p><a href="https://www.theverge.com/2013/7/17/4517480/nsa-spying-prism-surveillance-cheat-sheet" class="btn btn--inverse" rel="external nofollow noopener" target="_blank">Everything you need to know about PRISM</a></p> <p><a href="https://www.digitalethics.org/reviews/data-and-goliath-hidden-battles-collect-your-data-and-control-your-world" class="btn btn--inverse" rel="external nofollow noopener" target="_blank">Data and Goliath (book review)</a></p> <p>This is an issue that spans both the public and private realms, with abuses by governments and corporations alike. There are no heroes in this story - or are there?</p> <h3 id="librarians-are-your-data-privacy-heroes">Librarians are your Data Privacy Heroes</h3> <p>What is the one group of people who will fight tooth and nail to both provide you with all of the information and knowledge you may want while simultaneously defending your personal information from anybody who comes knocking? Librarians.</p> <blockquote> <p>“We protect each library user’s right to privacy and confidentiality with respect to information sought or received and resources consulted, borrowed, acquired or transmitted.”<br> <cite class="small">ALA (American Library Association) Code of Ethics</cite></p> </blockquote> <p><a href="http://www.ala.org/advocacy/privacy" class="btn btn--inverse" rel="external nofollow noopener" target="_blank">ALA on Privacy</a></p> <p>Librarians may technically be (local) government employees, but if the police or the FBI asks a librarian to hand over the reading history of a suspected individual, the librarian will respond, “What reading history?” Libraries will deliberately purge their records to protect the privacy of their patrons.</p> <p><a href="https://www.theguardian.com/us-news/2016/jan/13/us-library-records-purged-data-privacy" class="btn btn--inverse" rel="external nofollow noopener" target="_blank">You are not what you read</a></p> <p>But what does this have to do with the data privacy scandals of the past few years? It means that librarians have an important role to play in this age of big data.</p> <p>Libraries are community centers, and beyond that they are a source of continuous, life-long learning. Information literacy is becoming as important for adults as reading literacy is for children.</p> <blockquote> <p>“Research has shown that people need education in developing skills that will help them use the Internet effectively. Libraries can serve as primary training providers to help meet this need.”<br> <cite class="small">ALA (American Library Association)</cite></p> </blockquote> <p><a href="http://www.ala.org/advocacy/intfreedom/iftoolkits/litoolkit/informationliteracy_digitalcitizenship" class="btn btn--inverse" rel="external nofollow noopener" target="_blank">ALA on Information Literacy/Digital Citizenship</a></p> <p>Librarians are one of the few kinds of people that we trust to protect our data and privacy, simply because it is the right thing to do. And I hope that in the public debate surrounding data privacy, librarians will step forward and act as advocates and educators for their communities - informing people about the problem, researching solutions, and advocating for those solutions at the highest levels of government and policy-making.</p> <p class="notice">Keeping this key role of librarians in mind, let’s move on to the second part of this article.</p> <h2 id="data-ownership">Data Ownership</h2> <p>Let’s circle back to the initial thought that inspired this article. How do you get access to all of this heterogeneous data in order to analyze it?</p> <h3 id="corporate-ownership-of-data">Corporate Ownership of Data</h3> <p>In the current system, corporations own most of the data about you. Have you ever heard the saying, “If you’re not paying for the product, <em>you’re the product</em>”? Think about how many services you use today that are free: Facebook, Twitter, and pretty much any social network… the whole suite of Google products (search, email, Calendar, Drive, YouTube, etc)… most online services are offered to users free of charge. Think about all of those free apps on your phone.</p> <blockquote> <p>“If you are not paying for it, you’re not the customer; you’re the product being sold.”<br> <cite class="small">Andrew Lewis, Meta Filter</cite></p> </blockquote> <p>Now think, out of all of those services, how many times did you actually read the Terms &amp; Services before checking “Agree”? Do you know what exactly you are agreeing to?</p> <p>When you use these products, you are creating data for them. They can use this data that you created or entered (name, birthday, etc) to then target you with advertising.</p> <p><a href="http://fortune.com/2017/01/04/google-facebook-ad-industry/" class="btn btn--inverse" rel="external nofollow noopener" target="_blank">How Google and Facebook Have Taken Over the Digital Ad Industry</a></p> <p>But not only can they use the data that you created on their product for themselves, but they can then also sell that data to other companies. So who owns the data? You may have created it, but they own it - and they reap the profits.</p> <p>Now you may think, so what? I get to use these products for free, and I can just ignore the advertising if I want to (or use an adblocker). Why does it matter that they get the data? It’s not hurting anybody, and companies need to turn a profit in order to create and keep jobs. Well…</p> <h3 id="automation-ai--data">Automation, AI, &amp; Data</h3> <p>The whole world is currently experiencing an automation revolution. Manufacturing jobs aren’t disappearing because they are all being shipped overseas or being stolen by immigrants - most are going to the machines.</p> <blockquote> <p>“From 2000 to 2010 alone, 5.6 million jobs disappeared. Interestingly, though, only 13 percent of those jobs were lost due to international trade. The vast remainder, 85 percent of job losses, stemmed from “productivity growth” — another way of saying machines replacing human workers.””<br> <cite class="small"><a href="https://techcrunch.com/2016/10/09/industrial-robots-will-replace-manufacturing-jobs-and-thats-a-good-thing/" rel="external nofollow noopener" target="_blank">Industrial robots will replace manufacturing jobs - and that’s a good thing</a></cite></p> </blockquote> <p>The next major industry to be disrupted will likely be transportation - automated cars &amp; trucks are just around the corner. This may be a scary thought - jobs disappearing! - but it shouldn’t be. When robots and AI systems can take over the boring, monotonous, or dangerous jobs, it frees people up to do more creative things - jobs robots can’t perform (yet!) - and more effectively utilize our collective brainpower.</p> <p><a href="https://www.ttnews.com/articles/automation-could-kill-73-million-us-jobs-2030" class="btn btn--inverse" rel="external nofollow noopener" target="_blank">Automation Could Kill 73 Million US Jobs by 2030</a></p> <p>The painful part will be the transition. People will need to be re-trained for jobs in different sectors, which will require a massive rethinking of adult education. There will be long stretches of time during which people are unemployed. Their new jobs may not pay as well, or as steadily. They may need to rely on savings while re-training for their new jobs - and most Americans don’t have enough savings to lean on for more than a month.</p> <p><a href="https://www.nytimes.com/2015/01/31/your-money/the-dangerous-state-of-americans-savings.html" class="btn btn--inverse" rel="external nofollow noopener" target="_blank">The Dangerous State of Americans’ Savings</a></p> <p>Automation will bring great things for the future, but it’s going to get worse before it gets better. And what technology does automation rely on? AI and machine learning. And what does AI and machine learning rely on? Data. Also lots of talented programmers, but their algorithms wouldn’t have anything to run on without data. And where does that data come from? Us. Our data, owned by the corporations, isn’t just good for targeted advertising - it’s also essential for developing AI.</p> <p><a href="https://www.nbcnews.com/tech/tech-news/google-sells-future-powered-your-personal-data-n870501" class="btn btn--inverse" rel="external nofollow noopener" target="_blank">Google sells the future, powered by your personal data</a></p> <p>Major corporations are using the data we produce using their (free &amp; paid) products to develop the technology that will massively disrupt labor in a way we haven’t seen since the industrial revolution. And again, this isn’t necessarily a bad thing! But it is dangerous, especially when an outsized portion of the profits stand to go to the (already stupid rich) corporations, and not to the huge masses of data-producing people who made AI possible (not to mention the programmers who created the AI and ML systems, but have no ownership of the end product).</p> <h3 id="a-solution-personal-ownership-of-data">A Solution: Personal Ownership of Data</h3> <p>What if we owned our data? Imagine a world in which you receive no spam calls - because those spammers don’t have access to your telephone number… since you never directly gave it to them (although you could choose to sell them your number). Is a system like this even possible? On the one hand, having greater control over our personal data would solve a lot of the issues with the current system (in which corporations use your data for their profit). But on the other hand, data at its core is information - and is it really possible to own information? You can own a book, but does that mean you own the information in that book? Ownership implies exclusivity, and information by its very nature defies exclusivity.</p> <p>The reality is, our current system is not set up for personal ownership of our data. But, that doesn’t mean that future societies and technologies couldn’t be set up in such a way. What happens when devices stop being worn on our bodies, but become a part of our bodies? When the chain of information is recorded every step of the way? When our personal identity becomes synonymous with a fingerprint, or a microchip, or a system of nanobots? How will society change to reflect new ethics surrounding data ownership? Right now, pondering these questions is the domain of science fiction - but it is possible that they may become very real, very present questions within our lifetime.</p> <p>So personal data ownership is something that we should consider, even if the current technological infrastructure is headed in the opposite direction. The most ethical path is rarely the easiest… or the most profitable.</p> <h3 id="another-solution-universal-basic-income">Another Solution: Universal Basic Income</h3> <p>Silicon Valley is not ignorant of the issues I’ve raised in this article. One popular solution that they (and multiple governments around the world) have decided to test is Universal Basic Income.</p> <p><a href="https://www.wired.com/story/the-paradox-of-universal-basic-income/" class="btn btn--inverse" rel="external nofollow noopener" target="_blank">The Paradox of Universal Basic Income</a></p> <p>It’s a controversial issue that is not entirely understood - which is why the numerous UBI experiments going on around the world are so important. Y Combinator (a startup accelerator) is funding one project, and so are local governments in multiple countries. UBI is a very complex issue that I don’t have space to fully address, but if you are interested in learning more I highly suggest Rutger Bregman’s book “Utopia for Realists” (you can find my thoughts on <a href="/books">the Books page!</a>).</p> <p>The main concern about UBI is how to pay for it - and one popular suggestion is to (essentially) let the robots pay for it. In essence, tax the companies that use automated systems instead of people (and thus take jobs away from people) to pay for citizens’ UBI. There are, of course, obvious problems with this - how do you measure the potential job loss and tax amount? What if this discourages automation? How do you prevent this from disproportionately effecting small businesses (as large corporations often find loopholes to escape their tax responsibilities)? But the general sentiment - that the rich corporations developing the AI that will disrupt labor should bear some of the cost of that disruption (if only to prevent an economic meltdown) - speaks to a powerful utopian idea.</p> <blockquote> <p>“The idea of guaranteeing a basic income for everybody has many obvious flaws but one overwhelming virtue. It enshrines the principle that every citizen is a valued member of society and has a right to share in its collective wealth.”<br> <cite class="small">John Thornhill, Financial Times</cite></p> </blockquote> <p><a href="https://www.ft.com/content/5103204e-7b5b-11e7-ab01-a13271d1ee9c" class="btn btn--inverse" rel="external nofollow noopener" target="_blank">Why Facebook Should Pay Us a Basic Income</a></p> <h2 id="in-conclusion">In Conclusion</h2> <p>As you can see, most of this messy trail of thoughts had nothing to do with Dr. He’s talk on solving data heterogeneity. But if there is one important point that I want to leave you with, it’s this: in every technical solution to a problem, there are ethical implications that you must consider as well. The engineer’s work should never be divorced from the humanists’, but rather tightly married. I hope that as Dr. He’s work progresses, she has members on her team that are considering these issues - not just how to acquire the heterogeneous data, but the most ethical way to do so as well.</p> <p>Contemplating the societal effects of new technologies is intensely interesting to me - and one reason why I love science fiction so much. It’s also likely to be a recurring theme in future blog posts… so if you like debating futuristic ethics, stay tuned!</p> </div> </article> <br> <hr> <br> <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2> <p class="mb-2">Here are some more articles you might like to read next:</p> <ul class="list-disc pl-7 my-3 space-y-2 marker:text-[var(--global-theme-color)]"> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/data-mesh-dbt">So you want to build a data mesh</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/reference-interview-for-data-teams">The librarian's reference interview for data teams</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/ddtx25-recap">Data Day Texas 2025 - Key Takeaways</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="https://docs.getdbt.com/community/spotlight/jenna-jordan" target="_blank" rel="noopener noreferrer">dbt Community Spotlight</a> <svg width="1rem" height="1rem" viewbox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"> <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/cob-reflection">Reflecting on my tenure at the City of Boston</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/transformation-flow-building-intuition">The Transformation Flow, Part 1 - building intuition</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/analytical-data-warehouses">Analytical Data Warehouses - an introduction</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/life-since-grad-school">Life Since Grad School</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/carpentries-workshops">Carpentries Workshops</a> </li> <li class="leading-relaxed"> <a class="underline decoration-1 hover:text-[var(--global-hover-color)]" href="/blog/about-the-carpentries">About The Carpentries</a> </li> </ul> </div> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Jenna Jordan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Stock photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. Last updated: July 11, 2026. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script defer src="https://cdn.jsdelivr.net/npm/tocbot@4.36.4/dist/tocbot.min.js" integrity="sha256-lo/r+jQ81wWrxdIiiiEEd538z4+dTJTt+leOuAS7GCw=" crossorigin="anonymous"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-R0XHDLB652"></script> <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-R0XHDLB652");
+</script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "a portfolio of my public work",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "papers, talks, posters, and more",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
+        },{id: "dropdown-appearances",
+              title: "appearances",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/appearances/";
+              },
+            },{id: "dropdown-backlog",
+              title: "backlog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/backlog/";
+              },
+            },{id: "dropdown-bookshelf",
+              title: "bookshelf",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/books/";
+              },
+            },{id: "dropdown-bella",
+              title: "bella",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/bella/";
+              },
+            },{id: "dropdown-knitting",
+              title: "knitting",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/knitting/";
+              },
+            },{id: "post-so-you-want-to-build-a-data-mesh",
+        
+          title: "So you want to build a data mesh",
+        
+        description: "... with your dbt project(s)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/data-mesh-dbt";
+          
+        },
+      },{id: "post-the-librarian-39-s-reference-interview-for-data-teams",
+        
+          title: "The librarian&#39;s reference interview for data teams",
+        
+        description: "What data teams can learn from the reference interview librarians perform to identify and serve true information needs",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/reference-interview-for-data-teams";
+          
+        },
+      },{id: "post-data-day-texas-2025-key-takeaways",
+        
+          title: "Data Day Texas 2025 - Key Takeaways",
+        
+        description: "Key Themes and Takeaways to recap my experience at Data Day Texas 2025 (DDTX25)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/ddtx25-recap";
+          
+        },
+      },{id: "post-dbt-community-spotlight",
+        
+          title: 'dbt Community Spotlight <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "dbt Community Spotlight feature from Nov 2024",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://docs.getdbt.com/community/spotlight/jenna-jordan", "_blank");
+          
+        },
+      },{id: "post-reflecting-on-my-tenure-at-the-city-of-boston",
+        
+          title: "Reflecting on my tenure at the City of Boston",
+        
+        description: "what I&#39;ve learned and accomplished during my 2+ years as a data engineer on the Analytics team",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/cob-reflection";
+          
+        },
+      },{id: "post-the-transformation-flow-part-1-building-intuition",
+        
+          title: "The Transformation Flow, Part 1 - building intuition",
+        
+        description: "preparing to dive deeper into the flow of transformations in an analytical data warehouse",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/transformation-flow-building-intuition";
+          
+        },
+      },{id: "post-analytical-data-warehouses-an-introduction",
+        
+          title: "Analytical Data Warehouses - an introduction",
+        
+        description: "what? how? why? data warehousing for analytics, explained (mostly)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/analytical-data-warehouses";
+          
+        },
+      },{id: "post-life-since-grad-school",
+        
+          title: "Life Since Grad School",
+        
+        description: "from grad student to working data professional",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/life-since-grad-school";
+          
+        },
+      },{id: "post-carpentries-workshops",
+        
+          title: "Carpentries Workshops",
+        
+        description: "An overview of the workshops I&#39;ve taught, including a semester-long syllabus.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/carpentries-workshops";
+          
+        },
+      },{id: "post-about-the-carpentries",
+        
+          title: "About The Carpentries",
+        
+        description: "All about The Carpentries, how I got involved, and what I love about the organization.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/about-the-carpentries";
+          
+        },
+      },{id: "post-my-classes-for-spring-2020",
+        
+          title: "My Classes for Spring 2020",
+        
+        description: "what classes I took for my 4th (and final) semester of grad school",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/my-classes-for-spring-2020";
+          
+        },
+      },{id: "post-my-classes-for-fall-2019",
+        
+          title: "My Classes for Fall 2019",
+        
+        description: "what classes I took for my 3rd semester of grad school",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/my-classes-for-fall-2019";
+          
+        },
+      },{id: "post-my-class-and-internship-for-summer-2019",
+        
+          title: "My Class and Internship for Summer 2019",
+        
+        description: "the class I took during the summer semester of grad school and my summer internship",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/my-class-and-internship-for-summer-2019";
+          
+        },
+      },{id: "post-defining-unique-identifiers",
+        
+          title: "Defining Unique Identifiers",
+        
+        description: "a conceptual analysis",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/defining-unique-identifiers";
+          
+        },
+      },{id: "post-mslis-year-1-a-reflection",
+        
+          title: "MSLIS Year 1 - A Reflection",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/year-1-reflection";
+          
+        },
+      },{id: "post-my-classes-for-spring-2019",
+        
+          title: "My Classes for Spring 2019",
+        
+        description: "what classes I took for my 2nd semester of grad school",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/my-classes-for-spring-2019";
+          
+        },
+      },{id: "post-it-39-s-final-project-time",
+        
+          title: "It&#39;s Final Project Time",
+        
+        description: "my data skills origin story",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/final-project-fall18";
+          
+        },
+      },{id: "post-librarians-privacy-amp-data-ownership",
+        
+          title: "Librarians, Privacy, &amp; Data Ownership",
+        
+        description: "musings on ethics in ML",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/librarians-privacy-data-ownership";
+          
+        },
+      },{id: "post-on-the-value-of-project-based-learning",
+        
+          title: "On the Value of Project-Based Learning",
+        
+        description: "(or, how I&#39;m understanding databases)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/project-based-learning";
+          
+        },
+      },{id: "post-introduction-to-logic",
+        
+          title: "Introduction to Logic",
+        
+        description: "some basics of propositional logic",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/intro-to-logic";
+          
+        },
+      },{id: "post-more-about-me",
+        
+          title: "More About Me",
+        
+        description: "about me, before grad school",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/more-about-me";
+          
+        },
+      },{id: "post-my-classes-for-fall-2018",
+        
+          title: "My Classes for Fall 2018",
+        
+        description: "what classes I took for my 1st semester of grad school",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/my-classes-for-fall-2018";
+          
+        },
+      },{id: "news-awarded-the-dbt-community-award-for-data-governance-excellence-https-youtu-be-i72yutrmhby-si-jgw7sgwogapxvzwi-amp-t-1606-at-coalesce-2024",
+          title: 'Awarded the dbt Community Award for [Data Governance Excellence](https://youtu.be/I72yUtrmhbY?si=JGW7SgWOGAPxVzWi&amp;amp;t=1606) at Coalesce 2024',
+          description: "",
+          section: "News",},{id: "news-serving-as-an-expert-in-residence-for-bu-spark-https-www-bu-edu-spark-about-eirs",
+          title: 'Serving as an Expert in Residence for [BU Spark!](https://www.bu.edu/spark/about/eirs/)',
+          description: "",
+          section: "News",},{id: "news-co-hosted-the-dbt-labs-2025-state-of-analytics-engineering-webinar-https-www-getdbt-com-2025-state-of-analytics-engineering-virtual-event-recording",
+          title: 'Co-hosted the dbt Labs [2025 State of Analytics Engineering webinar](https://www.getdbt.com/2025-state-of-analytics-engineering-virtual-event-recording)',
+          description: "",
+          section: "News",},{id: "news-started-at-ratio-pbc-https-ratiopbc-com-as-a-senior-analytics-engineer",
+          title: 'Started at [Ratio PBC](https://ratiopbc.com) as a Senior Analytics Engineer',
+          description: "",
+          section: "News",},{id: "news-presented-at-coalesce-2025-quot-so-you-want-to-build-a-data-mesh-quot-https-youtu-be-ykscvw4gvfo-si-amj6osa1smmfzg3m",
+          title: 'Presented at Coalesce 2025: [&amp;quot;So you want to build a data mesh&amp;quot;](https://youtu.be/yKScVw4gVfo?si=AMJ6OSA1smmfzg3M)',
+          description: "",
+          section: "News",},{id: "news-presented-at-data-day-texas-2026-quot-think-like-a-librarian-fresh-perspectives-for-data-teams-quot-https-datadaytexas-com-2026-sessions-jordan-child",
+          title: 'Presented at Data Day Texas 2026: [&amp;quot;Think Like a Librarian: Fresh Perspectives for...',
+          description: "",
+          section: "News",},{id: "news-invited-to-join-the-inaugural-2026-cohort-https-www-getdbt-com-blog-introducing-the-dbt-community-champions-program-of-dbt-champions-https-www-getdbt-com-dbt-champions-directory-champion-jenna-jordan",
+          title: 'Invited to join the [inaugural 2026 cohort](https://www.getdbt.com/blog/introducing-the-dbt-community-champions-program) of [dbt Champions](https://www.getdbt.com/dbt-champions/directory?champion=jenna-jordan)',
+          description: "",
+          section: "News",},{id: "news-made-my-podcast-debut-appearances-2026-on-catalog-amp-cocktails",
+          title: 'Made my [podcast debut](/appearances/#2026) on Catalog &amp;amp; Cocktails',
+          description: "",
+          section: "News",},{id: "projects-put-relational-databases-in-your-data-curation-toolbox",
+          title: 'Put Relational Databases in Your Data Curation Toolbox',
+          description: "Poster presented at the ASIS&amp;T 2019 conference on how relational databases can be useful during the data curation process.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/asist2019-poster";
+            },},{id: "projects-beepocalypse",
+          title: 'Beepocalypse',
+          description: "Project completed for the Cline Center on media coverage of the beepocalypse, resulting in a PNAS Perspective article.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/beepocalypse";
+            },},{id: "projects-dbt-mesh-council-simulation",
+          title: 'dbt Mesh Council Simulation',
+          description: "A role-playing game to simulate a migration to dbt Mesh, created for a peer exchange at Coalesce 2024.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dbt-mesh-council-simulation";
+            },},{id: "projects-dbt-migration-at-city-of-boston",
+          title: 'dbt Migration at City of Boston',
+          description: "Modernizing the Analytics Team&#39;s engineering pipelines by migrating transformations and tests to dbt and enabling the team&#39;s first data catalog.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dbt-migration-cob";
+            },},{id: "projects-intro-to-git-amp-github",
+          title: 'Intro to Git &amp;amp; GitHub',
+          description: "Carpentries lesson plan I adapted for teaching git &amp; GitHub to beginners.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/carpentries-git-workshop";
+            },},{id: "projects-interactive-data-visualizations-in-python",
+          title: 'Interactive Data Visualizations in Python',
+          description: "Carpentries Incubator lesson plan I developed for teaching learners how to create interactive data visualizations in Python.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/carpentries-dataviz-workshop";
+            },},{id: "projects-international-relations-database",
+          title: 'International Relations Database',
+          description: "These inter-related projects were completed as final projects for coursework during my MSLIS degree, and were aimed at improving the data resources for political scientists working in Peace/Conflict research.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/irdb";
+            },},{id: "projects-prisoner-39-s-dilemma",
+          title: 'Prisoner&amp;#39;s Dilemma',
+          description: "This was my final project for an Intermediate Python course, and is a Monte Carlo analysis of the Prisoner&#39;s Dilemma (with reactive noise).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/prisoners-dilemma";
+            },},{id: "projects-python-can-be-tidy-too-pandas-recipes-for-normalizing-data",
+          title: 'Python can be tidy too: pandas recipes for normalizing data',
+          description: "Poster virtually presented at PyCon2020, accompanied by the Tidy Pandas Cookbook repo.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pycon2020-poster";
+            },},{id: "projects-my-streamlit-apps",
+          title: 'My Streamlit Apps',
+          description: "A collection of public streamlit apps that I&#39;ve created to visualize various datasets.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/streamlit-apps";
+            },},{id: "teachings-data-science-fundamentals",
+          title: 'Data Science Fundamentals',
+          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/data-science-fundamentals/";
+            },},{id: "teachings-introduction-to-machine-learning",
+          title: 'Introduction to Machine Learning',
+          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/introduction-to-machine-learning/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%6A%65%6E%6E%61.%6A%72%64%6E@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/jennajordan1", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/jenna-jordan", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-9246-5355", "_blank");
+        },
+      },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/jennajordan.me", "_blank");
+        },
+      },{
+        id: 'social-instagram',
+        title: 'Instagram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://instagram.com/jennajrdnknits", "_blank");
+        },
+      },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.ravelry.com/people/JennaJrdn", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>

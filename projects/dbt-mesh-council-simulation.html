@@ -1,0 +1,529 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> dbt Mesh Council Simulation | Jenna Jordan </title> <meta name="author" content="Jenna Jordan"> <meta name="description" content="A role-playing game to simulate a migration to dbt Mesh, created for a peer exchange at Coalesce 2024."> <meta name="keywords" content="jenna-jordan, data, data-engineer, portfolio-website"> <meta property="og:site_name" content="Jenna Jordan"> <meta property="og:type" content="website"> <meta property="og:title" content="Jenna Jordan | dbt Mesh Council Simulation"> <meta property="og:url" content="https://jennajordan.me/projects/dbt-mesh-council-simulation"> <meta property="og:description" content="A role-playing game to simulate a migration to dbt Mesh, created for a peer exchange at Coalesce 2024."> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="dbt Mesh Council Simulation"> <meta name="twitter:description" content="A role-playing game to simulate a migration to dbt Mesh, created for a peer exchange at Coalesce 2024."> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Jenna Jordan"
+        },
+        "url": "https://jennajordan.me/projects/dbt-mesh-council-simulation",
+        "@type": "WebSite",
+        "description": "A role-playing game to simulate a migration to dbt Mesh, created for a peer exchange at Coalesce 2024.",
+        "headline": "dbt Mesh Council Simulation",
+        
+        "sameAs": ["https://www.linkedin.com/in/jennajordan1","https://github.com/jenna-jordan","https://orcid.org/0000-0001-9246-5355","https://bsky.app/profile/jennajordan.me","https://instagram.com/jennajrdnknits","https://www.ravelry.com/people/JennaJrdn"],
+        
+        "name": "Jenna Jordan",
+        "@context": "https://schema.org"
+    }
+  </script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%CA%9D%CA%9D&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=ca1423ef833664ac5730fcae7e676775"> <link rel="canonical" href="https://jennajordan.me/projects/dbt-mesh-council-simulation"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Jenna Jordan </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repositories </a> </li> <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-nav-dropdown-toggle="true" aria-haspopup="true" aria-expanded="false">extras </a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item " href="/appearances/">appearances</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/backlog/">backlog</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/books/">bookshelf</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/bella/">bella</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/knitting/">knitting</a> </div> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">dbt Mesh Council Simulation</h1> <p class="post-description">A role-playing game to simulate a migration to dbt Mesh, created for a peer exchange at Coalesce 2024.</p> </header> <article> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/coalesce2024_session_stage-480.webp 480w,/assets/img/coalesce2024_session_stage-800.webp 800w,/assets/img/coalesce2024_session_stage-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/coalesce2024_session_stage.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> <p>On Tuesday, October 8, 2024, I facilitated a <a href="https://coalesce-widgets.getdbt.com/agenda/session/1383564" rel="external nofollow noopener" target="_blank">peer exchange session at Coalesce 2024</a>:</p> <blockquote> <h4 id="governance-co-lab-we-the-people-in-order-to-govern-data-do-establish-processes">Governance co-lab: We the people, in order to govern data, do establish processes</h4> <p>While dbt Mesh features provide options for a technical implementation of data &amp; model governance, the people &amp; process side of the equation is left up to organizations to figure out. Some organizations may have data governance structures already established and need to figure out how dbt fits into the picture, while other organizations may be learning that they now need to stand up data governance structures in order to have an effective dbt Mesh of project(s).</p> <p>In this peer exchange you will join a simulation game to co-create a Mesh Migration Plan. Players will take on specific roles to advocate for their teams as new processes are planned out, governance structures are established, and problem scenarios need to be solved. Achieve a collective win by finalizing your Mesh Council’s strategy and individual wins by accomplishing your role’s secret mission along the way.</p> <p>Participants should walk away with both ideas to take back to their organizations for implementing dbt Mesh and a new network of contacts they can reach out to for support.</p> </blockquote> <p>A peer exchange is kind of like a formalized version of the “hallway track” - the casual conversations you have in the hallways at conferences that somehow end up being more valuable than the formal talks. The goal is to facilitate discussions among the attendees around a particular topic, rather than delivering a presentation and talking by yourself up on stage. The peer exchange sessions were all 1 hour long (whereas a talk was 30 minutes).</p> <p>I decided to do something a bit different for my peer exchange session, inspired mostly by my past experiences with Model United Nations (and also collaborative role-playing games like Dungeons &amp; Dragons). The goal was to let participants practice doing the messy part of data governance: proposing policies and processes, figuring out how to formalize and enforce them, while dealing with the conflicting goals and motivations that come with people being people. You can learn a lot of technical skills with just yourself and a computer, but you can’t learn how to effectively govern &amp; strategize in isolation. Also… I really wanted my session to be enjoyable! What better way to make a conference session fun than to gamify it?</p> <div class="row"> <div class="col-sm mt-2 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/coalesce2024_table3_1-480.webp 480w,/assets/img/coalesce2024_table3_1-800.webp 800w,/assets/img/coalesce2024_table3_1-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/coalesce2024_table3_1.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> <div class="col-sm mt-2 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/coalesce2024_table3_2-480.webp 480w,/assets/img/coalesce2024_table3_2-800.webp 800w,/assets/img/coalesce2024_table3_2-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/coalesce2024_table3_2.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> </div> <p>The peer exchange room was filled with round tables, each with 10 chairs. In my simulation game, each table became a “Mesh Council”, composed of 10 representatives divided into 5 teams (so everyone had a partner). Each table got an “Architect’s Handbook”, which contained important background information and a starting proposal. Everyone also got their own “role sheet”, which contained information about their individual role and shared information about their team. Most information was shareable, but each team and role also had “secret missions” that they should try to achieve by the end of the game. These secret missions enabled participants to achieve individual competitive wins, in addition to the collective win of coming up with a set of policies that passed a final vote. They also introduced conflict - a vital part of any realistic simulation.</p> <details><summary><em>Click here to learn about Rainbow Road, the fictional organization participants were working for</em></summary> <p>Rainbow Road started as a local rescue, bringing pets from rural kill shelters into the city to ease the adoption process. They were successful at matching more pets with loving homes, and soon partnered with other nearby rescues to form a regional adoption network.</p> <p>Rainbow Road was able to better serve the many adoption centers by centralizing logistics for mass distribution of resources and coordinating across partners. This worked great for a time, and allowed the rescue centers to focus on what they did best: the operational side of rescuing pets.</p> <p>Rainbow Road started using a central data warehouse to consolidate information about the animals being rescued (including important information like their medical records and available history), the volunteers helping to take care of these animals, facilities where animals were temporarily housed, and more.</p> <p>Rainbow Road soon adopted dbt to organize all of the needed transformations in the data warehouse. This enabled them to more quickly and accurately report statistics about the pets rescued, which allowed them to get more funding, and then to expand into other states and help even more animals.</p> <p>This centralized model worked so well that within a few more years Rainbow Road grew to operate at the national level. Other parts of the organization started wanting to use dbt and the data warehouse too - for tracking donations, analyzing marketing efforts, reporting key performance metrics for each adoption center, and more.</p> <p>Now the organization has grown enough that data-oriented teams are more independent, different regions have different needs, and the dbt project’s DAG has started to resemble an unmanageable spaghetti monster.</p> <p>Data is an important part of keeping the pet rescue running &amp; funded, so Rainbow Road hired a Data Architect consultant to evaluate the growing data infrastructure and advise the data teams. The data architect recommended migrating from the single monolithic dbt project to a dbt mesh of projects, and sketches out an overall design for the diZerent projects. Rainbow Road has outgrown the centralized model, and now it’s time to decentralize (a little? A lot? Only time will tell!)</p> </details> <p><br></p> <div class="row"> <div class="col-sm mt-2 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/coalesce2024_table5_1-480.webp 480w,/assets/img/coalesce2024_table5_1-800.webp 800w,/assets/img/coalesce2024_table5_1-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/coalesce2024_table5_1.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> <div class="col-sm mt-2 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/coalesce2024_table5_2-480.webp 480w,/assets/img/coalesce2024_table5_2-800.webp 800w,/assets/img/coalesce2024_table5_2-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/coalesce2024_table5_2.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> </div> <p>The session was guided by a slide deck - I started by laying out the rules and game plan, and quickly reviewed the backstory for the organization they would be representing. During the exercise, each slide contained the main objective for the current activity. There were 3 “Council Sessions”, broken up by an emergency scenario (to help ground future policy making in an example of a specific problem) and a cross-council sidebar (to allow participants with the same role at different tables to confer and share ideas). After a final vote at the end of the 3rd session, each council presented out their final policies.</p> <div class="row"> <div class="col-sm mt-2 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/coalesce2024_result1-480.webp 480w,/assets/img/coalesce2024_result1-800.webp 800w,/assets/img/coalesce2024_result1-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/coalesce2024_result1.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> <div class="col-sm mt-2 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/coalesce2024_result2-480.webp 480w,/assets/img/coalesce2024_result2-800.webp 800w,/assets/img/coalesce2024_result2-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/coalesce2024_result2.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> </div> <div class="row"> <div class="col-sm mt-2 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/coalesce2024_result3-480.webp 480w,/assets/img/coalesce2024_result3-800.webp 800w,/assets/img/coalesce2024_result3-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/coalesce2024_result3.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> <div class="col-sm mt-2 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/coalesce2024_result4-480.webp 480w,/assets/img/coalesce2024_result4-800.webp 800w,/assets/img/coalesce2024_result4-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/coalesce2024_result4.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> <div class="col-sm mt-2 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/coalesce2024_result5-480.webp 480w,/assets/img/coalesce2024_result5-800.webp 800w,/assets/img/coalesce2024_result5-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/coalesce2024_result5.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> </div> <div class="caption"> The final policies from 5 of the Mesh Councils - each table had a large flip-pad to document their policies. </div> <p>This was such a fun experience - both designing the simulation and getting to watch everyone play the game. I got some amazing feedback at the end - one person said that they felt they had accomplished more in the past hour than their organization’s data governance team had accomplished in the past year! My favorite feedback though was actually a request: multiple participants requested access to the materials so that they could take the experience back home and run the simulation within their own organizations. I shared the materials in our slack channel, <a href="https://getdbt.slack.com/archives/C07NL2CENP7" rel="external nofollow noopener" target="_blank">#coalesce-peer-exchange-1</a>, and I’m also including them here:</p> <div class="row"> <div class="col-8 mt-2 mt-md-0"> <a href="/assets/pdf/C24_TUE_1115_PEEREXCHANGE_GOVERNANCE_CO-LAB.pdf"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/coalesce2024_governance-co-lab_frontpage-480.webp 480w,/assets/img/coalesce2024_governance-co-lab_frontpage-800.webp 800w,/assets/img/coalesce2024_governance-co-lab_frontpage-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/coalesce2024_governance-co-lab_frontpage.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Slidedeck" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </a> </div> <div class="col-4 mt-2 mt-md-0"> <a href="/assets/pdf/Governance%20co-lab%20printed%20materials.pdf"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/coalesce2024_rolesheet-480.webp 480w,/assets/img/coalesce2024_rolesheet-800.webp 800w,/assets/img/coalesce2024_rolesheet-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/coalesce2024_rolesheet.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Printed materials" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </a> </div> </div> <div class="caption"> The slide deck and the printed materials from the session </div> <p>If anyone else does end up running this simulation game, I would really love to hear how it goes! Please, please reach out and let me know.</p> <p>While this session was in-person and designed to be specific to dbt, I’m also planning on adapting the exercise to be playable online (e.g. over Zoom) and more general (for any data mesh, independent of any tech vendor’s implementation). So stay tuned for future data strategy simulation games!</p> <h1 id="working-session-on-dbt-mesh-at-the-chicago-dbt-meetup">Working Session on dbt Mesh at the Chicago dbt Meetup</h1> <p>The simulation game at Coalesce was amazing - it was big, complex, required a lot of setup, and took time to play through. While we only had an hour, ideally this simulation game should have taken 2-4 hours. But you can learn through role-playing and simulation in shorter exercises as well, and this is what I did at the <a href="https://www.meetup.com/chicago-dbt-meetup/events/302721675/" rel="external nofollow noopener" target="_blank">Chicago dbt Meetup</a> a month prior.</p> <p>Analytics8 hosts the dbt Meetup in Chicago, and with my upcoming peer exchange session at Coalesce I was offered the opportunity to “preview” the session at the meetup. I wanted to keep the theme of role-playing to solve the people &amp; process problems that come with governing a dbt Mesh, but reduce the setup and complexity. So I adapted the “emergency scenario” part of the larger simulation exercise and created 3 “problem scenarios” that involved 3 different roles. For light background context, I used the dbt Lab’s Jaffle Shop mesh project, which was helpfully composed of 3 different projects. I’ve always found 3 to be the magic number for small group discussions. Finally, before actually diving into the problem scenarios, I reviewed the core dbt features that were important to dbt Mesh governance, to ensure that everyone would have a familiar floor of understanding.</p> <p>For each problem scenario I gave the groups about 10 minutes to discuss and come up with a final solution. I then facilitated the feedback, so that groups could compare their solutions to others. I started by asking one group to present their solution, and then asked the other groups if anyone came up with a similar solution, to build on that first approach. After one approach was fully fleshed out, I then asked if any groups came up with a completely different solution, and repeated the process. This resulted in some great discussions and back-and-forth between the groups, and overall everyone seemed really engaged and interested. I would highly encourage other meetups to try out a similar approach - after all, people usually go to meetup to meet other people, network, and have good conversations… and this “working session” was a great middle ground between a straight presentation and just generic casual conversations.</p> <div class="row"> <div class="col-sm md-auto"> <a href="/assets/pdf/dbt_Mesh_Working%20Session.pdf"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/dbt_Mesh_Working%20Session-480.webp 480w,/assets/img/dbt_Mesh_Working%20Session-800.webp 800w,/assets/img/dbt_Mesh_Working%20Session-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/dbt_Mesh_Working%20Session.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Slides" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </a> </div> </div> <div class="caption"> Slides from the "working session" half of the Chicago dbt Meetup </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Jenna Jordan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Stock photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. Last updated: July 11, 2026. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-R0XHDLB652"></script> <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", "G-R0XHDLB652");
+</script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "a portfolio of my public work",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "papers, talks, posters, and more",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
+        },{id: "dropdown-appearances",
+              title: "appearances",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/appearances/";
+              },
+            },{id: "dropdown-backlog",
+              title: "backlog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/backlog/";
+              },
+            },{id: "dropdown-bookshelf",
+              title: "bookshelf",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/books/";
+              },
+            },{id: "dropdown-bella",
+              title: "bella",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/bella/";
+              },
+            },{id: "dropdown-knitting",
+              title: "knitting",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/knitting/";
+              },
+            },{id: "post-so-you-want-to-build-a-data-mesh",
+        
+          title: "So you want to build a data mesh",
+        
+        description: "... with your dbt project(s)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/data-mesh-dbt";
+          
+        },
+      },{id: "post-the-librarian-39-s-reference-interview-for-data-teams",
+        
+          title: "The librarian&#39;s reference interview for data teams",
+        
+        description: "What data teams can learn from the reference interview librarians perform to identify and serve true information needs",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/reference-interview-for-data-teams";
+          
+        },
+      },{id: "post-data-day-texas-2025-key-takeaways",
+        
+          title: "Data Day Texas 2025 - Key Takeaways",
+        
+        description: "Key Themes and Takeaways to recap my experience at Data Day Texas 2025 (DDTX25)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/ddtx25-recap";
+          
+        },
+      },{id: "post-dbt-community-spotlight",
+        
+          title: 'dbt Community Spotlight <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "dbt Community Spotlight feature from Nov 2024",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://docs.getdbt.com/community/spotlight/jenna-jordan", "_blank");
+          
+        },
+      },{id: "post-reflecting-on-my-tenure-at-the-city-of-boston",
+        
+          title: "Reflecting on my tenure at the City of Boston",
+        
+        description: "what I&#39;ve learned and accomplished during my 2+ years as a data engineer on the Analytics team",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/cob-reflection";
+          
+        },
+      },{id: "post-the-transformation-flow-part-1-building-intuition",
+        
+          title: "The Transformation Flow, Part 1 - building intuition",
+        
+        description: "preparing to dive deeper into the flow of transformations in an analytical data warehouse",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/transformation-flow-building-intuition";
+          
+        },
+      },{id: "post-analytical-data-warehouses-an-introduction",
+        
+          title: "Analytical Data Warehouses - an introduction",
+        
+        description: "what? how? why? data warehousing for analytics, explained (mostly)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/analytical-data-warehouses";
+          
+        },
+      },{id: "post-life-since-grad-school",
+        
+          title: "Life Since Grad School",
+        
+        description: "from grad student to working data professional",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/life-since-grad-school";
+          
+        },
+      },{id: "post-carpentries-workshops",
+        
+          title: "Carpentries Workshops",
+        
+        description: "An overview of the workshops I&#39;ve taught, including a semester-long syllabus.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/carpentries-workshops";
+          
+        },
+      },{id: "post-about-the-carpentries",
+        
+          title: "About The Carpentries",
+        
+        description: "All about The Carpentries, how I got involved, and what I love about the organization.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/about-the-carpentries";
+          
+        },
+      },{id: "post-my-classes-for-spring-2020",
+        
+          title: "My Classes for Spring 2020",
+        
+        description: "what classes I took for my 4th (and final) semester of grad school",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/my-classes-for-spring-2020";
+          
+        },
+      },{id: "post-my-classes-for-fall-2019",
+        
+          title: "My Classes for Fall 2019",
+        
+        description: "what classes I took for my 3rd semester of grad school",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/my-classes-for-fall-2019";
+          
+        },
+      },{id: "post-my-class-and-internship-for-summer-2019",
+        
+          title: "My Class and Internship for Summer 2019",
+        
+        description: "the class I took during the summer semester of grad school and my summer internship",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/my-class-and-internship-for-summer-2019";
+          
+        },
+      },{id: "post-defining-unique-identifiers",
+        
+          title: "Defining Unique Identifiers",
+        
+        description: "a conceptual analysis",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/defining-unique-identifiers";
+          
+        },
+      },{id: "post-mslis-year-1-a-reflection",
+        
+          title: "MSLIS Year 1 - A Reflection",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/year-1-reflection";
+          
+        },
+      },{id: "post-my-classes-for-spring-2019",
+        
+          title: "My Classes for Spring 2019",
+        
+        description: "what classes I took for my 2nd semester of grad school",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/my-classes-for-spring-2019";
+          
+        },
+      },{id: "post-it-39-s-final-project-time",
+        
+          title: "It&#39;s Final Project Time",
+        
+        description: "my data skills origin story",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/final-project-fall18";
+          
+        },
+      },{id: "post-librarians-privacy-amp-data-ownership",
+        
+          title: "Librarians, Privacy, &amp; Data Ownership",
+        
+        description: "musings on ethics in ML",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/librarians-privacy-data-ownership";
+          
+        },
+      },{id: "post-on-the-value-of-project-based-learning",
+        
+          title: "On the Value of Project-Based Learning",
+        
+        description: "(or, how I&#39;m understanding databases)",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/project-based-learning";
+          
+        },
+      },{id: "post-introduction-to-logic",
+        
+          title: "Introduction to Logic",
+        
+        description: "some basics of propositional logic",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/intro-to-logic";
+          
+        },
+      },{id: "post-more-about-me",
+        
+          title: "More About Me",
+        
+        description: "about me, before grad school",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/more-about-me";
+          
+        },
+      },{id: "post-my-classes-for-fall-2018",
+        
+          title: "My Classes for Fall 2018",
+        
+        description: "what classes I took for my 1st semester of grad school",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/my-classes-for-fall-2018";
+          
+        },
+      },{id: "news-awarded-the-dbt-community-award-for-data-governance-excellence-at-coalesce-2024",
+          title: 'Awarded the dbt Community Award for Data Governance Excellence at Coalesce 2024',
+          description: "",
+          section: "News",},{id: "news-serving-as-an-expert-in-residence-for-bu-spark",
+          title: 'Serving as an Expert in Residence for BU Spark!',
+          description: "",
+          section: "News",},{id: "news-co-hosted-the-dbt-labs-2025-state-of-analytics-engineering-webinar",
+          title: 'Co-hosted the dbt Labs 2025 State of Analytics Engineering webinar',
+          description: "",
+          section: "News",},{id: "news-started-at-ratio-pbc-as-a-senior-analytics-engineer",
+          title: 'Started at Ratio PBC as a Senior Analytics Engineer',
+          description: "",
+          section: "News",},{id: "news-presented-at-coalesce-2025-so-you-want-to-build-a-data-mesh",
+          title: 'Presented at Coalesce 2025: “So you want to build a data mesh”',
+          description: "",
+          section: "News",},{id: "news-presented-at-data-day-texas-2026-think-like-a-librarian-fresh-perspectives-for-data-teams",
+          title: 'Presented at Data Day Texas 2026: “Think Like a Librarian: Fresh Perspectives for...',
+          description: "",
+          section: "News",},{id: "news-invited-to-join-the-inaugural-2026-cohort-of-dbt-champions",
+          title: 'Invited to join the inaugural 2026 cohort of dbt Champions',
+          description: "",
+          section: "News",},{id: "news-made-my-podcast-debut-on-catalog-amp-amp-cocktails",
+          title: 'Made my podcast debut on Catalog &amp;amp;amp; Cocktails',
+          description: "",
+          section: "News",},{id: "projects-put-relational-databases-in-your-data-curation-toolbox",
+          title: 'Put Relational Databases in Your Data Curation Toolbox',
+          description: "Poster presented at the ASIS&amp;T 2019 conference on how relational databases can be useful during the data curation process.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/asist2019-poster";
+            },},{id: "projects-beepocalypse",
+          title: 'Beepocalypse',
+          description: "Project completed for the Cline Center on media coverage of the beepocalypse, resulting in a PNAS Perspective article.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/beepocalypse";
+            },},{id: "projects-dbt-mesh-council-simulation",
+          title: 'dbt Mesh Council Simulation',
+          description: "A role-playing game to simulate a migration to dbt Mesh, created for a peer exchange at Coalesce 2024.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dbt-mesh-council-simulation";
+            },},{id: "projects-dbt-migration-at-city-of-boston",
+          title: 'dbt Migration at City of Boston',
+          description: "Modernizing the Analytics Team&#39;s engineering pipelines by migrating transformations and tests to dbt and enabling the team&#39;s first data catalog.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dbt-migration-cob";
+            },},{id: "projects-intro-to-git-amp-github",
+          title: 'Intro to Git &amp;amp; GitHub',
+          description: "Carpentries lesson plan I adapted for teaching git &amp; GitHub to beginners.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/carpentries-git-workshop";
+            },},{id: "projects-interactive-data-visualizations-in-python",
+          title: 'Interactive Data Visualizations in Python',
+          description: "Carpentries Incubator lesson plan I developed for teaching learners how to create interactive data visualizations in Python.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/carpentries-dataviz-workshop";
+            },},{id: "projects-international-relations-database",
+          title: 'International Relations Database',
+          description: "These inter-related projects were completed as final projects for coursework during my MSLIS degree, and were aimed at improving the data resources for political scientists working in Peace/Conflict research.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/irdb";
+            },},{id: "projects-prisoner-39-s-dilemma",
+          title: 'Prisoner&amp;#39;s Dilemma',
+          description: "This was my final project for an Intermediate Python course, and is a Monte Carlo analysis of the Prisoner&#39;s Dilemma (with reactive noise).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/prisoners-dilemma";
+            },},{id: "projects-python-can-be-tidy-too-pandas-recipes-for-normalizing-data",
+          title: 'Python can be tidy too: pandas recipes for normalizing data',
+          description: "Poster virtually presented at PyCon2020, accompanied by the Tidy Pandas Cookbook repo.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pycon2020-poster";
+            },},{id: "projects-my-streamlit-apps",
+          title: 'My Streamlit Apps',
+          description: "A collection of public streamlit apps that I&#39;ve created to visualize various datasets.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/streamlit-apps";
+            },},{id: "teachings-data-science-fundamentals",
+          title: 'Data Science Fundamentals',
+          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/data-science-fundamentals/";
+            },},{id: "teachings-introduction-to-machine-learning",
+          title: 'Introduction to Machine Learning',
+          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/introduction-to-machine-learning/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%6A%65%6E%6E%61.%6A%72%64%6E@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/jennajordan1", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/jenna-jordan", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-9246-5355", "_blank");
+        },
+      },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/jennajordan.me", "_blank");
+        },
+      },{
+        id: 'social-instagram',
+        title: 'Instagram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://instagram.com/jennajrdnknits", "_blank");
+        },
+      },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.ravelry.com/people/JennaJrdn", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
