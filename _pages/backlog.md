@@ -8,11 +8,8 @@ date: 2024-07-26
 
 I'm an inconsistent writer. I don't put out a new post every week, I don't steadily chip away at new content, but rather I tend to write in sudden, intense bursts when inspiration strikes and I have the free time (and then I sit on it for a while until I'm happy with it). I also have a lot of ideas, and the ideas that I am definitely going to write about at some point get added to the backlog. These blog posts may not exist yet, but they will at some point, so stay tuned.
 
-**My career advice for students (& everyone else)**
+**My career advice for students (& everyone else) - Parts 2 & 3**
 :   This will be my attempt to put into words all of the tacit knowledge I have gained throughout my career about how to build a career - attempting to put into words the things nobody tells you about how to actually find jobs, network, etc.
-
-**How to build your organization's first dbt project**
-:   This will be a series targeting folks in government, nonprofits, or other orgs who want to start a dbt project for their organization but aren't quite sure how to go about it. Specifically focused on under-resourced environments where practitioners are likely to encounter institutional resistance.
 
 **The transformation flow, part 2: data modeling design paradigms**
 :    Part 2 of this series will be an overview of different data modeling techniques - 3rd normal form, dimensional models, data vault, one big table, etc. The goal is to introduce these different ways to model data and provide lots of links/references for folks to dig deeper if they wish, while also comparing/contrasting the methods.
