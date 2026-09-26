@@ -8,11 +8,6 @@ date: 2026-01-25
 
 ## Upcoming
 
-#### [Speaker] dbt Summit
-2026 September 15-18
-
-- I will be facilitating a peer exchange called "Building dbt projects in rough terrain: creating a trailguide for dbt pioneers", along with my Ratio PBC colleague Eric Guroff. Learn more about the session [here](https://www.getdbt.com/dbt-summit/sessions/building-dbt-projects-in-rough-terrain-creating-a-trailguide-for-dbt-pioneers) and don't forget to register for dbt Summit! Use code `speaker-friends` for a 20% discount on your ticket.
-
 #### [Attendee] Helsinki Data Week
 2026 October 27-30
 
@@ -21,6 +16,11 @@ date: 2026-01-25
 ---
 
 ## 2026
+
+#### [Speaker] dbt Summit
+2026 September 15-18
+
+- I facilitated a peer exchange called "Building dbt projects in rough terrain: creating a trailguide for dbt pioneers", along with my Ratio PBC colleague Eric Guroff. Learn more about the session [here](https://www.getdbt.com/dbt-summit/sessions/building-dbt-projects-in-rough-terrain-creating-a-trailguide-for-dbt-pioneers)
 
 #### [Attendee] Out-of-Pocket Data Camp
 2026 June 25-26
@@ -41,7 +41,6 @@ date: 2026-01-25
 2026 January 24-25
 
 - I presented at [Data Day Texas 2026](https://datadaytexas.com/2026/speakers#jordan) on: "[Think Like a Librarian: Fresh Perspectives for Data Teams from a Time-Honored Tradition](https://datadaytexas.com/2026/sessions#jordan-child)". The original plan was to speak with Amalia Child, but unfortunately due to the weather she wasn't able to make it. The talk draws heavily from [this blog post](/blog/reference-interview-for-data-teams), and you can find the slides (no recording) in the [Appendix](/blog/reference-interview-for-data-teams#appendix)
-
 
 ## 2025
 
