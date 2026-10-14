@@ -2,19 +2,23 @@
 layout: page
 permalink: /book-club/
 title: "Book Club"
-description: Book Club is on hiatus until further notice
-date: 2025-07-19
+description: Currently reading Ontology Pipeline
+date: 2026-10-14
 toc:
   sidebar: left
 ---
 
-Book Club is currently on hiatus. 
+Book Club has resumed! 
 
-We wrapped up reading Data & Reality by Bill Kent in early July 2025. At some point I'll select the next book to read together, but that probably won't be for a while. Instead of hosting a book club, I'll be participating in [Joe Reis'](https://www.linkedin.com/in/josephreis/) book club, which will [kick off](https://www.linkedin.com/posts/josephreis_join-the-practicaldata-discord-server-activity-7351779275605225472-LCxo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAiK2FABKHqWAaEnq7CdATQwY_GSauRe0Xg) in late July 2025 with "Kill it with Fire: Manage Aging Computer Systems (and Future Proof Modern Ones)" by Marianne Bellotti.
+We are reading [Ontology Pipeline](https://www.ontologypipeline.com/) by [Jessica Talisman](https://www.linkedin.com/in/jmtalisman):
+
+{% include figure.liquid path="assets/img/ontology_pipeline.png" class="img-fluid rounded z-depth-1"%}
+
+If you would like to join this iteration of the book club (and be added to meeting invites), please message or email me.
 
 ## Meeting Details
 
-To subscribe to the Google Calendar with all events (and the meeting link), [click here](https://calendar.google.com/calendar/embed?src=6228820608c228c74fcb6c7b6f5fda1b31d1eca6a1950655c2c00382e08882d4%40group.calendar.google.com&ctz=America%2FNew_York), and then click the "Add to Google Calendar" link in the bottom left corner.
+To subscribe to the Google Calendar with all events, [click here](https://calendar.google.com/calendar/embed?src=6228820608c228c74fcb6c7b6f5fda1b31d1eca6a1950655c2c00382e08882d4%40group.calendar.google.com&ctz=America%2FNew_York), and then click the "Add to Google Calendar" link in the bottom left corner.
 
 <iframe src="https://calendar.google.com/calendar/embed?src=6228820608c228c74fcb6c7b6f5fda1b31d1eca6a1950655c2c00382e08882d4%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="600" height="450" frameborder="0" scrolling="no"></iframe>
 
